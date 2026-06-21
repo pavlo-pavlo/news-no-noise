@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4136189-new-ukrainian-drones-to-be-capable-of-striking-targets-over-3000-km-away-zelensky-says.html",
+    "title": "Зеленский заявил, что новые украинские дроны смогут поражать цели на расстоянии более 3000 км",
+    "source": "Укринформ",
+    "created_at": "2026-06-21T22:22:47.559142+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/internacional/2026/06/22/6a38603ee85ece7b1b8b457e.html",
+    "title": "Ультраправый Абелардо де ла Эсприэлья станет следующим президентом Колумбии",
+    "source": "El Mundo",
+    "created_at": "2026-06-21T22:22:47.559156+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/internacional/2026/06/21/6a382733e85ece96668b45b2.html",
+    "title": "Иран покинул переговоры в Швейцарии после новых угроз Трампа",
+    "source": "El Mundo",
+    "created_at": "2026-06-21T22:22:47.559164+00:00"
+  }
+]
