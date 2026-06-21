@@ -1,16 +1,40 @@
-countries:
-
+sources:
   ukraine:
-    - https://www.ukrinform.net/rss/block-lastnews
-    - https://www.pravda.com.ua/rss/
+    - name: "Укринформ"
+      url: "https://www.ukrinform.net/rss/block-lastnews"
+      language: "en"
+    - name: "Украинская правда"
+      url: "https://www.pravda.com.ua/rss/view_news/"
+      language: "uk"
 
   russia:
-    - https://rssexport.rbc.ru/rbcnews/news/30/full.rss
+    - name: "РБК"
+      url: "https://rssexport.rbc.ru/rbcnews/news/30/full.rss"
+      language: "ru"
+    - name: "Интерфакс"
+      url: "https://www.interfax.ru/rss.asp"
+      language: "ru"
 
   spain:
-    - https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada
-    - https://e00-elmundo.uecdn.es/elmundo/rss/portada.xml
+    - name: "El País"
+      url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada"
+      language: "es"
+    - name: "El Mundo"
+      url: "https://e00-elmundo.uecdn.es/elmundo/rss/portada.xml"
+      language: "es"
+
+  valencia:
+    - name: "Levante-EMV"
+      url: "https://www.levante-emv.com/rss/section/3195"
+      language: "es"
+    - name: "Valencia Plaza"
+      url: "https://valenciaplaza.com/rss"
+      language: "es"
 
   world:
-    - https://feeds.reuters.com/reuters/topNews
-    - https://feeds.bbci.co.uk/news/world/rss.xml
+    - name: "BBC World"
+      url: "https://feeds.bbci.co.uk/news/world/rss.xml"
+      language: "en"
+    - name: "Reuters World"
+      url: "https://feeds.reuters.com/Reuters/worldNews"
+      language: "en"
