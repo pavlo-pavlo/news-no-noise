@@ -24,9 +24,7 @@ sources:
       language: "es"
 
   valencia:
-    - name: "Levante-EMV"
-      url: "https://www.levante-emv.com/rss/section/3195"
-      language: "es"
+    
     - name: "Valencia Plaza"
       url: "https://valenciaplaza.com/rss"
       language: "es"
@@ -35,6 +33,4 @@ sources:
     - name: "BBC World"
       url: "https://feeds.bbci.co.uk/news/world/rss.xml"
       language: "en"
-    - name: "Reuters World"
-      url: "https://feeds.reuters.com/Reuters/worldNews"
-      language: "en"
+    
