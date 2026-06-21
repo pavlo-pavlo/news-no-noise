@@ -1,0 +1,16 @@
+countries:
+
+  ukraine:
+    - https://www.ukrinform.net/rss/block-lastnews
+    - https://www.pravda.com.ua/rss/
+
+  russia:
+    - https://rssexport.rbc.ru/rbcnews/news/30/full.rss
+
+  spain:
+    - https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada
+    - https://e00-elmundo.uecdn.es/elmundo/rss/portada.xml
+
+  world:
+    - https://feeds.reuters.com/reuters/topNews
+    - https://feeds.bbci.co.uk/news/world/rss.xml
