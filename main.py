@@ -1,20 +1,50 @@
-import os
-import requests
+import yaml
+import feedparser
 
-BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
-CHANNEL_ID = os.environ["TELEGRAM_CHANNEL_ID"]
+with open("sources.yaml", "r", encoding="utf-8") as f:
+    config = yaml.safe_load(f)
 
-url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+total_news = []
 
-text = "✅ GitHub Actions подключен.\n\nКанал «Новости без шума» готов к работе."
+for category, sources in config["sources"].items():
 
-response = requests.post(
-    url,
-    json={
-        "chat_id": CHANNEL_ID,
-        "text": text
-    },
-    timeout=30
-)
+    print(f"\n=== {category.upper()} ===")
 
-print(response.text)
+    for source in sources:
+
+        try:
+            feed = feedparser.parse(source["url"])
+
+            print(f"\nИсточник: {source['name']}")
+
+            count = 0
+
+            for entry in feed.entries[:5]:
+
+                title = entry.get("title", "")
+
+                link = entry.get("link", "")
+
+                print(f"- {title}")
+                print(f"  {link}")
+
+                total_news.append(
+                    {
+                        "category": category,
+                        "source": source["name"],
+                        "title": title,
+                        "link": link,
+                    }
+                )
+
+                count += 1
+
+            print(f"Новостей найдено: {count}")
+
+        except Exception as e:
+
+            print(f"Ошибка {source['name']}: {e}")
+
+print("\n====================")
+print(f"Всего новостей: {len(total_news)}")
+print("====================")
