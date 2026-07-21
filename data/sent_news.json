@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4136189-new-ukrainian-drones-to-be-capable-of-striking-targets-over-3000-km-away-zelensky-says.html",
-    "title": "Зеленский заявил, что новые украинские дроны смогут поражать цели на расстоянии более 3000 км",
-    "source": "Укринформ",
-    "created_at": "2026-06-21T22:22:47.559142+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/internacional/2026/06/22/6a38603ee85ece7b1b8b457e.html",
-    "title": "Ультраправый Абелардо де ла Эсприэлья станет следующим президентом Колумбии",
-    "source": "El Mundo",
-    "created_at": "2026-06-21T22:22:47.559156+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/internacional/2026/06/21/6a382733e85ece96668b45b2.html",
-    "title": "Иран покинул переговоры в Швейцарии после новых угроз Трампа",
-    "source": "El Mundo",
-    "created_at": "2026-06-21T22:22:47.559164+00:00"
-  },
-  {
     "url": "https://www.bbc.com/news/articles/cwy0q41v1lzo?at_medium=RSS&at_campaign=rss",
     "title": "Первый раунд прямых переговоров США и Ирана, как ожидается, продлится всю ночь",
     "source": "BBC World",
@@ -4174,5 +4156,23 @@
     "title": "Парламент Франции принял закон о запрете соцсетей лицам до 15 лет",
     "source": "Интерфакс",
     "created_at": "2026-07-21T21:22:13.211551+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/6a5f8e169a79470ea27bea05",
+    "title": "Зеленский уволил главкома ВСУ Сырского и назначил Драпатого",
+    "source": "РБК",
+    "created_at": "2026-07-21T23:08:04.876739+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/07/22/8045247/",
+    "title": "Парламент Франции запретил соцсети для детей до 15 лет",
+    "source": "Украинская правда",
+    "created_at": "2026-07-21T23:08:04.876754+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-economy/4146644-indian-refineries-increase-purchases-of-russian-oil-bloomberg.html",
+    "title": "НПЗ Индии увеличили закупки российской нефти до рекордных уровней",
+    "source": "Укринформ",
+    "created_at": "2026-07-21T23:08:04.876762+00:00"
   }
 ]
