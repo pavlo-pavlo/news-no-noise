@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.bbc.com/news/articles/cwy0q41v1lzo?at_medium=RSS&at_campaign=rss",
-    "title": "Первый раунд прямых переговоров США и Ирана, как ожидается, продлится всю ночь",
-    "source": "BBC World",
-    "created_at": "2026-06-22T00:21:12.906389+00:00"
-  },
-  {
-    "url": "https://elpais.com/america-colombia/elecciones-presidenciales/2026-06-21/resultados-elecciones-colombia-2026-en-vivo-la-segunda-vuelta-presidencial.html",
-    "title": "Де ла Эсприэлья стал новым президентом Колумбии по предварительным подсчетам голосов",
-    "source": "El País",
-    "created_at": "2026-06-22T00:21:12.906404+00:00"
-  },
-  {
-    "url": "https://www.bbc.com/news/articles/clyx2lk9d15o?at_medium=RSS&at_campaign=rss",
-    "title": "В оккупированном Крыму остановлена продажа топлива из-за ударов Украины по нефтяным объектам",
-    "source": "BBC World",
-    "created_at": "2026-06-22T00:21:12.906413+00:00"
-  },
-  {
     "url": "https://elpais.com/espana/2026-06-22/el-supremo-condena-a-abalos-a-24-anos-y-tres-meses-de-carcel-a-koldo-garcia-a-19-anos-y-ocho-meses-y-a-aldama-a-cuatro-anos-y-medio.html",
     "title": "Верховный суд приговорил Абалоса к 24 годам и трем месяцам тюрьмы, Кольдо Гарсию к 19 годам и восьми месяцам, а Альдаму к четырем с половиной годам",
     "source": "El País",
@@ -4174,5 +4156,23 @@
     "title": "НПЗ Индии увеличили закупки российской нефти до рекордных уровней",
     "source": "Укринформ",
     "created_at": "2026-07-21T23:08:04.876762+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4146652-zelensky-drapatyi-appointed-as-ukraines-new-commanderinchief-of-armed-forces.html",
+    "title": "Зеленский: Драпатый назначен новым Главнокомандующим Вооруженными силами Украины",
+    "source": "Укринформ",
+    "created_at": "2026-07-22T03:38:01.349258+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/6a5fb2579a7947344972fb9d",
+    "title": "Три человека пострадали при падении обломков БПЛА на склады в Краснодаре",
+    "source": "РБК",
+    "created_at": "2026-07-22T03:38:01.349294+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/07/21/6a5fd1a2e9cf4ab83f8b4595.html",
+    "title": "Пучдемон подал жалобу на Испанию в Еврокомиссию за неприменение амнистии: \"Это затрагивает ценность правового государства, на котором основывается Союз\"",
+    "source": "El Mundo",
+    "created_at": "2026-07-22T03:38:01.349302+00:00"
   }
 ]
