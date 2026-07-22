@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://elpais.com/espana/2026-06-22/el-supremo-condena-a-abalos-a-24-anos-y-tres-meses-de-carcel-a-koldo-garcia-a-19-anos-y-ocho-meses-y-a-aldama-a-cuatro-anos-y-medio.html",
-    "title": "Верховный суд приговорил Абалоса к 24 годам и трем месяцам тюрьмы, Кольдо Гарсию к 19 годам и восьми месяцам, а Альдаму к четырем с половиной годам",
-    "source": "El País",
-    "created_at": "2026-06-22T17:47:55.964239+00:00"
-  },
-  {
-    "url": "https://elpais.com/internacional/2026-06-22/dimite-el-primer-ministro-britanico-keir-starmer.html",
-    "title": "Премьер-министр Великобритании Кир Стармер объявил о своей отставке после месяцев давления со стороны партии",
-    "source": "El País",
-    "created_at": "2026-06-22T17:47:55.964253+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4136496-russian-forces-attack-dnipropetrovsk-region-more-than-50-times-one-killed-nine-injured.html",
-    "title": "Российские войска более 50 раз атаковали Днепропетровскую область: один погиб, девять ранены",
-    "source": "Укринформ",
-    "created_at": "2026-06-22T17:47:55.964262+00:00"
-  },
-  {
     "url": "https://www.elmundo.es/espana/2026/06/22/6a38dae6fdddffed398b4578.html",
     "title": "Верховный суд Испании вынес приговоры по делу о коррупции: 24 года Абалосу, 19 лет Кольдо Гарсии",
     "source": "El Mundo",
@@ -4246,5 +4228,23 @@
     "title": "Бандиты, члены ОПГ и наркоконтрабандисты: В РФ расширили вербовку осужденных на войну",
     "source": "Украинская правда",
     "created_at": "2026-07-22T16:40:58.468349+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cn0n127lpzgo?at_medium=RSS&at_campaign=rss",
+    "title": "Танкеры совершают резкие развороты после угрозы хуситов для судоходства",
+    "source": "BBC World",
+    "created_at": "2026-07-22T18:19:17.196636+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/internacional/2026/07/22/6a60c26ffc6c8379178b45ad.html",
+    "title": "Трамп одобрил историческое ядерное соглашение с Саудовской Аравией",
+    "source": "El Mundo",
+    "created_at": "2026-07-22T18:19:17.196651+00:00"
+  },
+  {
+    "url": "https://elpais.com/tecnologia/2026-07-22/un-nuevo-modelo-de-openai-provoca-un-ataque-sin-precedentes-contra-otra-plataforma-de-inteligencia-artificial.html",
+    "title": "Новая модель OpenAI спровоцировала «беспрецедентную» атаку на другую платформу ИИ",
+    "source": "El País",
+    "created_at": "2026-07-22T18:19:17.196658+00:00"
   }
 ]
