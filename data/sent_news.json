@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.rbc.ru/rbcfreenews/6a31be5e9a794744ca3cd37f",
-    "title": "Сенат США одобрил ограничение военных полномочий Трампа по Ирану",
-    "source": "РБК",
-    "created_at": "2026-06-23T22:24:07.980939+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/crm0ek4z7ggo?at_medium=RSS&at_campaign=rss",
-    "title": "Железнодорожная сеть Германии полностью остановилась из-за сбоя в IT-системе",
-    "source": "BBC World",
-    "created_at": "2026-06-23T22:24:07.980954+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/06/24/8040814/",
-    "title": "В 15 регионах России ввели ограничения на продажу топлива",
-    "source": "Украинская правда",
-    "created_at": "2026-06-23T22:24:07.980962+00:00"
-  },
-  {
     "url": "https://www.interfax.ru/world/1097881",
     "title": "Сенат США принял резолюцию по ограничению военных полномочий Трампа",
     "source": "Интерфакс",
@@ -4372,5 +4354,23 @@
     "title": "ВМС США перехватили более десяти связанных с Ираном судов после возобновления блокады",
     "source": "Интерфакс",
     "created_at": "2026-07-23T21:18:13.351122+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4147149-isw-kremlin-setting-conditions-for-mobilization-preparing-for-civil-unrest.html",
+    "title": "ИСВ: Кремль создает условия для мобилизации и готовится к гражданским беспорядкам",
+    "source": "Укринформ",
+    "created_at": "2026-07-23T23:08:22.437456+00:00"
+  },
+  {
+    "url": "https://elpais.com/internacional/2026-07-23/trump-impone-nuevos-aranceles-de-entre-el-10-y-el-125-a-60-paises-para-mantener-su-muro-comercial.html",
+    "title": "Трамп вводит новые пошлины от 10% до 12,5% для 60 стран",
+    "source": "El País",
+    "created_at": "2026-07-23T23:08:22.437471+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4147379-emergency-medical-system-collapses-in-occupied-luhansk-region-kharchenko-says.html",
+    "title": "В оккупированной Луганской области рушится система экстренной медицинской помощи",
+    "source": "Укринформ",
+    "created_at": "2026-07-23T23:08:22.437479+00:00"
   }
 ]
