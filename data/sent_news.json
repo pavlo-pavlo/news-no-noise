@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4136547-may-was-deadliest-month-for-civilians-in-ukraine-in-four-years-un-security-council-told.html",
-    "title": "Май стал самым смертоносным месяцем для мирных жителей Украины за четыре года, сообщили в Совете Безопасности ООН",
-    "source": "Укринформ",
-    "created_at": "2026-06-22T23:42:10.164681+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/espana/2026/06/22/6a38ed65e4d4d899058b4582.html",
-    "title": "Бегонья Гомес должна будет передать свой паспорт Пеинадо в среду днем, пока Педро Санчес дает объяснения в Конгрессе по делам о коррупции",
-    "source": "El Mundo",
-    "created_at": "2026-06-22T23:42:10.164696+00:00"
-  },
-  {
-    "url": "https://www.bbc.com/news/articles/cnv97e42r7yo?at_medium=RSS&at_campaign=rss",
-    "title": "Армия Мьянмы убила более 700 мирных жителей за полгода, сообщает ООН",
-    "source": "BBC World",
-    "created_at": "2026-06-22T23:42:10.164704+00:00"
-  },
-  {
     "url": "https://www.pravda.com.ua/news/2026/06/23/8040645/",
     "title": "ООН: Май стал самым смертоносным месяцем для мирных жителей в Украине с 2022 года",
     "source": "Украинская правда",
@@ -4264,5 +4246,23 @@
     "title": "Украина созывает Совбез ООН из-за российских ударов по судам в Черном море",
     "source": "Украинская правда",
     "created_at": "2026-07-22T22:14:55.633240+00:00"
+  },
+  {
+    "url": "https://elpais.com/internacional/2026-07-22/trump-autoriza-un-pacto-nuclear-que-permitira-a-arabia-saudi-enriquecer-uranio.html",
+    "title": "Трамп разрешил ядерный пакт, который позволит Саудовской Аравии обогащать уран",
+    "source": "El País",
+    "created_at": "2026-07-23T00:13:03.749848+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/23/07/2026/6a6141f89a79473bd7227573",
+    "title": "Иран заявил об атаке на Бушер, где находится АЭС",
+    "source": "РБК",
+    "created_at": "2026-07-23T00:13:03.749885+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4147042-ukraine-urgently-calls-for-un-security-council-meeting-over-russian-attacks-on-civilian-ships.html",
+    "title": "Украина срочно созывает заседание Совета Безопасности ООН из-за атак России на гражданские суда",
+    "source": "Укринформ",
+    "created_at": "2026-07-23T00:13:03.749895+00:00"
   }
 ]
