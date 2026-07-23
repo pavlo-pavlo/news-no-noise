@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.bbc.co.uk/news/articles/c0jy96w6pw2o?at_medium=RSS&at_campaign=rss",
-    "title": "Комиссия ООН по расследованию заявила, что Израиль совершает геноцид в Газе, преднамеренно нанося удары по детям",
-    "source": "BBC World",
-    "created_at": "2026-06-23T16:06:38.425724+00:00"
-  },
-  {
-    "url": "https://elpais.com/internacional/2026-06-23/europa-abre-sus-puertas-a-los-talibanes-para-acelerar-la-deportacion-de-migrantes-a-afganistan.html",
-    "title": "Брюссель и представители 15 стран встретились с талибами для ускорения депортации мигрантов в Афганистан",
-    "source": "El País",
-    "created_at": "2026-06-23T16:06:38.425740+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4136816-ammonia-leak-occurs-in-zaporizhzhia-due-to-russian-attack-cloud-contained.html",
-    "title": "В Запорожье произошла утечка аммиака из-за российской атаки; облако локализовано",
-    "source": "Укринформ",
-    "created_at": "2026-06-23T16:06:38.425748+00:00"
-  },
-  {
     "url": "https://www.rbc.ru/rbcfreenews/6a31be5e9a794744ca3cd37f",
     "title": "Сенат США одобрил ограничение военных полномочий Трампа по Ирану",
     "source": "РБК",
@@ -4336,5 +4318,23 @@
     "title": "Командующий Нацгвардией: На отдельных участках Покровского направления силы россиян превосходят в шесть раз",
     "source": "Украинская правда",
     "created_at": "2026-07-23T15:21:05.603153+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
+    "title": "Цены на нефть впервые с мая превысили $100",
+    "source": "BBC World",
+    "created_at": "2026-07-23T17:43:12.803089+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/07/23/8045600/",
+    "title": "ЕС окончательно утвердил новые санкции против РФ: ограничения для финансовых услуг и криптовалют",
+    "source": "Украинская правда",
+    "created_at": "2026-07-23T17:43:12.803102+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
+    "title": "Йеменские хуситы атаковали саудовский танкер на фоне новых ударов США по Ирану",
+    "source": "BBC World",
+    "created_at": "2026-07-23T17:43:12.803110+00:00"
   }
 ]
