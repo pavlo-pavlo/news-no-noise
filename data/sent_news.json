@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/06/24/8040824/",
-    "title": "Северная Корея приняла на вооружение первый эсминец будущего ядерного флота",
-    "source": "Украинская правда",
-    "created_at": "2026-06-24T05:09:29.403505+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/politics/24/06/2026/6a3b5c919a79470ba9b5e8e6",
-    "title": "В США впервые на высшем уровне испытали лазерное и микроволновое оружие",
-    "source": "РБК",
-    "created_at": "2026-06-24T05:09:29.403519+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/ce8j6g3v3r4o?at_medium=RSS&at_campaign=rss",
-    "title": "Конгресс США впервые принял резолюцию о военных полномочиях, выразив неодобрение войны Трампа с Ираном",
-    "source": "BBC World",
-    "created_at": "2026-06-24T05:09:29.403527+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4137336-zelensky-fuel-shortage-already-reported-in-over-60-russian-regions.html",
     "title": "Зеленский: Дефицит топлива зафиксирован уже в более чем 60 регионах России",
     "source": "Укринформ",
@@ -4372,5 +4354,23 @@
     "title": "Сенат США включил Иран в законопроект о санкциях против России",
     "source": "Укринформ",
     "created_at": "2026-07-24T03:36:34.412026+00:00"
+  },
+  {
+    "url": "https://www.ukinform.net/rubric-economy/4147441-21st-sanctions-package-adopted-eu-targets-russias-energy-financial-and-crypto-sectors.html",
+    "title": "Принят 21-й пакет санкций: ЕС нацелен на энергетический, финансовый и криптосекторы России",
+    "source": "Укринформ",
+    "created_at": "2026-07-24T06:36:59.042318+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/07/23/6a625ae8fdddff4a578b45b7.html",
+    "title": "Конгресс Испании отклонил фискальную траекторию, что ставит под угрозу бюджет правительства",
+    "source": "El Mundo",
+    "created_at": "2026-07-24T06:36:59.042331+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
+    "title": "США ввели новую волну тарифов в отношении десятков торговых партнеров",
+    "source": "BBC World",
+    "created_at": "2026-07-24T06:36:59.042338+00:00"
   }
 ]
