@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://elpais.com/america/2026-06-24/el-terremoto-en-venezuela-en-vivo.html",
-    "title": "Два мощных землетрясения магнитудой 7,2 и 7,5 потрясли Венесуэлу",
-    "source": "El País",
-    "created_at": "2026-06-25T08:30:44.176061+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/06/25/8041019/",
-    "title": "Трамп просит Конгресс выделить $87 млрд для пополнения запасов Пентагона после войны с Ираном",
-    "source": "Украинская правда",
-    "created_at": "2026-06-25T08:30:44.176074+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/06/25/8041021/",
-    "title": "Беспилотники в третий раз с начала июня атаковали нефтебазу в Краснодарском крае РФ",
-    "source": "Украинская правда",
-    "created_at": "2026-06-25T08:30:44.176082+00:00"
-  },
-  {
     "url": "https://elpais.com/internacional/2026-06-25/mapas-y-primeros-datos-del-devastador-doble-terremoto-en-venezuela.html",
     "title": "Разрушительное двойное землетрясение в Венесуэле: первые данные и карты",
     "source": "El País",
@@ -4480,5 +4462,23 @@
     "title": "Лесные пожары в Мадриде продолжают бушевать и остаются неконтролируемыми",
     "source": "El País",
     "created_at": "2026-07-25T07:26:49.719114+00:00"
+  },
+  {
+    "url": "https://elpais.com/internacional/2026-07-25/el-fuego-en-el-suroeste-de-francia-avanza-sin-control-hacia-burdeos-y-obliga-a-nuevas-evacuaciones.html",
+    "title": "Пожар на юго-западе Франции продвигается к Бордо и вызывает новые эвакуации",
+    "source": "El País",
+    "created_at": "2026-07-25T09:58:55.142367+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4147829-russias-main-black-sea-oil-port-suspends-loading-operations-due-to-drone-attacks.html",
+    "title": "Главный российский нефтяной порт в Черном море приостановил погрузочные операции из-за атак дронов",
+    "source": "Укринформ",
+    "created_at": "2026-07-25T09:58:55.142381+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/15/07/2026/6a57b1059a794737252e47b9",
+    "title": "В верховном штабе НАТО задержали стажерку по подозрению в шпионаже",
+    "source": "РБК",
+    "created_at": "2026-07-25T09:58:55.142387+00:00"
   }
 ]
