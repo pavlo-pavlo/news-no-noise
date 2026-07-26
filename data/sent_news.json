@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://elpais.com/america/2026-06-26/el-terremoto-en-venezuela-en-vivo.html",
-    "title": "Правительство Венесуэлы сообщило о 235 погибших и 4300 раненых после двух разрушительных землетрясений",
-    "source": "El País",
-    "created_at": "2026-06-26T09:49:04.056654+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/06/26/8041206/",
-    "title": "Еврокомиссия предложила продлить временную защиту для украинцев, но не для новоприбывших военнообязанных",
-    "source": "Украинская правда",
-    "created_at": "2026-06-26T09:49:04.056668+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1098496",
-    "title": "Военные РФ сообщили о поражении объектов хранения вооружения, военкомата в Киеве и НПЗ в Кременчуге ночью",
-    "source": "Интерфакс",
-    "created_at": "2026-06-26T09:49:04.056676+00:00"
-  },
-  {
     "url": "https://elpais.com/espana/2026-06-26/exteriores-eleva-a-tres-los-espanoles-fallecidos-y-a-99-los-no-localizados-tras-hallar-a-cuatro-ciudadanos-entre-los-escombros.html",
     "title": "МИД Испании подтверждает обнаружение четырех испанцев под обломками зданий, разрушенных землетрясением в Венесуэле",
     "source": "El País",
@@ -4588,5 +4570,23 @@
     "title": "Вэнс и Кейн предостерегли руководство США от усиления кампании против Ирана",
     "source": "Интерфакс",
     "created_at": "2026-07-26T07:44:22.361590+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4148051-zelensky-russians-launch-95-missiles-at-ukraine-in-one-week-more-than-half-of-which-ballistic.html",
+    "title": "Зеленский: Россия выпустила 95 ракет по Украине за неделю, более половины из них — баллистические",
+    "source": "Укринформ",
+    "created_at": "2026-07-26T10:09:47.912765+00:00"
+  },
+  {
+    "url": "https://elpais.com/internacional/2026-07-26/el-fuego-del-suroeste-de-francia-gana-terreno-y-obliga-a-nuevas-evacuaciones-masivas.html",
+    "title": "Пожары на юго-западе Франции распространяются, вызвав новые массовые эвакуации",
+    "source": "El País",
+    "created_at": "2026-07-26T10:09:47.912779+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/6a572f529a7947609349c1ec",
+    "title": "В России началось проектирование атомных подводных лодок пятого поколения",
+    "source": "РБК",
+    "created_at": "2026-07-26T10:09:47.912787+00:00"
   }
 ]
