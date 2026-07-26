@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://elpais.com/espana/2026-06-26/exteriores-eleva-a-tres-los-espanoles-fallecidos-y-a-99-los-no-localizados-tras-hallar-a-cuatro-ciudadanos-entre-los-escombros.html",
-    "title": "МИД Испании подтверждает обнаружение четырех испанцев под обломками зданий, разрушенных землетрясением в Венесуэле",
-    "source": "El País",
-    "created_at": "2026-06-26T12:23:26.727776+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4137933-drones-attack-moscow-and-azot-chemical-plant-in-tula-region.html",
-    "title": "Беспилотники атаковали Москву и химический завод \"Азот\" в Тульской области",
-    "source": "Укринформ",
-    "created_at": "2026-06-26T12:23:26.727790+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cjwg9np904qo?at_medium=RSS&at_campaign=rss",
-    "title": "ООН приостановила план эвакуации из Ормузского пролива после нападения на грузовое судно",
-    "source": "BBC World",
-    "created_at": "2026-06-26T12:23:26.727798+00:00"
-  },
-  {
     "url": "https://elpais.com/internacional/2026-06-26/mapas-del-terremoto-en-venezuela-el-antes-y-despues-con-imagenes-satelite.html",
     "title": "Землетрясение в Венесуэле: до и после на спутниковых снимках",
     "source": "El País",
@@ -4606,5 +4588,23 @@
     "title": "Румыния сообщила о третьем подряд сбитом БПЛА за три дня",
     "source": "Украинская правда",
     "created_at": "2026-07-26T12:12:59.307169+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/ciencia/2026/07/26/6a65e130fdddff283a8b4588.html",
+    "title": "Мегапожар на юге Франции: уничтожено 42 000 гектаров, эвакуировано 220 000 человек",
+    "source": "El Mundo",
+    "created_at": "2026-07-26T14:44:09.479632+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4148141-russian-drone-strikes-chernihiv-supermarket-seven-injured-two-killed.html",
+    "title": "Российский дрон атаковал супермаркет в Чернигове: двое погибших, семеро раненых",
+    "source": "Укринформ",
+    "created_at": "2026-07-26T14:44:09.479647+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1105701",
+    "title": "Путин потребовал решительно бороться с попытками захвата танкеров",
+    "source": "Интерфакс",
+    "created_at": "2026-07-26T14:44:09.479656+00:00"
   }
 ]
