@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://elpais.com/america/2026-06-27/ultima-hora-del-terremoto-en-venezuela-en-directo.html",
-    "title": "Власти Испании сообщили о 133 пропавших без вести согражданах после землетрясений в Венесуэле",
-    "source": "El País",
-    "created_at": "2026-06-27T10:21:03.297658+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1098720",
-    "title": "В результате атаки на предприятие в Волгоградской области погиб человек, 11 пострадали",
-    "source": "Интерфакс",
-    "created_at": "2026-06-27T10:21:03.297676+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/espana/2026/06/26/6a3ea72fe9cf4a87458b4590.html",
-    "title": "Гражданская гвардия Испании выявила нарушения в контрактах, рекомендованных Бегоньей Гомес",
-    "source": "El Mundo",
-    "created_at": "2026-06-27T10:21:03.297686+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4138251-casualty-toll-from-russian-drone-attack-on-sumy-rises-to-13.html",
-    "title": "Число пострадавших от атаки российского беспилотника на Сумы возросло до 13",
-    "source": "Укринформ",
-    "created_at": "2026-06-27T12:16:17.128786+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1098729",
-    "title": "Иран и ОАЭ возобновили торговые операции",
-    "source": "Интерфакс",
-    "created_at": "2026-06-27T12:16:17.128800+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cx2knzzwprgo?at_medium=RSS&at_campaign=rss",
-    "title": "Смертельная жара в Европе побила рекорд в Германии и привела к отмене массовых мероприятий",
-    "source": "BBC World",
-    "created_at": "2026-06-27T12:16:17.128807+00:00"
-  },
-  {
     "url": "https://www.pravda.com.ua/news/2026/06/27/8041356/",
     "title": "Россияне атаковали Сумы – 18 раненых, в том числе дети",
     "source": "Украинская правда",
@@ -4624,5 +4588,23 @@
     "title": "FT: ЕС рассматривает новый подход к введению санкций против РФ",
     "source": "Украинская правда",
     "created_at": "2026-07-27T08:42:49.189045+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/comunidad-valenciana/2026-07-27/12-municipios-evacuados-por-el-incendio-de-la-vall-duixo-integran-el-parque-natural-de-sierra-de-espadan-el-pulmon-verde-de-castellon.html",
+    "title": "В Испании эвакуированы 12 муниципалитетов из-за пожара в Ла-Валь-д'Уишо",
+    "source": "El País",
+    "created_at": "2026-07-27T12:35:59.541728+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4148381-zelensky-arrives-in-britain-for-talks-with-pm-burnham.html",
+    "title": "Зеленский прибыл в Великобританию для переговоров с премьер-министром Бернхэмом",
+    "source": "Укринформ",
+    "created_at": "2026-07-27T12:35:59.541742+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/27/07/2026/6a67490a9a794720f78a39a6",
+    "title": "Кремль увидел риск расширения конфликта из-за атаки ВСУ на судно Ирана",
+    "source": "РБК",
+    "created_at": "2026-07-27T12:35:59.541750+00:00"
   }
 ]
