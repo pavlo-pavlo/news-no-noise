@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/06/27/8041356/",
-    "title": "Россияне атаковали Сумы – 18 раненых, в том числе дети",
-    "source": "Украинская правда",
-    "created_at": "2026-06-27T14:53:27.780035+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/videos/cm2d0vzp3ngo?at_medium=RSS&at_campaign=rss",
-    "title": "Новорожденный ребенок спасен из-под завалов после землетрясения в Венесуэле",
-    "source": "BBC World",
-    "created_at": "2026-06-27T14:53:27.780050+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-polytics/4138292-turkiye-reaffirms-readiness-to-host-ukrainerussia-peace-talks.html",
-    "title": "Турция подтверждает готовность принять мирные переговоры между Украиной и Россией",
-    "source": "Укринформ",
-    "created_at": "2026-06-27T14:53:27.780058+00:00"
-  },
-  {
     "url": "https://www.pravda.com.ua/news/2026/06/27/8041394/",
     "title": "Сикорский не исключает, что Путин может готовить спецоперацию для нападения на НАТО",
     "source": "Украинская правда",
@@ -4606,5 +4588,23 @@
     "title": "Кремль увидел риск расширения конфликта из-за атаки ВСУ на судно Ирана",
     "source": "РБК",
     "created_at": "2026-07-27T12:35:59.541750+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss",
+    "title": "Цены на нефть падают на фоне паузы в атаках США и Ирана",
+    "source": "BBC World",
+    "created_at": "2026-07-27T15:50:35.458197+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss",
+    "title": "Разрушительные лесные пожары в Европе: карты и методы борьбы",
+    "source": "BBC World",
+    "created_at": "2026-07-27T15:50:35.458210+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4148433-romania-recalls-ambassador-from-moscow-for-consultations-expels-russian-diplomat.html",
+    "title": "Румыния отзывает посла из Москвы для консультаций и высылает российского дипломата",
+    "source": "Укринформ",
+    "created_at": "2026-07-27T15:50:35.458218+00:00"
   }
 ]
