@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.elmundo.es/internacional/2026/06/27/6a3ad7a3fc6c83185a8b45ad.html",
-    "title": "«Генерал Алгоритм» меняет ход вторжения в Украину",
-    "source": "El Mundo",
-    "created_at": "2026-06-28T16:22:40.053244+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/politics/21/04/2026/69e793969a7947a748ec3561",
-    "title": "Санду допустила вывод российских войск из Приднестровья при сделке с Киевом",
-    "source": "РБК",
-    "created_at": "2026-06-28T16:22:40.053259+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cr47dvywvy5o?at_medium=RSS&at_campaign=rss",
-    "title": "Двух мальчиков спасли из-под завалов после землетрясения в Венесуэле",
-    "source": "BBC World",
-    "created_at": "2026-06-28T16:22:40.053268+00:00"
-  },
-  {
     "url": "https://elpais.com/internacional/2026-06-28/venezuela-se-salva-con-sus-propias-manos.html",
     "title": "Венесуэла спасается своими силами",
     "source": "El País",
@@ -4606,5 +4588,23 @@
     "title": "Зеленский и Трамп провели встречу в Белом доме",
     "source": "РБК",
     "created_at": "2026-07-28T15:30:18.403581+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-economy/4148877-ferrexpo-suspends-seaborne-exports-following-russian-strikes-on-ports-in-odesa-region.html",
+    "title": "Ferrexpo приостанавливает морской экспорт из-за российских ударов по портам Одесской области",
+    "source": "Укринформ",
+    "created_at": "2026-07-28T17:44:03.023880+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1106158",
+    "title": "Белый дом назвал продуктивными встречи Трампа с Нетаньяху и Зеленским",
+    "source": "Интерфакс",
+    "created_at": "2026-07-28T17:44:03.023896+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/07/28/6a689e9de9cf4a75078b4576.html",
+    "title": "Пожары в Авиле, Мадриде и Кастельоне: более 60 000 гектаров затронуты, 66 000 человек эвакуированы",
+    "source": "El Mundo",
+    "created_at": "2026-07-28T17:44:03.023905+00:00"
   }
 ]
