@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://elpais.com/america/2026-06-28/ultima-hora-del-terremoto-en-venezuela-en-directo.html",
-    "title": "В Венесуэле число погибших от землетрясений выросло до 1430 человек",
-    "source": "El País",
-    "created_at": "2026-06-28T09:29:08.302049+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/06/28/8041449/",
-    "title": "Зеленский: украинские атаки повредили два НПЗ в РФ",
-    "source": "Украинская правда",
-    "created_at": "2026-06-28T09:29:08.302063+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cx2vdydz31no?at_medium=RSS&at_campaign=rss",
-    "title": "Рекордная жара зафиксирована в Германии, Дании и Чехии",
-    "source": "BBC World",
-    "created_at": "2026-06-28T09:29:08.302071+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4138469-injury-toll-in-russian-strike-on-zaporizhzhia-climbs-to-11-one-killed.html",
     "title": "Число пострадавших в результате российского удара по Запорожью возросло до 11, один человек погиб",
     "source": "Укринформ",
@@ -4606,5 +4588,23 @@
     "title": "Крупнейшая эвакуация в истории Испании: 73 000 человек покинули дома из-за лесных пожаров в четырех провинциях",
     "source": "El Mundo",
     "created_at": "2026-07-28T06:37:32.347871+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/07/28/8046213/",
+    "title": "Оккупанты обстреляли жилые кварталы Херсона: погиб 61-летний мужчина",
+    "source": "Украинская правда",
+    "created_at": "2026-07-28T09:43:36.882926+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss",
+    "title": "США покинули заседание Совета Безопасности ООН во время выступления Франции",
+    "source": "BBC World",
+    "created_at": "2026-07-28T09:43:36.882940+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-07-28/carrera-contra-el-fuego-en-avila-y-madrid-24-horas-criticas-antes-de-la-ola-de-calor.html",
+    "title": "Лесные пожары в Авиле и Мадриде остаются неконтролируемыми, эвакуированы более 90 000 человек",
+    "source": "El País",
+    "created_at": "2026-07-28T09:43:36.882949+00:00"
   }
 ]
