@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.interfax.ru/russia/1098803",
-    "title": "Минобороны РФ сообщило о перехвате 213 украинских БПЛА",
-    "source": "Интерфакс",
-    "created_at": "2026-06-28T05:42:54.121515+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o?at_medium=RSS&at_campaign=rss",
-    "title": "США и Иран обменялись ударами и обвинили друг друга в нарушении перемирия",
-    "source": "BBC World",
-    "created_at": "2026-06-28T05:42:54.121530+00:00"
-  },
-  {
-    "url": "https://elpais.com/internacional/2026-06-28/venezuela-afronta-la-catastrofe-con-el-estado-sobrepasado.html",
-    "title": "Венесуэла сталкивается с масштабной катастрофой на фоне ослабленного государства",
-    "source": "El País",
-    "created_at": "2026-06-28T05:42:54.121538+00:00"
-  },
-  {
     "url": "https://elpais.com/america/2026-06-28/ultima-hora-del-terremoto-en-venezuela-en-directo.html",
     "title": "В Венесуэле число погибших от землетрясений выросло до 1430 человек",
     "source": "El País",
@@ -4606,5 +4588,23 @@
     "title": "Власюк: Санкции ЕС против китайских компаний, поставляющих компоненты для российского оружия, необходимы",
     "source": "Укринформ",
     "created_at": "2026-07-28T03:28:50.833800+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4148567-moscow-reports-drone-attack-airports-temporarily-suspend-operations.html",
+    "title": "Москва сообщает об атаке беспилотников, аэропорты временно приостановили работу",
+    "source": "Укринформ",
+    "created_at": "2026-07-28T06:37:32.347846+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4148572-russian-army-launches-1107-strikes-on-zaporizhzhia-region-in-one-day-injuring-14.html",
+    "title": "Российская армия нанесла 1107 ударов по Запорожской области за сутки, ранены 14 человек",
+    "source": "Укринформ",
+    "created_at": "2026-07-28T06:37:32.347862+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/07/27/6a67bf74fdddfff8058b456d.html",
+    "title": "Крупнейшая эвакуация в истории Испании: 73 000 человек покинули дома из-за лесных пожаров в четырех провинциях",
+    "source": "El Mundo",
+    "created_at": "2026-07-28T06:37:32.347871+00:00"
   }
 ]
