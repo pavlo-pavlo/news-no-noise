@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-polytics/4139134-ukraine-uk-work-on-funding-ukrainian-defense-through-frozen-russian-assets-fedorov.html",
-    "title": "Украина и Великобритания работают над финансированием украинской обороны за счет замороженных российских активов",
-    "source": "Укринформ",
-    "created_at": "2026-06-30T11:50:30.645209+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-economy/4139118-eu-allocates-eur-39b-to-ukraine-for-drones.html",
-    "title": "ЕС выделяет Украине 3,9 млрд евро на беспилотники",
-    "source": "Укринформ",
-    "created_at": "2026-06-30T11:50:30.645222+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4139079-zelensky-confirms-second-strike-on-dubna-space-communications-center-in-moscow-region.html",
-    "title": "Зеленский подтвердил второй удар по центру космической связи в Дубне",
-    "source": "Укринформ",
-    "created_at": "2026-06-30T11:50:30.645229+00:00"
-  },
-  {
     "url": "https://www.pravda.com.ua/news/2026/06/30/8041756/",
     "title": "Украина получила от ЕС первый \"оборонный\" транш в €3,9 млрд из пакета на €90 млрд",
     "source": "Украинская правда",
@@ -4678,5 +4660,23 @@
     "title": "Сеута просит правительство объявить \"чрезвычайную ситуацию национального масштаба\" из-за наплыва мигрантов",
     "source": "El País",
     "created_at": "2026-07-30T09:37:31.744267+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-07-30/policias-y-guardias-civiles-alertan-del-colapso-operativo-en-ceuta-por-la-entrada-masiva-de-migrantes-a-nado-estamos-desbordados.html",
+    "title": "Полиция и гражданская гвардия предупреждают об оперативном коллапсе в Сеуте из-за массового наплыва мигрантов вплавь: «Мы перегружены»",
+    "source": "El País",
+    "created_at": "2026-07-30T14:26:57.318476+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-economy/4149525-ukraine-receives-nearly-35b-from-eu-for-drones-missiles-air-defense-and-fighter-jets.html",
+    "title": "Украина получила почти 3,5 млрд евро от ЕС на дроны, ракеты, ПВО и истребители",
+    "source": "Укринформ",
+    "created_at": "2026-07-30T14:26:57.318491+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/economics/30/07/2026/6a6b599a9a794775d6671a78",
+    "title": "Правительство России ввело новый временный запрет на экспорт топлива",
+    "source": "РБК",
+    "created_at": "2026-07-30T14:26:57.318500+00:00"
   }
 ]
