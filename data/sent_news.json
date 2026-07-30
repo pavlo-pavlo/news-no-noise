@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.rbc.ru/politics/27/06/2026/6a3f45eb9a794776c05852b2",
-    "title": "Верховный суд США отклонил указ Трампа об отмене гражданства по рождению",
-    "source": "РБК",
-    "created_at": "2026-06-30T20:14:04.042452+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1099339",
-    "title": "Международная морская организация считает сборы в Ормузском проливе незаконными",
-    "source": "Интерфакс",
-    "created_at": "2026-06-30T20:14:04.042467+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4139330-two-killed-15-injured-as-russian-forces-drop-seven-guided-bombs-on-zaporizhzhia.html",
-    "title": "Российские силы сбросили семь управляемых бомб на Запорожье: двое погибших, 15 раненых",
-    "source": "Укринформ",
-    "created_at": "2026-06-30T20:14:04.042475+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4139326-ukraine-sweden-sign-agreement-to-procure-16-gripen-e-fighter-jets.html",
     "title": "Украина и Швеция подписали соглашение о закупке 16 истребителей Gripen E",
     "source": "Укринформ",
@@ -4678,5 +4660,23 @@
     "title": "Рекордно низкий уровень Дуная вынудил остановить единственную АЭС Венгрии",
     "source": "BBC World",
     "created_at": "2026-07-30T18:40:35.369752+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/07/30/6a6b284621efa0762d8b45ae.html",
+    "title": "Правительство Испании мобилизует армию в ответ на кризис в Сеуте",
+    "source": "El Mundo",
+    "created_at": "2026-07-30T20:23:15.082159+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4149642-nato-chief-condemns-russian-missile-landing-in-poland-and-massive-attack-on-ukraine.html",
+    "title": "Глава НАТО осудил падение российской ракеты в Польше и массированную атаку на Украину",
+    "source": "Укринформ",
+    "created_at": "2026-07-30T20:23:15.082173+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1106652",
+    "title": "Иран назвал атаку на порт в Египте предупреждением о последствиях эскалации в регионе",
+    "source": "Интерфакс",
+    "created_at": "2026-07-30T20:23:15.082181+00:00"
   }
 ]
