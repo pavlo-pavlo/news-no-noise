@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-economy/4138654-putin-admits-fuel-shortages-in-russia-for-first-time.html",
-    "title": "Путин впервые признал дефицит топлива в России",
-    "source": "Укринформ",
-    "created_at": "2026-06-29T23:12:15.040202+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/society/22/06/2026/6a38a8319a7947bafbde7e8f",
-    "title": "Власти Монако назвали произошедший взрыв терактом",
-    "source": "РБК",
-    "created_at": "2026-06-29T23:12:15.040217+00:00"
-  },
-  {
-    "url": "https://elpais.com/internacional/2026-06-29/cuantos-edificios-han-colapsado-los-satelites-ya-han-identificado-434-bloques-destruidos.html",
-    "title": "Спутники выявили 434 разрушенных здания в Венесуэле",
-    "source": "El País",
-    "created_at": "2026-06-29T23:12:15.040225+00:00"
-  },
-  {
     "url": "https://www.rbc.ru/quote/30/06/2026/6a4360159a79477f91e48225",
     "title": "Курс японской иены обвалился до минимума за четыре десятилетия",
     "source": "РБК",
@@ -4678,5 +4660,23 @@
     "title": "Экскаватор, работавший в запрещенном месте, вызвал масштабный пожар в Авиле",
     "source": "El País",
     "created_at": "2026-07-29T21:09:25.231411+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss",
+    "title": "США нанесли «мощные» удары по Ирану после попытки нападения на американские войска",
+    "source": "BBC World",
+    "created_at": "2026-07-30T03:19:21.470239+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/07/30/8046479/",
+    "title": "В пригороде Кривого Рога в результате прямого попадания погибли двое детей и четверо взрослых",
+    "source": "Украинская правда",
+    "created_at": "2026-07-30T03:19:21.470252+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1106449",
+    "title": "Лес на площади почти 166 тыс. га горит в Якутии",
+    "source": "Интерфакс",
+    "created_at": "2026-07-30T03:19:21.470260+00:00"
   }
 ]
