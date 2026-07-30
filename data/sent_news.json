@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/06/30/8041756/",
-    "title": "Украина получила от ЕС первый \"оборонный\" транш в €3,9 млрд из пакета на €90 млрд",
-    "source": "Украинская правда",
-    "created_at": "2026-06-30T14:40:19.386485+00:00"
-  },
-  {
-    "url": "https://elpais.com/us/migracion/2026-06-30/el-supremo-frena-el-intento-de-trump-de-acabar-con-el-derecho-a-la-ciudadania-por-nacimiento-en-estados-unidos.html",
-    "title": "Верховный суд США остановил попытку Трампа отменить право на гражданство по рождению",
-    "source": "El País",
-    "created_at": "2026-06-30T14:40:19.386518+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/06/30/8041764/",
-    "title": "Разведка Швеции считает, что РФ останется угрозой для соседей и после Путина",
-    "source": "Украинская правда",
-    "created_at": "2026-06-30T14:40:19.386527+00:00"
-  },
-  {
     "url": "https://www.pravda.com.ua/news/2026/06/30/8041812/",
     "title": "Reuters: Германия хочет урезать проект бюджета ЕС на сотни миллиардов евро",
     "source": "Украинская правда",
@@ -4678,5 +4660,23 @@
     "title": "Правительство России ввело новый временный запрет на экспорт топлива",
     "source": "РБК",
     "created_at": "2026-07-30T14:26:57.318500+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-emergencies/4149563-missile-with-large-warhead-strikes-poland-prosecutors-office-says.html",
+    "title": "Ракета с крупной боеголовкой упала в Польше, заявляет прокуратура",
+    "source": "Укринформ",
+    "created_at": "2026-07-30T16:44:17.823600+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1106645",
+    "title": "МИД РФ осуждает попытку удара по Запорожской АЭС",
+    "source": "Интерфакс",
+    "created_at": "2026-07-30T16:44:17.823614+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/07/30/6a6b07c921efa0b1248b4578.html",
+    "title": "Массовый наплыв мигрантов в Сеуту вызвал крупнейший кризис с 2021 года",
+    "source": "El Mundo",
+    "created_at": "2026-07-30T16:44:17.823645+00:00"
   }
 ]
