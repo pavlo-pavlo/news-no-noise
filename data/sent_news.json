@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4139689-ukraine-testing-laser-air-defense-expanding-shahed-interceptions-developing-new-defense-technologies-fedorov.html",
-    "title": "Украина тестирует лазерную ПВО и развивает новые оборонные технологии",
-    "source": "Укринформ",
-    "created_at": "2026-07-01T16:38:00.453768+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4139674-two-killed-29-injured-in-russian-airstrike-on-kharkiv.html",
-    "title": "В результате авиаудара России по Харькову погибли два человека, 29 ранены",
-    "source": "Укринформ",
-    "created_at": "2026-07-01T16:38:00.453782+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/business/1099578",
-    "title": "Сальдированная прибыль предприятий России снизилась на 10,3% в январе-апреле",
-    "source": "Интерфакс",
-    "created_at": "2026-07-01T16:38:00.453789+00:00"
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/c33yjk0ldkdo?at_medium=RSS&at_campaign=rss",
     "title": "Украинцу предъявлены обвинения в Германии по делу о взрывах на «Северных потоках»",
     "source": "BBC World",
@@ -4696,5 +4678,23 @@
     "title": "Россия запустила две северокорейские ракеты, убив 6 человек под Кривым Рогом",
     "source": "Украинская правда",
     "created_at": "2026-07-31T14:29:43.599521+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
+    "title": "Около 60 000 мигрантов прибыли в Сеуту за 24 часа, заявляет лидер испанской территории",
+    "source": "BBC World",
+    "created_at": "2026-07-31T16:53:02.511267+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4149926-kh101-missile-found-in-poland-shows-russias-stockpiles-depleting-polish-dm.html",
+    "title": "Найденная в Польше ракета Х-101 свидетельствует об истощении российских запасов – Минобороны Польши",
+    "source": "Укринформ",
+    "created_at": "2026-07-31T16:53:02.511281+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/31/07/2026/6a6ccf8c9a79474db282b3ef",
+    "title": "Италия приостановила действие Шенгенского соглашения с Испанией",
+    "source": "РБК",
+    "created_at": "2026-07-31T16:53:02.511290+00:00"
   }
 ]
