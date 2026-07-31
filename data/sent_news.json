@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.bbc.co.uk/news/articles/cz9lqvx0z1vo?at_medium=RSS&at_campaign=rss",
-    "title": "Amnesty заявляет, что Силы быстрой поддержки Судана совершили преступления против человечности в Эль-Фашере",
-    "source": "BBC World",
-    "created_at": "2026-07-01T10:10:38.749611+00:00"
-  },
-  {
-    "url": "https://elpais.com/internacional/2026-07-01/trump-ingreso-1400-millones-de-dolares-en-criptomonedas-en-el-primer-ano-de-su-segundo-mandato.html",
-    "title": "Трамп заработал 1,4 миллиарда долларов на криптовалюте за первый год своего второго срока",
-    "source": "El País",
-    "created_at": "2026-07-01T10:10:38.749625+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4139485-injury-toll-from-russian-drone-attack-on-minibus-in-kherson-rises-to-nine-two-dead.html",
-    "title": "Число пострадавших от российского удара беспилотника по микроавтобусу в Херсоне выросло до девяти, двое погибли",
-    "source": "Укринформ",
-    "created_at": "2026-07-01T10:10:38.749635+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4139587-russia-takes-part-in-secret-chinese-military-exercises-reuters.html",
     "title": "Россия приняла участие в секретных китайских военных учениях – Reuters",
     "source": "Укринформ",
@@ -4696,5 +4678,23 @@
     "title": "ФСБ объявила Павла Дурова в международный розыск по делу о содействии терроризму",
     "source": "РБК",
     "created_at": "2026-07-31T08:07:11.759100+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/07/31/8046690/",
+    "title": "Зеленский просил Трампа разрешить использовать Starlink для уничтожения баллистических установок в России – СМИ",
+    "source": "Украинская правда",
+    "created_at": "2026-07-31T11:34:37.916790+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/07/31/8046685/",
+    "title": "Зеленский: Украина потеряла в войне около 50 тысяч военных",
+    "source": "Украинская правда",
+    "created_at": "2026-07-31T11:34:37.916802+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/07/31/6a6c3f97e4d4d8a7068b4575.html",
+    "title": "Миграционный кризис в Сеуте перерос в европейский: четыре страны ЕС предлагают исключить Испанию из Шенгена",
+    "source": "El Mundo",
+    "created_at": "2026-07-31T11:34:37.916808+00:00"
   }
 ]
