@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4139587-russia-takes-part-in-secret-chinese-military-exercises-reuters.html",
-    "title": "Россия приняла участие в секретных китайских военных учениях – Reuters",
-    "source": "Укринформ",
-    "created_at": "2026-07-01T13:40:16.543650+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/espana/2026/06/30/6a4402ff21efa0ca7a8b45d5.html",
-    "title": "Правительство Испании запустило ускоренную легализацию иммигрантов",
-    "source": "El Mundo",
-    "created_at": "2026-07-01T13:40:16.543664+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cvgmv98ez3zo?at_medium=RSS&at_campaign=rss",
-    "title": "Трамп заработал более $1 млрд на криптовалюте за первый год после возвращения в офис",
-    "source": "BBC World",
-    "created_at": "2026-07-01T13:40:16.543671+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4139689-ukraine-testing-laser-air-defense-expanding-shahed-interceptions-developing-new-defense-technologies-fedorov.html",
     "title": "Украина тестирует лазерную ПВО и развивает новые оборонные технологии",
     "source": "Укринформ",
@@ -4696,5 +4678,23 @@
     "title": "Миграционный кризис в Сеуте перерос в европейский: четыре страны ЕС предлагают исключить Испанию из Шенгена",
     "source": "El Mundo",
     "created_at": "2026-07-31T11:34:37.916808+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4149874-poland-summons-russian-ambassador-after-missile-hits-polish-territory.html",
+    "title": "Польша вызвала российского посла после падения ракеты на ее территории",
+    "source": "Укринформ",
+    "created_at": "2026-07-31T14:29:43.599500+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss",
+    "title": "Испания направила войска на границу Сеуты: 18 мигрантов утонули",
+    "source": "BBC World",
+    "created_at": "2026-07-31T14:29:43.599513+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/07/31/8046722/",
+    "title": "Россия запустила две северокорейские ракеты, убив 6 человек под Кривым Рогом",
+    "source": "Украинская правда",
+    "created_at": "2026-07-31T14:29:43.599521+00:00"
   }
 ]
