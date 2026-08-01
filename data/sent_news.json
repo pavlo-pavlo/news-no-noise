@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/07/02/8042019/",
-    "title": "В Киеве 10 человек погибли, 34 пострадали из-за российской атаки.",
-    "source": "Украинская правда",
-    "created_at": "2026-07-02T04:18:17.139046+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1099645",
-    "title": "Минобороны РФ заявило об ударе по объектам ВПК и ТЭК в Киеве, области и военным аэродромам Украины.",
-    "source": "Интерфакс",
-    "created_at": "2026-07-02T04:18:17.139060+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/ce8k4pz91n5o?at_medium=RSS&at_campaign=rss",
-    "title": "Молодые афганские мигранты обвиняют турецкую полицию в избиениях и обморожениях.",
-    "source": "BBC World",
-    "created_at": "2026-07-02T04:18:17.139068+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4139870-massive-strike-on-kyiv-13-killed-injuries-rise-to-90-people-still-trapped-under-rubble.html",
     "title": "Массированный удар по Киеву: 13 погибших, число раненых возросло до 90, люди остаются под завалами",
     "source": "Укринформ",
@@ -4732,5 +4714,23 @@
     "title": "Киев атакован баллистическими ракетами: трое погибших, 10 пострадавших",
     "source": "Украинская правда",
     "created_at": "2026-08-01T00:10:36.333661+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4150002-nine-killed-23-injured-in-overnight-missile-attack-on-kyiv.html",
+    "title": "В результате ракетного удара по Киеву погибли девять человек, 27 ранены",
+    "source": "Укринформ",
+    "created_at": "2026-08-01T04:29:58.843846+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1106884",
+    "title": "Трамп отдал приказ о нанесении новых ударов по Ирану, которые могут начаться в эти выходные",
+    "source": "Интерфакс",
+    "created_at": "2026-08-01T04:29:58.843860+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-01/mapas-y-graficos-para-entender-que-ha-pasado-en-ceuta-la-entrada-y-salida-de-casi-50000-personas-en-48-horas.html",
+    "title": "Кризис в Сеуте: за 48 часов зафиксирован приток и отток почти 50 000 человек",
+    "source": "El País",
+    "created_at": "2026-08-01T04:29:58.843868+00:00"
   }
 ]
