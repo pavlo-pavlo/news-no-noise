@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.interfax.ru/world/1100833",
-    "title": "США предложили Ирану отказаться от контроля над Ормузским проливом в обмен на разморозку средств",
-    "source": "Интерфакс",
-    "created_at": "2026-07-02T18:45:47.354349+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4140136-nearly-14000-russian-chemical-attacks-against-ukrainian-forces-recorded-since-february-2022.html",
-    "title": "С февраля 2022 года зафиксировано почти 14 000 случаев химических атак РФ против украинских войск",
-    "source": "Укринформ",
-    "created_at": "2026-07-02T18:45:47.354363+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/espana/2026/07/02/6a458466fc6c8336568b45fd.html",
-    "title": "Почти 1,2 млн заявок на легализацию в Испании: вдвое больше прогнозов, 67% из Латинской Америки",
-    "source": "El Mundo",
-    "created_at": "2026-07-02T18:45:47.354371+00:00"
-  },
-  {
     "url": "https://www.rbc.ru/politics/26/06/2026/6a3ea65f9a79474be28b3c4b",
     "title": "Медведев предупредил, что Финляндия попала в список ядерных целей России",
     "source": "РБК",
@@ -4786,5 +4768,23 @@
     "title": "Испания критикует «эгоистичную» реакцию некоторых стран ЕС на миграционный кризис в Сеуте",
     "source": "BBC World",
     "created_at": "2026-08-01T18:08:23.129597+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4150220-zelensky-partners-decision-to-provide-patriot-missiles-and-impose-sanctions-on-russia-crucial-now.html",
+    "title": "Зеленский: Решение партнеров о Patriot и санкциях против России сейчас является ключевым",
+    "source": "Укринформ",
+    "created_at": "2026-08-01T20:14:38.127575+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/moscow/1106965",
+    "title": "Три человека погибли, 15 пострадали при взрыве у летнего кафе в центре Москвы",
+    "source": "Интерфакс",
+    "created_at": "2026-08-01T20:14:38.127589+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/internacional/2026/08/01/6a6dcbd7e9cf4a5d338b4585.html",
+    "title": "22 страны во главе с Италией и Данией оспаривают миграционную политику Испании и требуют, чтобы ЕС взял бразды правления в свои руки",
+    "source": "El Mundo",
+    "created_at": "2026-08-01T20:14:38.127599+00:00"
   }
 ]
