@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.rbc.ru/rbcfreenews/6a480e6f9a7947fe35014acd",
-    "title": "Путин поручил продолжить нанесение ударов по объектам ВПК Украины",
-    "source": "РБК",
-    "created_at": "2026-07-03T22:14:48.058441+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4140591-russian-airstrike-hits-central-sumy-four-killed-including-child.html",
-    "title": "Российский авиаудар по центру Сум: четыре человека погибли, включая ребенка",
-    "source": "Укринформ",
-    "created_at": "2026-07-03T22:14:48.058455+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/rbcfreenews/6a25002f9a794702036f1a56",
-    "title": "На Тайване провели учения по «кошмарному сценарию» вторжения",
-    "source": "РБК",
-    "created_at": "2026-07-03T22:14:48.058462+00:00"
-  },
-  {
     "url": "https://www.rbc.ru/rbcfreenews/6a484b7d9a79478675644630",
     "title": "На подлете к Москве с начала суток сбито 13 беспилотников",
     "source": "РБК",
@@ -4786,5 +4768,23 @@
     "title": "Погибшие на границе продолжают заполнять импровизированный морг в Сеуте",
     "source": "El País",
     "created_at": "2026-08-02T22:05:51.420081+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1107089",
+    "title": "Трамп заявил, что США могут в любой момент ударить по Ирану",
+    "source": "Интерфакс",
+    "created_at": "2026-08-02T23:08:41.399171+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss",
+    "title": "Как миграционный кризис в Испании создал политический шторм, подогреваемый социальными сетями",
+    "source": "BBC World",
+    "created_at": "2026-08-02T23:08:41.399185+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4150409-repeated-guided-bomb-strike-on-zaporizhzhia-injury-toll-rises-to-31-one-woman-dead.html",
+    "title": "Повторный удар управляемой бомбой по Запорожью: число раненых возросло до 31, одна женщина погибла",
+    "source": "Укринформ",
+    "created_at": "2026-08-02T23:08:41.399193+00:00"
   }
 ]
