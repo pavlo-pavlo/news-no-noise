@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4140543-russians-attack-dnipropetrovsk-region-more-than-50-times-since-morning-killing-three-and-injuring-12.html",
-    "title": "Российские войска атаковали Днепропетровскую область, есть погибшие и раненые",
-    "source": "Укринформ",
-    "created_at": "2026-07-03T18:22:50.583374+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cj0gp88q4l4o?at_medium=RSS&at_campaign=rss",
-    "title": "Премьер-министр Польши предупреждает о критических месяцах в условиях российской угрозы",
-    "source": "BBC World",
-    "created_at": "2026-07-03T18:22:50.583393+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/espana/2026/07/03/6a47a77efc6c837f558b4589.html",
-    "title": "Судья обвинил экс-любовницу Абалоса и брата Кольдо в растрате после их найма в госкомпании",
-    "source": "El Mundo",
-    "created_at": "2026-07-03T18:22:50.583404+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-economy/4140573-zaporizhzhia-npp-suffers-another-blackout.html",
     "title": "Запорожская АЭС снова обесточена",
     "source": "Укринформ",
@@ -4786,5 +4768,23 @@
     "title": "Правительство Испании заявило об отсутствии информации о массовом наплыве 60 тысяч человек в Сеуту",
     "source": "El Mundo",
     "created_at": "2026-08-02T18:08:53.113459+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4150392-number-of-people-injured-in-repeated-guided-bomb-strike-on-zaporizhzhia-rises-to-21.html",
+    "title": "Число пострадавших в результате повторного удара управляемой бомбой по Запорожью возросло до 21",
+    "source": "Укринформ",
+    "created_at": "2026-08-02T20:15:24.095796+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-02/los-fallecidos-en-la-frontera-seguen-llenando-la-gran-morgue-improvisada-en-ceuta.html",
+    "title": "Количество погибших на границе продолжает пополнять импровизированный морг в Сеуте",
+    "source": "El País",
+    "created_at": "2026-08-02T20:15:24.095810+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/6a6ed4549a7947a2b087077d",
+    "title": "Силы ПВО перехватили 245 БПЛА над Россией за день",
+    "source": "РБК",
+    "created_at": "2026-08-02T20:15:24.095818+00:00"
   }
 ]
