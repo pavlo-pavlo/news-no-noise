@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/07/03/8042186/",
-    "title": "Число погибших в результате российского удара по Киеву возросло до 30",
-    "source": "Украинская правда",
-    "created_at": "2026-07-03T04:53:43.616036+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-economy/4140219-ukraine-and-germany-establish-more-than-ten-joint-defense-ventures-makeev-says.html",
-    "title": "Украина и Германия создают более десяти совместных оборонных предприятий, сообщает Макеев",
-    "source": "Укринформ",
-    "created_at": "2026-07-03T04:53:43.616051+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-polytics/4139949-nearly-all-parliamentary-faction-leaders-support-amending-lithuanias-constitution-on-nuclear-weapons-nauseda-says.html",
-    "title": "Президент Науседа: Почти все лидеры парламентских фракций поддерживают поправки к Конституции Литвы о ядерном оружии",
-    "source": "Укринформ",
-    "created_at": "2026-07-03T04:53:43.616059+00:00"
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/cvgm4e0316zo?at_medium=RSS&at_campaign=rss",
     "title": "В Индии Instagram размещает рекламу материалов о сексуальном насилии над детьми, сообщает BBC",
     "source": "BBC World",
@@ -4768,5 +4750,23 @@
     "title": "Гражданская инфраструктура повреждена в Саратове и Энгельсе после атаки БПЛА, есть пострадавшие",
     "source": "Интерфакс",
     "created_at": "2026-08-02T04:32:59.344662+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-01/la-desgracia-sumergida-en-la-frontera-de-ceuta-hay-mas-muertos-en-el-mar.html",
+    "title": "Трагедия на границе Сеуты: найдены тела 67 жертв, власти готовят морг",
+    "source": "El País",
+    "created_at": "2026-08-02T07:39:46.730152+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/02/8046887/",
+    "title": "Венгрия впервые за 44 года полностью остановит работу единственной АЭС",
+    "source": "Украинская правда",
+    "created_at": "2026-08-02T07:39:46.730166+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/internacional/2026/08/01/6a6b96e221efa08a058b45b0.html",
+    "title": "Альянс России и Ирана сплавляет войны на Украине и в Персидском заливе",
+    "source": "El Mundo",
+    "created_at": "2026-08-02T07:39:46.730174+00:00"
   }
 ]
