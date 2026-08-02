@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.rbc.ru/politics/03/07/2026/6a47e2de9a79475d664932fe",
-    "title": "Президент Литвы назвал условие, которое может расколоть НАТО",
-    "source": "РБК",
-    "created_at": "2026-07-03T16:44:11.191102+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/espana/2026/07/03/6a47a6a821efa050368b45b3.html",
-    "title": "Налоговая служба Испании расследует дела в отношении бывшего президента Сапатеро и его семьи",
-    "source": "El Mundo",
-    "created_at": "2026-07-03T16:44:11.191116+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c0ry4xx7rk8o?at_medium=RSS&at_campaign=rss",
-    "title": "NASA запустила миссию по спасению падающего космического телескопа",
-    "source": "BBC World",
-    "created_at": "2026-07-03T16:44:11.191123+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4140543-russians-attack-dnipropetrovsk-region-more-than-50-times-since-morning-killing-three-and-injuring-12.html",
     "title": "Российские войска атаковали Днепропетровскую область, есть погибшие и раненые",
     "source": "Укринформ",
@@ -4786,5 +4768,23 @@
     "title": "Пять человек погибли, 41 пропал без вести в Индонезии после пожара на пароме",
     "source": "BBC World",
     "created_at": "2026-08-02T16:10:47.119124+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1107073",
+    "title": "Ребенок погиб, двое детей ранены при атаке БПЛА в Белгородской области",
+    "source": "Интерфакс",
+    "created_at": "2026-08-02T18:08:53.113422+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss",
+    "title": "В результате израильских ударов по Газе погибли не менее 13 человек",
+    "source": "BBC World",
+    "created_at": "2026-08-02T18:08:53.113451+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/08/02/6a6f15e6fdddfff0508b458e.html",
+    "title": "Правительство Испании заявило об отсутствии информации о массовом наплыве 60 тысяч человек в Сеуту",
+    "source": "El Mundo",
+    "created_at": "2026-08-02T18:08:53.113459+00:00"
   }
 ]
