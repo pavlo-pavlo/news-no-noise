@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4140408-ssu-strikes-aircraft-hangars-drone-facilities-at-saky-and-hvardiiske-airbases-in-occupied-crimea.html",
-    "title": "СБУ нанесла удары по авиационным ангарам и объектам беспилотников на авиабазах Саки и Гвардейское в оккупированном Крыму",
-    "source": "Укринформ",
-    "created_at": "2026-07-03T11:40:48.652580+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1100957",
-    "title": "В проекте Минобороны отмечено наращивание Россией потенциала морских стратегических ядерных и неядерных сил",
-    "source": "Интерфакс",
-    "created_at": "2026-07-03T11:40:48.652594+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c3ry307rxqro?at_medium=RSS&at_campaign=rss",
-    "title": "Франция зафиксировала 2025 избыточных смертей на пике жары, пока Европа готовится к новым экстремальным погодным условиям",
-    "source": "BBC World",
-    "created_at": "2026-07-03T11:40:48.652602+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4140496-search-operations-conclude-at-destroyed-ninestory-building-in-kyiv-russian-attack-kills-30-people.html",
     "title": "В Киеве завершены поисковые работы в разрушенном девятиэтажном здании: в результате российской атаки погибли 30 человек",
     "source": "Укринформ",
@@ -4768,5 +4750,23 @@
     "title": "Страны ОПЕК+ договорились увеличить добычу нефти в сентябре",
     "source": "Интерфакс",
     "created_at": "2026-08-02T10:06:35.567712+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/08/02/6a6ee8ea21efa00d138b456e.html",
+    "title": "Испания развернула крупный морг в Сеуте из-за миграционной трагедии",
+    "source": "El Mundo",
+    "created_at": "2026-08-02T12:11:53.743963+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/business/1107034",
+    "title": "Страны ОПЕК+ увеличат квоты по добыче нефти на сентябрь",
+    "source": "Интерфакс",
+    "created_at": "2026-08-02T12:11:53.743977+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1107038",
+    "title": "Белоруссия создает десантно-штурмовую бригаду на границе с Украиной",
+    "source": "Интерфакс",
+    "created_at": "2026-08-02T12:11:53.743984+00:00"
   }
 ]
