@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4140659-oil-terminal-hit-in-st-petersburg-blackout-reported-in-belgorod-after-drone-attacks-social-media-reports.html",
-    "title": "Атака БПЛА на нефтяной терминал в Санкт-Петербурге",
-    "source": "Укринформ",
-    "created_at": "2026-07-04T07:58:15.517651+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4140619-russian-forces-launch-1106-attacks-across-zaporizhzhia-region-over-past-day-killing-two-people-and-injuring-39-others.html",
-    "title": "Более тысячи атак российских войск по Запорожской области, есть погибшие и раненые",
-    "source": "Укринформ",
-    "created_at": "2026-07-04T07:58:15.517673+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/04/8042353/",
-    "title": "Нидерланды согласились принять Спецтрибунал по России",
-    "source": "Украинская правда",
-    "created_at": "2026-07-04T07:58:15.517687+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4140714-russian-forces-strike-sumy-region-nearly-45-times-in-24-hours-authorities-update-death-and-injury-toll.html",
     "title": "Российские войска нанесли почти 45 ударов по Сумской области за сутки: власти обновили данные о погибших и раненых",
     "source": "Укринформ",
@@ -4786,5 +4768,23 @@
     "title": "Пакистан и Катар направят представителей на готовящиеся переговоры США и Ирана",
     "source": "Интерфакс",
     "created_at": "2026-08-03T07:39:53.507256+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4150499-one-killed-31-injured-in-russian-guided-bomb-attack-on-zaporizhzhia-as-search-operation-ends.html",
+    "title": "Один погиб, 31 ранен в результате атаки российской управляемой бомбой на Запорожье, поисковая операция завершена",
+    "source": "Укринформ",
+    "created_at": "2026-08-03T11:39:57.673327+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/08/03/6a706cfd21efa03b408b4592.html",
+    "title": "Фон дер Ляйен указывает на Марокко в связи с кризисом в Сеуте: «Нельзя допускать попыток использовать нелегальную миграцию как средство давления» на Испанию",
+    "source": "El Mundo",
+    "created_at": "2026-08-03T11:39:57.673342+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/03/8047017/",
+    "title": "Зеленский назначил Умерова главой СВР и рассказал, чем тот будет заниматься",
+    "source": "Украинская правда",
+    "created_at": "2026-08-03T11:39:57.673351+00:00"
   }
 ]
