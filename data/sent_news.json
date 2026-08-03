@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4140714-russian-forces-strike-sumy-region-nearly-45-times-in-24-hours-authorities-update-death-and-injury-toll.html",
-    "title": "Российские войска нанесли почти 45 ударов по Сумской области за сутки: власти обновили данные о погибших и раненых",
-    "source": "Укринформ",
-    "created_at": "2026-07-04T12:14:43.699420+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cevlkzer7vdo?at_medium=RSS&at_campaign=rss",
-    "title": "Из-за сильной жары отменены мероприятия в честь Дня независимости США от Вашингтона до Филадельфии",
-    "source": "BBC World",
-    "created_at": "2026-07-04T12:14:43.699433+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/04/8042373/",
-    "title": "Генштаб Украины сообщил о поражении нефтяного терминала, базы Балтийского флота в Кронштадте и моста",
-    "source": "Украинская правда",
-    "created_at": "2026-07-04T12:14:43.699441+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro?at_medium=RSS&at_campaign=rss",
-    "title": "Украина нанесла удар по крупному нефтяному терминалу в российском Санкт-Петербурге",
-    "source": "BBC World",
-    "created_at": "2026-07-04T14:44:50.441905+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1101191",
-    "title": "Военные РФ нанесли удары по топливно-энергетической и транспортной инфраструктуре Украины",
-    "source": "Интерфакс",
-    "created_at": "2026-07-04T14:44:50.441919+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4140788-russia-attacks-dtek-mine-management-facility-in-dnipropetrovsk-region-one-dead-and-several-injured.html",
-    "title": "Россия атаковала объект управления шахтой ДТЭК в Днепропетровской области, один погибший и несколько раненых",
-    "source": "Укринформ",
-    "created_at": "2026-07-04T14:44:50.441927+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-polytics/4140798-ukraine-urgently-needs-patriot-missiles-and-tougher-sanctions-on-russia-zelensky-says.html",
     "title": "Зеленский заявил, что Украине срочно нужны ракеты Patriot и ужесточение санкций против России",
     "source": "Укринформ",
@@ -4786,5 +4750,23 @@
     "title": "Зеленский назначил Умерова главой СВР и рассказал, чем тот будет заниматься",
     "source": "Украинская правда",
     "created_at": "2026-08-03T11:39:57.673351+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/ce85097leydo?at_medium=RSS&at_campaign=rss",
+    "title": "Удар армейского беспилотника в Судане по заседанию суда убил 35 человек, заявляют правозащитники",
+    "source": "BBC World",
+    "created_at": "2026-08-03T15:11:34.234219+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss",
+    "title": "Уровень Рейна достиг рекордно низких отметок, засуха наносит ущерб рекам Европы",
+    "source": "BBC World",
+    "created_at": "2026-08-03T15:11:34.234236+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/internacional/2026/08/03/6a70a4a4fc6c8370688b4595.html",
+    "title": "Израиль усиливает бомбардировки в Газе после заявления ХАМАС о разоружении",
+    "source": "El Mundo",
+    "created_at": "2026-08-03T15:11:34.234245+00:00"
   }
 ]
