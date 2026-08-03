@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-society/4140366-mod-preparing-military-recruitment-office-reform-reviewing-rights-violation-complaints.html",
-    "title": "Минобороны Украины готовит реформу военкоматов и рассматривает жалобы на нарушения прав",
-    "source": "Укринформ",
-    "created_at": "2026-07-04T04:46:36.426002+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/internacional/2026/07/03/6a47cdc9e4d4d8d8628b458c.html",
-    "title": "Лампедуза, от символа гостеприимства до острова высылки иммигрантов",
-    "source": "El Mundo",
-    "created_at": "2026-07-04T04:46:36.426013+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c20y2p9qqqko?at_medium=RSS&at_campaign=rss",
-    "title": "Страдающие семьи вынуждены опознавать жертв землетрясения в Венесуэле во временном морге",
-    "source": "BBC World",
-    "created_at": "2026-07-04T04:46:36.426018+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4140659-oil-terminal-hit-in-st-petersburg-blackout-reported-in-belgorod-after-drone-attacks-social-media-reports.html",
     "title": "Атака БПЛА на нефтяной терминал в Санкт-Петербурге",
     "source": "Укринформ",
@@ -4786,5 +4768,23 @@
     "title": "Европа отказывается от миграционной модели Педро Санчеса",
     "source": "El Mundo",
     "created_at": "2026-08-03T03:48:38.242534+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/salud/2026/08/03/6a6cb1fb21efa0fa538b459c.html",
+    "title": "В Испании более 3000 человек погибли из-за жары за три месяца",
+    "source": "El Mundo",
+    "created_at": "2026-08-03T07:39:53.507233+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/6a6b5d969a79471b897d6ce7",
+    "title": "На всей территории Кубы отключили электричество",
+    "source": "РБК",
+    "created_at": "2026-08-03T07:39:53.507248+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1107130",
+    "title": "Пакистан и Катар направят представителей на готовящиеся переговоры США и Ирана",
+    "source": "Интерфакс",
+    "created_at": "2026-08-03T07:39:53.507256+00:00"
   }
 ]
