@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4140982-russia-launched-nearly-2200-drones-over-1730-guided-bombs-and-106-missiles-against-ukraine-in-one-week-zelensky.html",
-    "title": "Зеленский: за неделю Россия выпустила почти 2200 дронов, более 1730 управляемых бомб и 106 ракет по Украине",
-    "source": "Укринформ",
-    "created_at": "2026-07-05T15:25:35.721604+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/espana/2026/07/04/6a49389921efa0d0538b45b4.html",
-    "title": "В делах, связанных с премьером Санчесом, фигурируют уже 126 обвиняемых",
-    "source": "El Mundo",
-    "created_at": "2026-07-05T15:25:35.721621+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/rbcfreenews/6a430f629a7947821d2b8d2e",
-    "title": "Секретные документы Минобороны Британии обнаружены на помойке",
-    "source": "РБК",
-    "created_at": "2026-07-05T15:25:35.721629+00:00"
-  },
-  {
     "url": "https://www.pravda.com.ua/news/2026/07/05/8042518/",
     "title": "Россияне атаковали Запорожье: один человек погиб, есть раненые",
     "source": "Украинская правда",
@@ -4768,5 +4750,23 @@
     "title": "Министр Марласка: 70 000 из 72 000 мигрантов, прибывших в Сеуту, вернулись в Марокко",
     "source": "El País",
     "created_at": "2026-08-04T12:11:22.789972+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-economy/4151028-zaporizhzhia-npp-in-blackout-for-about-an-hour-energoatom.html",
+    "title": "Запорожская АЭС обесточена примерно на час – Энергоатом",
+    "source": "Укринформ",
+    "created_at": "2026-08-04T15:33:01.799007+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-04/marlaska-insiste-en-que-el-cni-no-alerto-de-una-llegada-masiva-de-migrantes-a-ceuta.html",
+    "title": "Министр Марласка настаивает, что CNI не предупреждал о массовом прибытии мигрантов в Сеуту",
+    "source": "El País",
+    "created_at": "2026-08-04T15:33:01.799022+00:00"
+  },
+  {
+    "url": "https://elpais.com/clima-y-medio-ambiente/2026-08-04/centrales-paradas-puertos-vacios-la-gran-sequia-europea-causa-estragos-en-los-grandes-rios-del-continente.html",
+    "title": "Остановленные реакторы, пустые порты: сильная засуха в Европе наносит ущерб крупным рекам континента",
+    "source": "El País",
+    "created_at": "2026-08-04T15:33:01.799030+00:00"
   }
 ]
