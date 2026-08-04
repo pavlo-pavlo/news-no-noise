@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4140966-defense-forces-strike-airfield-in-crimea-russian-ammunition-depots-and-bridges.html",
-    "title": "Силы обороны Украины нанесли удары по аэродрому в Крыму, складам боеприпасов и мостам",
-    "source": "Укринформ",
-    "created_at": "2026-07-05T11:46:04.543415+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1101282",
-    "title": "СМИ: Переговоры США и Ирана пройдут в Пакистане или Швейцарии",
-    "source": "Интерфакс",
-    "created_at": "2026-07-05T11:46:04.543430+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cr7xpgx50jxo?at_medium=RSS&at_campaign=rss",
-    "title": "Эвакуация на Гуаме в связи с приближением супертайфуна «Бави»",
-    "source": "BBC World",
-    "created_at": "2026-07-05T11:46:04.543437+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4140982-russia-launched-nearly-2200-drones-over-1730-guided-bombs-and-106-missiles-against-ukraine-in-one-week-zelensky.html",
     "title": "Зеленский: за неделю Россия выпустила почти 2200 дронов, более 1730 управляемых бомб и 106 ракет по Украине",
     "source": "Укринформ",
@@ -4768,5 +4750,23 @@
     "title": "Пять человек погибли в Московской области на фоне продолжения украинских ударов по складам",
     "source": "BBC World",
     "created_at": "2026-08-04T09:46:31.323918+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4150938-russians-drop-two-aerial-bombs-on-kramatorsk-injuring-15-civilians.html",
+    "title": "Российские войска сбросили две авиабомбы на Краматорск, ранены 15 мирных жителей",
+    "source": "Укринформ",
+    "created_at": "2026-08-04T12:11:22.789950+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/21/07/2026/6a5f7dd19a7947f41f6ac312",
+    "title": "Еврокомиссия пообещала добиться полного запрета российской энергии в ЕС",
+    "source": "РБК",
+    "created_at": "2026-08-04T12:11:22.789964+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-04/ultima-hora-de-la-entrada-de-inmigrantes-a-ceuta-en-directo.html",
+    "title": "Министр Марласка: 70 000 из 72 000 мигрантов, прибывших в Сеуту, вернулись в Марокко",
+    "source": "El País",
+    "created_at": "2026-08-04T12:11:22.789972+00:00"
   }
 ]
