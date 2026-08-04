@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/07/05/8042518/",
-    "title": "Россияне атаковали Запорожье: один человек погиб, есть раненые",
-    "source": "Украинская правда",
-    "created_at": "2026-07-05T17:24:51.220431+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
-    "title": "Верховный лидер Ирана отсутствует на похоронах аятоллы",
-    "source": "BBC World",
-    "created_at": "2026-07-05T17:24:51.220444+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/espana/2026/07/05/6a49264521efa085098b4590.html",
-    "title": "Миллион аргентинцев подают заявки на испанский паспорт по Закону о памяти",
-    "source": "El Mundo",
-    "created_at": "2026-07-05T17:24:51.220452+00:00"
-  },
-  {
     "url": "https://www.pravda.com.ua/news/2026/07/05/8042520/",
     "title": "Зеленский: Разведка сообщает о подготовке Россией нового массированного удара",
     "source": "Украинская правда",
@@ -4768,5 +4750,23 @@
     "title": "Остановленные реакторы, пустые порты: сильная засуха в Европе наносит ущерб крупным рекам континента",
     "source": "El País",
     "created_at": "2026-08-04T15:33:01.799030+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4151080-nearly-8000-firefights-and-record-number-of-guided-munitions-general-staff-reports-on-intense-july.html",
+    "title": "Почти 8 000 боестолкновений и рекордное количество управляемых боеприпасов: Генштаб сообщает о напряженном июле",
+    "source": "Укринформ",
+    "created_at": "2026-08-04T18:01:18.891488+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/technology_and_media/02/08/2026/6a6f997f9a79477d3808466a",
+    "title": "Первый в мире проект по захоронению ядерного топлива одобрили в Финляндии",
+    "source": "РБК",
+    "created_at": "2026-08-04T18:01:18.891504+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&at_campaign=rss",
+    "title": "ЕС высоко оценил «быструю реакцию» Испании на миграционный кризис в Сеуте",
+    "source": "BBC World",
+    "created_at": "2026-08-04T18:01:18.891512+00:00"
   }
 ]
