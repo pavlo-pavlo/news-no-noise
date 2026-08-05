@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/07/06/8042543/",
-    "title": "Российская ракета попала в девятиэтажку на Подоле: в Киеве уже 9 погибших и 46 раненых",
-    "source": "Украинская правда",
-    "created_at": "2026-07-06T04:25:06.419787+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/06/8042549/",
-    "title": "В Конго начали экспериментальное лечение редкого штамма Эболы, унесшего более 500 жизней",
-    "source": "Украинская правда",
-    "created_at": "2026-07-06T04:25:06.419800+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-economy/4141057-ukrainian-drones-hit-russian-oil-refineries-nearly-200-times-in-2026-ft.html",
-    "title": "Украинские беспилотники нанесли почти 200 ударов по российским нефтеперерабатывающим заводам в 2026 году – FT",
-    "source": "Укринформ",
-    "created_at": "2026-07-06T04:25:06.419809+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4141195-zelensky-shortage-of-interceptor-missiles-behind-problems-intercepting-ballistic-missiles.html",
     "title": "Зеленский: Дефицит ракет-перехватчиков мешает перехвату баллистических ракет",
     "source": "Укринформ",
@@ -4786,5 +4768,23 @@
     "title": "Судно под индийским флагом затонуло у берегов Йемена после попадания снаряда",
     "source": "BBC World",
     "created_at": "2026-08-04T23:15:30.801328+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-05/un-hangar-a-5-para-custodiar-a-los-77-fallecidos-que-dejo-la-avalancha-de-ceuta.html",
+    "title": "Ангар при -5° для хранения тел 77 погибших, оставшихся после давки в Сеуте",
+    "source": "El País",
+    "created_at": "2026-08-05T06:38:41.363716+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4151165-fourteen-people-killed-and-27-wounded-in-overnight-russian-attack-on-kyiv-region.html",
+    "title": "Четырнадцать человек погибли и 27 ранены в результате ночной российской атаки на Киевскую область",
+    "source": "Укринформ",
+    "created_at": "2026-08-05T06:38:41.363730+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/internacional/2026/08/04/6a7205e5e9cf4a48258b45a5.html",
+    "title": "Иран выводит Вашингтон из себя, ведя переговоры с Оманом об управлении Ормузским проливом",
+    "source": "El Mundo",
+    "created_at": "2026-08-05T06:38:41.363738+00:00"
   }
 ]
