@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4141401-death-toll-in-russian-attack-on-kyiv-rises-to-15-with-56-injured.html",
-    "title": "Число погибших в результате российского удара по Киеву возросло до 15 человек",
-    "source": "Укринформ",
-    "created_at": "2026-07-06T17:12:49.459856+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/06/8042691/",
-    "title": "Принятие 21-го пакета санкций ЕС против России может быть отложено до осени",
-    "source": "Украинская правда",
-    "created_at": "2026-07-06T17:12:49.459870+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1101555",
-    "title": "Лондонский суд отказал оператору \"Северных потоков\" в страховых выплатах на 580 млн евро",
-    "source": "Интерфакс",
-    "created_at": "2026-07-06T17:12:49.459879+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4141473-upgraded-fire-point-drones-hit-oil-refinery-in-omsk-zelensky.html",
     "title": "Обновленные дроны Fire Point атаковали нефтеперерабатывающий завод в Омске – Зеленский",
     "source": "Укринформ",
@@ -4804,5 +4786,23 @@
     "title": "Гражданская гвардия разыскивает 6000 мигрантов в Сеуте для принудительного возвращения в Марокко",
     "source": "El Mundo",
     "created_at": "2026-08-05T15:24:42.295269+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c75gvzxrz49o?at_medium=RSS&at_campaign=rss",
+    "title": "Глава ООН по правам человека обеспокоен ростом казней в Иране с марта",
+    "source": "BBC World",
+    "created_at": "2026-08-05T17:51:17.998273+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4151447-fire-breaks-out-at-russias-main-missile-research-center-near-moscow.html",
+    "title": "Пожар произошел в главном ракетном научном центре России под Москвой",
+    "source": "Укринформ",
+    "created_at": "2026-08-05T17:51:17.998287+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4151471-reduced-air-defense-missile-deliveries-may-be-an-attempt-to-make-ukraine-more-compliant-zelensky.html",
+    "title": "Зеленский: Сокращение поставок ракет ПВО может быть попыткой сделать Украину более сговорчивой",
+    "source": "Укринформ",
+    "created_at": "2026-08-05T17:51:17.998295+00:00"
   }
 ]
