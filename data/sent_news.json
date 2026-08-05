@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/07/07/8042730/",
-    "title": "В Киеве число погибших в результате российского удара возросло до 18 – ГСЧС",
-    "source": "Украинская правда",
-    "created_at": "2026-07-06T22:23:11.396008+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1101579",
-    "title": "Главы 32 стран НАТО соберутся во вторник в столице Турции Анкаре",
-    "source": "Интерфакс",
-    "created_at": "2026-07-06T22:23:11.396021+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c5yzzzdwqjko?at_medium=RSS&at_campaign=rss",
-    "title": "Более 1000 арестованы в ходе глобальной операции по борьбе с торговлей людьми",
-    "source": "BBC World",
-    "created_at": "2026-07-06T22:23:11.396030+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4141481-death-toll-after-russian-attack-on-kyiv-rises-to-16-56-injured.html",
     "title": "Число погибших в Киеве после российской атаки возросло до 16, 56 ранены",
     "source": "Укринформ",
@@ -4822,5 +4804,23 @@
     "title": "Иран заявил о согласовании морского маршрута в Ормузском проливе с Оманом",
     "source": "BBC World",
     "created_at": "2026-08-05T21:22:21.529722+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-society/4151311-polish-volunteer-killed-in-ukraine-due-to-russian-attack.html",
+    "title": "Польский волонтёр погиб в Украине из-за российской атаки",
+    "source": "Укринформ",
+    "created_at": "2026-08-05T23:14:31.883202+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/05/08/2026/6a72e52d9a7947c6b6f3d631",
+    "title": "Reuters: Иран получил контроль над судами в Ормузском проливе по сделке с Оманом",
+    "source": "РБК",
+    "created_at": "2026-08-05T23:14:31.883217+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss",
+    "title": "В немецком аэропорту обнаружен беспилотник со взрывчаткой",
+    "source": "BBC World",
+    "created_at": "2026-08-05T23:14:31.883225+00:00"
   }
 ]
