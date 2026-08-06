@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4141692-isw-russia-deliberately-launches-massive-attack-on-ukraine-ahead-of-nato-summit.html",
-    "title": "ИСВ: Россия преднамеренно нанесла массированный удар по Украине перед саммитом НАТО",
-    "source": "Укринформ",
-    "created_at": "2026-07-07T12:08:27.792223+00:00"
-  },
-  {
-    "url": "https://elpais.com/economia/2026-07-07/el-gobierno-eleva-el-techo-de-gasto-hasta-un-record-de-226032-millones-para-2027.html",
-    "title": "Правительство Испании повысило потолок расходов до рекордных 226,032 млрд евро на 2027 год",
-    "source": "El País",
-    "created_at": "2026-07-07T12:08:27.792237+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/business/1101741",
-    "title": "Валютные резервы КНР снизились в июне, запасы золота выросли до максимума за 2,5 года",
-    "source": "Интерфакс",
-    "created_at": "2026-07-07T12:08:27.792245+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-polytics/4141812-ukraine-and-russia-close-to-reaching-peace-agreement-trump.html",
     "title": "Трамп: Украина и Россия близки к достижению мирного соглашения",
     "source": "Укринформ",
@@ -4822,5 +4804,23 @@
     "title": "Китайскую шпионскую программу обнаружили в 13 странах",
     "source": "РБК",
     "created_at": "2026-08-06T09:47:53.440899+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/internacional/2026/08/05/6a7361e4e85ece5c188b4572.html",
+    "title": "Мировая нехватка перехватчиков Patriot вынуждает Украину менять стратегию",
+    "source": "El Mundo",
+    "created_at": "2026-08-06T12:11:43.592172+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/internacional/2026/08/06/6a71ee17e9cf4aa43e8b456e.html",
+    "title": "Китайская разведка считает, что за миграционным кризисом в Сеуте может стоять Моссад",
+    "source": "El Mundo",
+    "created_at": "2026-08-06T12:11:43.592186+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/society/06/08/2026/6a744ac29a794750504f3d63",
+    "title": "Засуха в Европе привела к рекордному обмелению Дуная и Рейна",
+    "source": "РБК",
+    "created_at": "2026-08-06T12:11:43.592194+00:00"
   }
 ]
