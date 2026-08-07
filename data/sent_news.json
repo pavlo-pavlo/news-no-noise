@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4141971-woman-killed-and-two-people-injured-in-kyiv-during-russian-missile-attack-overnight.html",
-    "title": "Женщина погибла, двое ранены в Киеве в результате российской ракетной атаки",
-    "source": "Укринформ",
-    "created_at": "2026-07-08T07:39:47.826642+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/08/8042979/",
-    "title": "Дроны СБУ атаковали авиабазу «Джанкой», порт в Керчи и нарушили логистику российских военных",
-    "source": "Украинская правда",
-    "created_at": "2026-07-08T07:39:47.826656+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1101917",
-    "title": "Иран начал новую волну ударов по Бахрейну",
-    "source": "Интерфакс",
-    "created_at": "2026-07-08T07:39:47.826666+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/internacional/2026/07/08/6a4e20ee21efa0413f8b45af.html",
-    "title": "Трамп объявил о прекращении перемирия с Ираном",
-    "source": "El Mundo",
-    "created_at": "2026-07-08T10:30:09.949261+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/internacional/2026/07/08/6a4e096de4d4d89b508b45af.html",
-    "title": "Трамп пригрозил Испании прекращением торговли из-за расходов на оборону",
-    "source": "El Mundo",
-    "created_at": "2026-07-08T10:30:09.949276+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4142082-special-operations-forces-strike-two-oil-refineries-in-tatarstan.html",
-    "title": "Силы специальных операций Украины нанесли удар по двум НПЗ в Татарстане",
-    "source": "Укринформ",
-    "created_at": "2026-07-08T10:30:09.949284+00:00"
-  },
-  {
     "url": "https://elpais.com/internacional/2026-07-08/iran-responde-a-los-ultimos-bombardeos-de-estados-unidos-atacando-barein-y-kuwait.html",
     "title": "Трамп объявил о прекращении перемирия с Ираном",
     "source": "El País",
@@ -4786,5 +4750,23 @@
     "title": "Трамп вновь пытается ограничить гражданство США по праву рождения новыми указами",
     "source": "BBC World",
     "created_at": "2026-08-07T05:48:38.941186+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4152033-death-toll-after-russian-shelling-of-kyiv-on-august-5-increases-man-dies-in-hospital.html",
+    "title": "Число погибших после российского обстрела Киева 5 августа возросло: мужчина скончался в больнице",
+    "source": "Укринформ",
+    "created_at": "2026-08-07T11:04:26.015170+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4152004-eu-imposes-new-sanctions-on-russia-in-response-to-shelling-of-ukraine.html",
+    "title": "ЕС ввел новые санкции против России в ответ на обстрелы Украины",
+    "source": "Укринформ",
+    "created_at": "2026-08-07T11:04:26.015184+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-07/ultima-hora-de-la-entrada-de-inmigrantes-a-ceuta-en-directo.html",
+    "title": "Правительство Испании выдвинуло ультиматум Италии по пограничному контролю и зарегистрировало 1342 несовершеннолетних мигрантов в Сеуте",
+    "source": "El País",
+    "created_at": "2026-08-07T11:04:26.015193+00:00"
   }
 ]
