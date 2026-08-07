@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-polytics/4142246-trump-us-may-grant-ukraine-license-to-manufacture-patriot-missiles.html",
-    "title": "Трамп: США могут предоставить Украине лицензию на производство ракет Patriot",
-    "source": "Укринформ",
-    "created_at": "2026-07-08T15:31:32.683989+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/videos/cn94nqzwpxwo?at_medium=RSS&at_campaign=rss",
-    "title": "США нанесли удары по иранским военным катерам",
-    "source": "BBC World",
-    "created_at": "2026-07-08T15:31:32.684001+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/economics/08/07/2026/6a4e67a09a79475971d7ce84",
-    "title": "Новак сообщил о запрете на экспорт дизтоплива в России",
-    "source": "РБК",
-    "created_at": "2026-07-08T15:31:32.684021+00:00"
-  },
-  {
     "url": "https://www.interfax.ru/world/1102116",
     "title": "Президент США заявил, что Иран никогда не получит ядерное оружие",
     "source": "Интерфакс",
@@ -4804,5 +4786,23 @@
     "title": "Администрация Трампа выплатит немецкой фирме $1,2 млрд за прекращение проектов ветроэнергетики в США",
     "source": "BBC World",
     "created_at": "2026-08-07T15:05:05.520605+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-07/el-gobierno-amenaza-con-represalias-a-italia-si-no-retira-los-controles-fronterizos-a-viajeros-procedentes-de-espana.html",
+    "title": "Италия отклонила ультиматум Испании и сохранит пограничный контроль",
+    "source": "El País",
+    "created_at": "2026-08-07T16:08:08.716589+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-07/las-ong-de-marruecos-elevan-a-141-la-cifra-de-muertos-a-ambos-lados-de-la-frontera-de-ceuta.html",
+    "title": "Марокканские НПО сообщили о 141 погибшем по обе стороны границы Сеуты",
+    "source": "El País",
+    "created_at": "2026-08-07T16:08:08.716602+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-economy/4152090-russians-carry-out-287-attacks-on-naftogaz-facilities-since-beginning-of-2026.html",
+    "title": "Россия совершила 287 атак на объекты \"Нафтогаза\" с начала 2026 года",
+    "source": "Укринформ",
+    "created_at": "2026-08-07T16:08:08.716608+00:00"
   }
 ]
