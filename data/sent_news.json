@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.interfax.ru/world/1102116",
-    "title": "Президент США заявил, что Иран никогда не получит ядерное оружие",
-    "source": "Интерфакс",
-    "created_at": "2026-07-08T17:49:59.639719+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/politics/08/07/2026/6a4e4b999a7947d2fc0f7c64",
-    "title": "Трамп о получении США «доли» земли на Украине",
-    "source": "РБК",
-    "created_at": "2026-07-08T17:49:59.639733+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cq819jyp2g7o?at_medium=RSS&at_campaign=rss",
-    "title": "Немецкий врач приговорен к пожизненному заключению за убийство 15 пациентов",
-    "source": "BBC World",
-    "created_at": "2026-07-08T17:49:59.639740+00:00"
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/clyw8w1g409o?at_medium=RSS&at_campaign=rss",
     "title": "Трамп угрожает новыми ударами по Ирану, Тегеран предупреждает о «бесстрашном» ответе",
     "source": "BBC World",
@@ -4804,5 +4786,23 @@
     "title": "Россия совершила 287 атак на объекты \"Нафтогаза\" с начала 2026 года",
     "source": "Укринформ",
     "created_at": "2026-08-07T16:08:08.716608+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1108149",
+    "title": "Сенат США проголосовал за законопроект о новых санкциях против России",
+    "source": "Интерфакс",
+    "created_at": "2026-08-07T17:57:04.976008+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4152142-unmanned-aerial-systems-strike-six-more-russian-shadow-fleet-vessels-and-fsb-base-in-kherson-region.html",
+    "title": "Украинские беспилотники атаковали шесть судов \"теневого флота\" РФ, базу ФСБ и другие объекты",
+    "source": "Укринформ",
+    "created_at": "2026-08-07T17:57:04.976023+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
+    "title": "Испания пригрозила ответными мерами, если Италия не отменит пограничный контроль после инцидентов в Сеуте",
+    "source": "BBC World",
+    "created_at": "2026-08-07T17:57:04.976029+00:00"
   }
 ]
