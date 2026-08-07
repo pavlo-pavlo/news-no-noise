@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/07/08/8042954/",
-    "title": "США нанесли новые удары по объектам в Иране",
-    "source": "Украинская правда",
-    "created_at": "2026-07-08T04:26:39.763602+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/politics/08/07/2026/6a4dc4cc9a794754f0d728c7",
-    "title": "Губернатор сообщил о последствиях атаки БПЛА на Саратовскую область",
-    "source": "РБК",
-    "created_at": "2026-07-08T04:26:39.763615+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/ckg4e3lwzqzo?at_medium=RSS&at_campaign=rss",
-    "title": "Страны НАТО анонсировали проект по созданию ракет на £37 млрд",
-    "source": "BBC World",
-    "created_at": "2026-07-08T04:26:39.763623+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4141971-woman-killed-and-two-people-injured-in-kyiv-during-russian-missile-attack-overnight.html",
     "title": "Женщина погибла, двое ранены в Киеве в результате российской ракетной атаки",
     "source": "Укринформ",
@@ -4786,5 +4768,23 @@
     "title": "Отмена налоговых льгот на топливо вызвала самый агрессивный рост цен за 20 лет в Испании",
     "source": "El Mundo",
     "created_at": "2026-08-07T04:00:06.849834+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4151904-war-update-233-combat-clashes-on-frontline-over-past-day-heaviest-fighting-in-pokrovsk-and-kostiantynivka-sectors.html",
+    "title": "Обстановка на фронте: за сутки 233 боестолкновения, самые ожесточенные бои в Покровском и Константиновском секторах",
+    "source": "Укринформ",
+    "created_at": "2026-08-07T05:48:38.941167+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/business/1107998",
+    "title": "Экспорт Китая в июле вырос на 23,9%, импорт – на 27,5%",
+    "source": "Интерфакс",
+    "created_at": "2026-08-07T05:48:38.941179+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cj63966j95yo?at_medium=RSS&at_campaign=rss",
+    "title": "Трамп вновь пытается ограничить гражданство США по праву рождения новыми указами",
+    "source": "BBC World",
+    "created_at": "2026-08-07T05:48:38.941186+00:00"
   }
 ]
