@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://elpais.com/clima-y-medio-ambiente/2026-07-09/alemania-cifra-en-mas-de-5000-las-muertes-por-la-ola-de-calor-de-junio.html",
-    "title": "В Германии от июньской жары погибло более 5000 человек",
-    "source": "El País",
-    "created_at": "2026-07-09T16:09:16.959297+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c621k5r8764o?at_medium=RSS&at_campaign=rss",
-    "title": "Значительное сокращение судоходства с нефтью, газом и грузами через Ормузский пролив после новых ударов",
-    "source": "BBC World",
-    "created_at": "2026-07-09T16:09:16.959312+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c70yd1g67z5o?at_medium=RSS&at_campaign=rss",
-    "title": "Украина нанесла удары по российским судам вблизи Крыма, усиливая атаки на поставки топлива",
-    "source": "BBC World",
-    "created_at": "2026-07-09T16:09:16.959320+00:00"
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/cpv3e8y39j7o?at_medium=RSS&at_campaign=rss",
     "title": "Украинского агента обвиняют в убийстве подозреваемой во взрыве в Монако, он изменил показания",
     "source": "BBC World",
@@ -4984,5 +4966,23 @@
     "title": "Иран атаковал ракетами танкер эмиратской госнефтекомпании",
     "source": "РБК",
     "created_at": "2026-08-08T15:40:05.603661+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cewr898jy8go?at_medium=RSS&at_campaign=rss",
+    "title": "Бывший адвокат Трампа Тодд Бланш утвержден на пост генпрокурора США",
+    "source": "BBC World",
+    "created_at": "2026-08-08T16:48:27.268980+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/business/31/07/2026/6a6ce57c9a794720bfe3a4cc",
+    "title": "Зеленский заявил о почти полном отсутствии целых тепловых электростанций в Украине",
+    "source": "РБК",
+    "created_at": "2026-08-08T16:48:27.268994+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-08/el-asalto-multitudinario-a-ceuta-fue-una-operacion-organizada-y-no-un-movimiento-espontaneo.html",
+    "title": "Массовый штурм Сеуты был «организованной операцией, а не спонтанным движением»",
+    "source": "El País",
+    "created_at": "2026-08-08T16:48:27.269002+00:00"
   }
 ]
