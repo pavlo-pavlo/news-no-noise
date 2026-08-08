@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://elpais.com/internacional/2026-07-08/estados-unidos-cumple-la-amenaza-de-trump-y-lanza-duros-ataques-contra-iran.html",
-    "title": "США выполнили угрозу Трампа и нанесли жесткие удары по Ирану",
-    "source": "El País",
-    "created_at": "2026-07-09T04:09:06.036529+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/09/8043155/",
-    "title": "НАТО развернуло систему искусственного интеллекта от Palantir, готовясь к возможной войне с Россией – СМИ",
-    "source": "Украинская правда",
-    "created_at": "2026-07-09T04:09:06.036544+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-economy/4142147-ukraine-launches-29-water-supply-projects-under-regional-resilience-plans-kuleba.html",
-    "title": "Украина запустила 29 проектов водоснабжения в рамках региональных планов устойчивости – Кулеба",
-    "source": "Укринформ",
-    "created_at": "2026-07-09T04:09:06.036552+00:00"
-  },
-  {
     "url": "https://www.interfax.ru/world/1102220",
     "title": "Германия закупит у США ракеты Tomahawk для размещения на своей территории",
     "source": "Интерфакс",
@@ -4858,5 +4840,23 @@
     "title": "В Киеве и некоторых областях второй раз за ночь прозвучала тревога: враг ударил по столице баллистикой",
     "source": "Украинская правда",
     "created_at": "2026-08-08T02:14:18.581920+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/business/30/07/2026/6a6aeba89a79475b25e6bf6c",
+    "title": "Bloomberg: Украина пообещала США не атаковать КТК",
+    "source": "РБК",
+    "created_at": "2026-08-08T04:18:31.757651+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4152201-four-people-injured-in-russian-attack-on-kyiv.html",
+    "title": "В результате российской атаки на Киев пострадали четыре человека",
+    "source": "Укринформ",
+    "created_at": "2026-08-08T04:18:31.757666+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/08/08/6a761616e85ece59338b4597.html",
+    "title": "Европа возлагает на Испанию ответственность за миграционные меры в Сеуте",
+    "source": "El Mundo",
+    "created_at": "2026-08-08T04:18:31.757674+00:00"
   }
 ]
