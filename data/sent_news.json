@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4142521-zelensky-confirms-strikes-on-oil-infrastructure-facilities-in-four-russian-regions.html",
-    "title": "Зеленский подтвердил удары по объектам нефтяной инфраструктуры в четырех регионах России",
-    "source": "Укринформ",
-    "created_at": "2026-07-09T12:24:34.104510+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-polytics/4142540-eu-plans-to-open-cluster-6-in-ukraines-accession-negotiations-on-july-14.html",
-    "title": "ЕС планирует открыть Кластер 6 на переговорах о вступлении Украины 14 июля",
-    "source": "Укринформ",
-    "created_at": "2026-07-09T12:24:34.104528+00:00"
-  },
-  {
-    "url": "https://elpais.com/economia/2026-07-09/el-juez-sienta-en-el-banquillo-al-bbva-y-su-expresidente-francisco-gonzalez-por-los-espionajes-de-villarejo.html",
-    "title": "Судья отдал под суд BBVA и его экс-президента Франсиско Гонсалеса по делу о шпионаже Вильярехо",
-    "source": "El País",
-    "created_at": "2026-07-09T12:24:34.104536+00:00"
-  },
-  {
     "url": "https://elpais.com/clima-y-medio-ambiente/2026-07-09/alemania-cifra-en-mas-de-5000-las-muertes-por-la-ola-de-calor-de-junio.html",
     "title": "В Германии от июньской жары погибло более 5000 человек",
     "source": "El País",
@@ -4948,5 +4930,23 @@
     "title": "Российские дроны атакуют медиков в Украине",
     "source": "BBC World",
     "created_at": "2026-08-08T11:38:27.202286+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4152311-general-staff-defense-forces-strike-two-russian-oil-refineries-and-observation-post-on-sivash-drilling-rig-in-black-sea.html",
+    "title": "Генштаб: Силы обороны поразили два российских нефтеперерабатывающих завода и наблюдательный пункт в Черном море",
+    "source": "Укринформ",
+    "created_at": "2026-08-08T13:08:29.048193+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1108251",
+    "title": "Иран и Оман близки к соглашению по Ормузскому проливу, но его открытие зависит от действий США",
+    "source": "Интерфакс",
+    "created_at": "2026-08-08T13:08:29.048208+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
+    "title": "США пообещали Колумбии поддержку в размере $1 млрд после инаугурации президента, поддержанного Трампом",
+    "source": "BBC World",
+    "created_at": "2026-08-08T13:08:29.048217+00:00"
   }
 ]
