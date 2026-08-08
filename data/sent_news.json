@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.rbc.ru/politics/10/07/2026/6a5014599a794711e01712da",
-    "title": "WSJ узнала о плане Ирана убить Трампа по данным Израиля",
-    "source": "РБК",
-    "created_at": "2026-07-09T22:41:37.846233+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1102363",
-    "title": "Число жертв землетрясения в Венесуэле достигло почти 3,9 тыс. человек",
-    "source": "Интерфакс",
-    "created_at": "2026-07-09T22:41:37.846247+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1102359",
-    "title": "Количество сбитых БПЛА на подлете к Москве возросло до восьми",
-    "source": "Интерфакс",
-    "created_at": "2026-07-09T22:41:37.846254+00:00"
-  },
-  {
     "url": "https://www.interfax.ru/world/1102373",
     "title": "WSJ: Иран готовит новый план покушения на Трампа",
     "source": "Интерфакс",
@@ -5074,5 +5056,23 @@
     "title": "The Times узнала, как новые нефтедержавы заработали на Ормузском кризисе",
     "source": "РБК",
     "created_at": "2026-08-08T22:41:19.549390+00:00"
+  },
+  {
+    "url": "https://elpais.com/internacional/2026-08-08/la-crisis-de-ceuta-da-alas-a-los-partidarios-de-los-centros-de-deportacion-fuera-de-la-ue.html",
+    "title": "Кризис в Сеуте способствует созданию центров депортации мигрантов за пределами ЕС",
+    "source": "El País",
+    "created_at": "2026-08-08T23:39:45.602152+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-society/4152224-russians-close-dozens-of-schools-and-kindergartens-in-temporarily-occupied-territories-of-donetsk-region-ccd.html",
+    "title": "Россияне закрывают десятки школ и детских садов на временно оккупированных территориях Донецкой области — ЦПД",
+    "source": "Укринформ",
+    "created_at": "2026-08-08T23:39:45.602166+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/6a76e0709a7947651eac97ff",
+    "title": "При атаке на Белгород пострадали 11 взрослых и двое детей",
+    "source": "РБК",
+    "created_at": "2026-08-08T23:39:45.602174+00:00"
   }
 ]
