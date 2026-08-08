@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.interfax.ru/world/1102220",
-    "title": "Германия закупит у США ракеты Tomahawk для размещения на своей территории",
-    "source": "Интерфакс",
-    "created_at": "2026-07-09T08:48:07.574267+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-economy/4142421-russia-bans-diesel-exports-amid-ukrainian-attacks-on-oil-refineries.html",
-    "title": "Россия ввела запрет на экспорт дизельного топлива",
-    "source": "Укринформ",
-    "created_at": "2026-07-09T08:48:07.574280+00:00"
-  },
-  {
-    "url": "https://elpais.com/internacional/2026-07-09/estados-unidos-prepara-una-lista-de-productos-por-si-trump-decide-imponer-un-embargo-comercial-a-espana.html",
-    "title": "США готовят список для возможных торговых санкций против Испании",
-    "source": "El País",
-    "created_at": "2026-07-09T08:48:07.574287+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4142521-zelensky-confirms-strikes-on-oil-infrastructure-facilities-in-four-russian-regions.html",
     "title": "Зеленский подтвердил удары по объектам нефтяной инфраструктуры в четырех регионах России",
     "source": "Укринформ",
@@ -4894,5 +4876,23 @@
     "title": "Мелони против Санчеса: кризис в Сеуте углубляет раскол между Римом и Мадридом",
     "source": "El País",
     "created_at": "2026-08-08T07:09:21.008938+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/08/8047860/",
+    "title": "Зеленский: На Киевщине погибли 3-летний мальчик, его бабушка и дедушка, а родители ранены",
+    "source": "Украинская правда",
+    "created_at": "2026-08-08T08:55:05.053964+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/08/8047863/",
+    "title": "Украина поразила еще два НПЗ в России – Генштаб",
+    "source": "Украинская правда",
+    "created_at": "2026-08-08T08:55:05.053977+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/moscow/1108220",
+    "title": "Более 1,9 тыс. БПЛА летело в сторону Московского региона за первую неделю августа",
+    "source": "Интерфакс",
+    "created_at": "2026-08-08T08:55:05.053984+00:00"
   }
 ]
