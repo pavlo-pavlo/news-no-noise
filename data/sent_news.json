@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.bbc.co.uk/news/articles/cpv3e8y39j7o?at_medium=RSS&at_campaign=rss",
-    "title": "Украинского агента обвиняют в убийстве подозреваемой во взрыве в Монако, он изменил показания",
-    "source": "BBC World",
-    "created_at": "2026-07-09T20:55:31.495195+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4142729-zelensky-eight-partner-countries-will-help-ukraine-develop-ballistic-missile-defense-system.html",
-    "title": "Зеленский: Восемь стран-партнеров помогут Украине разработать систему противоракетной обороны",
-    "source": "Укринформ",
-    "created_at": "2026-07-09T20:55:31.495209+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-07-09/la-uco-implica-al-expresidente-de-correos-en-la-trama-para-desestabilizar-causas-que-salpicaban-al-psoe-y-al-gobierno.html",
-    "title": "UCO implicрует бывшего президента Correos в заговоре по «дестабилизации» дел, затрагивающих PSOE и правительство",
-    "source": "El País",
-    "created_at": "2026-07-09T20:55:31.495217+00:00"
-  },
-  {
     "url": "https://www.rbc.ru/politics/10/07/2026/6a5014599a794711e01712da",
     "title": "WSJ узнала о плане Ирана убить Трампа по данным Израиля",
     "source": "РБК",
@@ -5056,5 +5038,23 @@
     "title": "Зеленский: Россия разместила три кольца ПВО вокруг Москвы",
     "source": "Укринформ",
     "created_at": "2026-08-08T20:44:11.348133+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/08/8047930/",
+    "title": "Запорожская АЭС дважды за день теряла внешнее электроснабжение – «Энергоатом»",
+    "source": "Украинская правда",
+    "created_at": "2026-08-08T21:40:57.689779+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4152419-north-korea-learns-from-russias-experience-in-war-zelensky-says.html",
+    "title": "Зеленский заявил, что Северная Корея учится на военном опыте России",
+    "source": "Укринформ",
+    "created_at": "2026-08-08T21:40:57.689793+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/08/8047925/",
+    "title": "Зеленский: Путин планирует необъявленную мобилизацию для давления на Украину и Европу",
+    "source": "Украинская правда",
+    "created_at": "2026-08-08T21:40:57.689800+00:00"
   }
 ]
