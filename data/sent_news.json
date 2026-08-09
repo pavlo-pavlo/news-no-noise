@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.interfax.ru/world/1102373",
-    "title": "WSJ: Иран готовит новый план покушения на Трампа",
-    "source": "Интерфакс",
-    "created_at": "2026-07-10T00:16:11.145916+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1102372",
-    "title": "США не исключают новых ударов по Ирану",
-    "source": "Интерфакс",
-    "created_at": "2026-07-10T00:16:11.145930+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1102371",
-    "title": "Судоходство через Ормузский пролив серьезно ухудшилось из-за ударов Ирана",
-    "source": "Интерфакс",
-    "created_at": "2026-07-10T00:16:11.145938+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-society/4142756-gazprom-and-rosneft-implicated-in-efforts-to-erase-ukrainian-childrens-identity-ombudsmans-representative-says.html",
     "title": "Представитель омбудсмена: Газпром и Роснефть причастны к попыткам стереть идентичность украинских детей",
     "source": "Укринформ",
@@ -5074,5 +5056,23 @@
     "title": "При атаке на Белгород пострадали 11 взрослых и двое детей",
     "source": "РБК",
     "created_at": "2026-08-08T23:39:45.602174+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1108294",
+    "title": "Аэропорты ряда городов России приостановили работу",
+    "source": "Интерфакс",
+    "created_at": "2026-08-09T02:24:09.860026+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-economy/4152367-turkey-restricts-commercial-vessel-traffic-toward-black-sea-bloomberg.html",
+    "title": "Турция ограничивает движение коммерческих судов в Черное море",
+    "source": "Укринформ",
+    "created_at": "2026-08-09T02:24:09.860041+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4152420-russian-forces-strike-pavlohrad-nine-injured-including-four-children.html",
+    "title": "Российские войска нанесли удар по Павлограду: девять раненых, в том числе четверо детей",
+    "source": "Укринформ",
+    "created_at": "2026-08-09T02:24:09.860048+00:00"
   }
 ]
