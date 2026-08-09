@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4142995-zelensky-ukrainian-weapons-have-reached-every-oil-refinery-in-russia-as-longrange-sanctions-plan-moves-forward.html",
-    "title": "Зеленский: Украинское оружие достигло всех нефтеперерабатывающих заводов России",
-    "source": "Укринформ",
-    "created_at": "2026-07-10T15:39:47.750131+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-07-10/al-menos-12-muertos-en-el-incendio-de-los-gallardos-almeria-el-mas-mortifero-de-la-historia-de-andalucia.html",
-    "title": "В результате пожара в Лос-Гайярдос (Альмерия) погибли не менее 12 человек, что стало самым смертоносным событием в истории Андалусии",
-    "source": "El País",
-    "created_at": "2026-07-10T15:39:47.750169+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cm2rmmx86pdo?at_medium=RSS&at_campaign=rss",
-    "title": "Китай впервые успешно посадил многоразовую ракету",
-    "source": "BBC World",
-    "created_at": "2026-07-10T15:39:47.750179+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4143062-russian-government-acknowledges-gasoline-shortage-caused-by-ukrainian-strikes-for-first-time.html",
     "title": "Правительство России впервые признало дефицит бензина из-за ударов Украины",
     "source": "Укринформ",
@@ -5164,5 +5146,23 @@
     "title": "Разведка США считает, что Путин может проверить решимость НАТО ограниченным вторжением",
     "source": "El Mundo",
     "created_at": "2026-08-09T14:47:14.039018+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4152569-russia-deploys-who-warehouse-containing-humanitarian-medical-supplies-in-dnipro.html",
+    "title": "Россия уничтожила склад ВОЗ с гуманитарными медикаментами в Днепре",
+    "source": "Укринформ",
+    "created_at": "2026-08-09T15:41:40.851285+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1108343",
+    "title": "ХАМАС подтвердил готовность работать над выполнением плана Совета мира по Газе",
+    "source": "Интерфакс",
+    "created_at": "2026-08-09T15:41:40.851303+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/09/08/2026/6a788e149a7947575a8bb441",
+    "title": "WSJ: Трамп готов положить конец войне с Ираном без ядерной сделки",
+    "source": "РБК",
+    "created_at": "2026-08-09T15:41:40.851311+00:00"
   }
 ]
