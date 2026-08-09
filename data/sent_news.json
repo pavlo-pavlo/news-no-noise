@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-society/4142756-gazprom-and-rosneft-implicated-in-efforts-to-erase-ukrainian-childrens-identity-ombudsmans-representative-says.html",
-    "title": "Представитель омбудсмена: Газпром и Роснефть причастны к попыткам стереть идентичность украинских детей",
-    "source": "Укринформ",
-    "created_at": "2026-07-10T05:03:49.053227+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c8e2382jk7jo?at_medium=RSS&at_campaign=rss",
-    "title": "Двенадцать человек погибли в лесном пожаре в Испании на фоне продолжающейся жары",
-    "source": "BBC World",
-    "created_at": "2026-07-10T05:03:49.053241+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/rbcfreenews/69afd4089a7947763db32897",
-    "title": "Hürriyet: Турция перепродала российские С-400 ОАЭ или Катару в обмен на снятие санкций США",
-    "source": "РБК",
-    "created_at": "2026-07-10T05:03:49.053250+00:00"
-  },
-  {
     "url": "https://elpais.com/espana/2026-07-10/ultimas-noticias-del-incendio-forestal-de-los-gallardos-almeria-en-directo.html",
     "title": "Лесной пожар в Лос-Гальярдос (Альмерия): не менее 11 погибших и 23 пропавших без вести",
     "source": "El País",
@@ -5092,5 +5074,23 @@
     "title": "Миграционный наплыв в Сеуте выявил проблемы в ЕС и недовольство в Марокко",
     "source": "El País",
     "created_at": "2026-08-09T04:25:18.452991+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1108303",
+    "title": "Минобороны РФ сообщило об уничтожении более 150 украинских БПЛА за ночь",
+    "source": "Интерфакс",
+    "created_at": "2026-08-09T05:54:06.071980+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/07/08/2026/6a76198d9a7947c70adebaf0",
+    "title": "WP узнала о требовании Пентагона ускорить производство оружия",
+    "source": "РБК",
+    "created_at": "2026-08-09T05:54:06.071994+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/08/08/6a772cfffdddff232d8b4580.html",
+    "title": "Кризис в Сеуте выявил коллапс государственной безопасности",
+    "source": "El Mundo",
+    "created_at": "2026-08-09T05:54:06.072002+00:00"
   }
 ]
