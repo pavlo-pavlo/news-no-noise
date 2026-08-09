@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4142901-un-265-civilians-killed-in-ukraine-in-june-due-to-russian-attacks.html",
-    "title": "ООН: В июне в Украине погибли 265 мирных жителей из-за российских атак",
-    "source": "Укринформ",
-    "created_at": "2026-07-10T12:08:10.878992+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/andalucia/2026/07/10/6a50257afdddffc3588b45c9.html",
-    "title": "В лесном пожаре в Альмерии (Испания) погибли не менее 12 человек",
-    "source": "El Mundo",
-    "created_at": "2026-07-10T12:08:10.879008+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c04y6wr03gxo?at_medium=RSS&at_campaign=rss",
-    "title": "Восточная Азия готовится к разрушительному тайфуну; на Филиппинах из-за оползней погибли 15 человек",
-    "source": "BBC World",
-    "created_at": "2026-07-10T12:08:10.879017+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4142995-zelensky-ukrainian-weapons-have-reached-every-oil-refinery-in-russia-as-longrange-sanctions-plan-moves-forward.html",
     "title": "Зеленский: Украинское оружие достигло всех нефтеперерабатывающих заводов России",
     "source": "Укринформ",
@@ -5146,5 +5128,23 @@
     "title": "Только 6% испанцев винят мафии в миграционном наплыве в Сеуту; почти половина считает, что было \"давление\" со стороны Марокко",
     "source": "El Mundo",
     "created_at": "2026-08-09T11:39:27.297668+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/09/8047979/",
+    "title": "В Одесской области поврежден автобус с детьми в результате обстрела",
+    "source": "Украинская правда",
+    "created_at": "2026-08-09T13:11:11.805813+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1108334",
+    "title": "Нетаньяху не намерен выполнять план Совета мира по Газе",
+    "source": "Интерфакс",
+    "created_at": "2026-08-09T13:11:11.805828+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/09/08/2026/6a78740e9a794703bbd030c5",
+    "title": "Россия и Сирия подписали меморандум о реорганизации военных баз",
+    "source": "РБК",
+    "created_at": "2026-08-09T13:11:11.805835+00:00"
   }
 ]
