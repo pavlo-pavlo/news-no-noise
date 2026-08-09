@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4143062-russian-government-acknowledges-gasoline-shortage-caused-by-ukrainian-strikes-for-first-time.html",
-    "title": "Правительство России впервые признало дефицит бензина из-за ударов Украины",
-    "source": "Укринформ",
-    "created_at": "2026-07-10T19:48:01.985722+00:00"
-  },
-  {
-    "url": "https://elpais.com/videos/2026-07-10/cronologia-del-incendio-de-los-gallardos-el-mas-mortal-del-siglo-en-espana.html",
-    "title": "Лесной пожар в Лос-Гальярдосе, самый смертоносный в Испании за век, унес 12 жизней",
-    "source": "El País",
-    "created_at": "2026-07-10T19:48:01.985736+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-economy/4143028-ukraine-receives-usd-335b-from-world-bank.html",
-    "title": "Украина получила $3,35 млрд от Всемирного банка",
-    "source": "Укринформ",
-    "created_at": "2026-07-10T19:48:01.985745+00:00"
-  },
-  {
     "url": "https://www.elmundo.es/internacional/2026/07/10/6a50d71ce85ecea6218b4593.html",
     "title": "Израиль сообщил США о новом иранском заговоре с целью убийства Трампа",
     "source": "El Mundo",
@@ -5236,5 +5218,23 @@
     "title": "ВС РФ нанесли удар по Одесской ТЭЦ и семи электроподстанциям",
     "source": "Интерфакс",
     "created_at": "2026-08-09T19:44:11.362514+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1108365",
+    "title": "Число жертв атаки БПЛА на Белгород выросло до шести",
+    "source": "Интерфакс",
+    "created_at": "2026-08-09T20:48:03.087200+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/08/09/6a783fc9fc6c8345208b458c.html",
+    "title": "Италия обвиняет Испанию в «неприемлемом» контроле туристов, правительство Санчеса требует реакции от Мелони",
+    "source": "El Mundo",
+    "created_at": "2026-08-09T20:48:03.087214+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-09/ceuta-no-se-vende-la-ciudad-se-echa-a-la-calle-tras-diez-dias-de-tension.html",
+    "title": "«Сеута не продается»: город выходит на улицы после десяти дней напряженности",
+    "source": "El País",
+    "created_at": "2026-08-09T20:48:03.087222+00:00"
   }
 ]
