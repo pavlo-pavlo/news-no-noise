@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4143242-russians-strike-sumy-with-glide-bombs-killing-four-including-child.html",
-    "title": "Россияне нанесли удар по Сумам планирующими бомбами, погибли четверо, включая ребенка",
-    "source": "Укринформ",
-    "created_at": "2026-07-11T13:48:53.203073+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/espana/2026/07/10/6a51581721efa03e378b45bc.html",
-    "title": "В смертельной ловушке тех, кто бежал по неверному пути: «Кажется, что здесь прошел дьявол»",
-    "source": "El Mundo",
-    "created_at": "2026-07-11T13:48:53.203086+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1102665",
-    "title": "Ирак, США и Сирия планируют вновь запустить нефтепровод из Киркука в Банияс в обход Ормуза",
-    "source": "Интерфакс",
-    "created_at": "2026-07-11T13:48:53.203093+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-07-11/el-viento-da-una-tregua-y-permite-pasar-al-ataque-contra-el-letal-incendio-de-los-gallardos.html",
-    "title": "Смертоносный пожар в Лос-Гальярдосе: ветер дает передышку для борьбы с огнем",
-    "source": "El País",
-    "created_at": "2026-07-11T15:09:39.946377+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&at_campaign=rss",
-    "title": "Китай готовится ко второму за неделю тайфуну «Бави»",
-    "source": "BBC World",
-    "created_at": "2026-07-11T15:09:39.946390+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cn8qwj611qxo?at_medium=RSS&at_campaign=rss",
-    "title": "Знаковый закон США о жилье вступил в силу, несмотря на протест Трампа",
-    "source": "BBC World",
-    "created_at": "2026-07-11T15:09:39.946397+00:00"
-  },
-  {
     "url": "https://www.interfax.ru/world/1102686",
     "title": "Число жертв землетрясения в Венесуэле превысило 4300 человек",
     "source": "Интерфакс",
@@ -5308,5 +5272,23 @@
     "title": "В российских регионах вновь образовались длинные очереди на заправках",
     "source": "Укринформ",
     "created_at": "2026-08-10T13:38:50.837673+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/10/8048119/",
+    "title": "Подразделения ССО поразили нефтехимический комплекс РФ в Тюменской области",
+    "source": "Украинская правда",
+    "created_at": "2026-08-10T15:13:38.234417+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/internacional/2026/08/10/6a79cc12fdddff3a6a8b4578.html",
+    "title": "Мощное землетрясение магнитудой 7,4 в Колумбии: более 20 погибших и трое пропавших без вести",
+    "source": "El Mundo",
+    "created_at": "2026-08-10T15:13:38.234431+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss",
+    "title": "Мировые океаны достигли рекордно высоких температур в июле",
+    "source": "BBC World",
+    "created_at": "2026-08-10T15:13:38.234438+00:00"
   }
 ]
