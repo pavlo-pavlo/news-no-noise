@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://elpais.com/espana/2026-07-11/ultimas-noticias-del-incendio-forestal-de-los-gallardos-almeria-en-directo.html",
-    "title": "Лесной пожар в Альмерии: 12 погибших, 8 раненых и 23 пропавших без вести",
-    "source": "El País",
-    "created_at": "2026-07-11T06:24:20.881775+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4143108-nighttime-attack-on-kyiv-injury-toll-climbs-to-10.html",
-    "title": "Ночная атака на Киев: число пострадавших возросло до 10 человек",
-    "source": "Укринформ",
-    "created_at": "2026-07-11T06:24:20.881789+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/rbcfreenews/6a5145c29a7947403f1f8b5e",
-    "title": "Над Россией за ночь сбили 178 беспилотников",
-    "source": "РБК",
-    "created_at": "2026-07-11T06:24:20.881796+00:00"
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/c1wyv383j2xo?at_medium=RSS&at_campaign=rss",
     "title": "Испания борется с одним из самых смертоносных лесных пожаров, погибли не менее 12 человек",
     "source": "BBC World",
@@ -5290,5 +5272,23 @@
     "title": "В Липецкой области России образовались длинные очереди на заправках, на многих станциях нет топлива — СМИ",
     "source": "Укринформ",
     "created_at": "2026-08-10T06:20:47.394446+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1108436",
+    "title": "После атаки беспилотников на Нижнекамск возбуждено дело о теракте",
+    "source": "Интерфакс",
+    "created_at": "2026-08-10T08:50:04.344013+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/07/08/2026/6a75839c9a79470eb783dfde",
+    "title": "The Telegraph связала отказ США в лицензии на Patriot с риском утечки в Россию",
+    "source": "РБК",
+    "created_at": "2026-08-10T08:50:04.344027+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss",
+    "title": "Китай эвакуировал миллион человек из-за мощного тайфуна",
+    "source": "BBC World",
+    "created_at": "2026-08-10T08:50:04.344035+00:00"
   }
 ]
