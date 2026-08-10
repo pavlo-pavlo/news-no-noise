@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://www.bbc.co.uk/news/articles/c1wyv383j2xo?at_medium=RSS&at_campaign=rss",
-    "title": "Испания борется с одним из самых смертоносных лесных пожаров, погибли не менее 12 человек",
-    "source": "BBC World",
-    "created_at": "2026-07-11T08:57:34.516644+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/11/8043547/",
-    "title": "Россия остановила судоходство через Дон-Азовский канал после атаки Украины – СМИ",
-    "source": "Украинская правда",
-    "created_at": "2026-07-11T08:57:34.516658+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
-    "title": "США требуют от Ирана обещания прекратить обстрелы судов в Ормузском проливе",
-    "source": "BBC World",
-    "created_at": "2026-07-11T08:57:34.516666+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/11/8043556/",
-    "title": "Украина поразила 21 танкер РФ в Азовском море",
-    "source": "Украинская правда",
-    "created_at": "2026-07-11T10:23:58.213411+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-07-11/cronologia-de-un-incendio-mortifero-en-los-gallardos-una-isla-en-medio-del-desierto.html",
-    "title": "В испанской Альмерии в результате лесного пожара погибли 12 человек, 23 пропали без вести",
-    "source": "El País",
-    "created_at": "2026-07-11T10:23:58.213446+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1102646",
-    "title": "США призвали организовать международные инспекции арсеналов химоружия в Судане",
-    "source": "Интерфакс",
-    "created_at": "2026-07-11T10:23:58.213454+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4143242-russians-strike-sumy-with-glide-bombs-killing-four-including-child.html",
     "title": "Россияне нанесли удар по Сумам планирующими бомбами, погибли четверо, включая ребенка",
     "source": "Укринформ",
@@ -5290,5 +5254,23 @@
     "title": "Китай эвакуировал миллион человек из-за мощного тайфуна",
     "source": "BBC World",
     "created_at": "2026-08-10T08:50:04.344035+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
+    "title": "По меньшей мере 13 человек погибли в результате украинского удара по Татарстану, сообщают официальные лица",
+    "source": "BBC World",
+    "created_at": "2026-08-10T10:33:53.470403+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/10/8048072/",
+    "title": "Более миллиона человек эвакуированы в Китае из-за тайфуна \"Дельфин\"",
+    "source": "Украинская правда",
+    "created_at": "2026-08-10T10:33:53.470416+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-10/ultima-hora-de-la-entrada-de-inmigrantes-a-ceuta-en-directo.html",
+    "title": "Италия и Дания выступают против неконтролируемой иммиграции и призывают к созданию центров депортации",
+    "source": "El País",
+    "created_at": "2026-08-10T10:33:53.470424+00:00"
   }
 ]
