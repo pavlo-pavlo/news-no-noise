@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/07/12/8043664/",
-    "title": "В России ограничили работу иностранных SIM-карт",
-    "source": "Украинская правда",
-    "created_at": "2026-07-11T22:02:18.075350+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cze94x4361po?at_medium=RSS&at_campaign=rss",
-    "title": "Премьер-министр Польши пообещал установить мемориал жертвам «геноцида украинских националистов» во Вторую мировую войну",
-    "source": "BBC World",
-    "created_at": "2026-07-11T22:02:18.075364+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cpd3g8q51g7o?at_medium=RSS&at_campaign=rss",
-    "title": "Администрация Трампа выдала повестки журналистам New York Times из-за репортажа об Air Force One",
-    "source": "BBC World",
-    "created_at": "2026-07-11T22:02:18.075371+00:00"
-  },
-  {
     "url": "https://www.pravda.com.ua/news/2026/07/12/8043668/",
     "title": "Число жертв землетрясений в Венесуэле превысило 4300 человек",
     "source": "Украинская правда",
@@ -5326,5 +5308,23 @@
     "title": "ВОЗ предупреждает: вирус Эбола опережает усилия по борьбе с ним",
     "source": "BBC World",
     "created_at": "2026-08-10T21:53:05.882309+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4152665-atesh-agents-destroy-electric-locomotive-cab-near-voronezh-disrupting-train-bound-for-kupiansk-direction.html",
+    "title": "Агенты ATESH уничтожили кабину электровоза под Воронежем, нарушив движение поезда, направлявшегося в сторону Купянска",
+    "source": "Укринформ",
+    "created_at": "2026-08-10T22:52:24.006859+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_medium=RSS&at_campaign=rss",
+    "title": "Трамп подписал указ об ограничении детских вакцин и разделении прививок MMR",
+    "source": "BBC World",
+    "created_at": "2026-08-10T22:52:24.006875+00:00"
+  },
+  {
+    "url": "https://elpais.com/america-colombia/2026-08-10/video-la-devastacion-en-cali-tras-el-terremoto-vista-desde-el-aire.html",
+    "title": "Видео | Разрушения в Кали после землетрясения с высоты птичьего полета",
+    "source": "El País",
+    "created_at": "2026-08-10T22:52:24.006883+00:00"
   }
 ]
