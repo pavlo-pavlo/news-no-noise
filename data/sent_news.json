@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-economy/4143538-germany-to-finance-purchase-of-50000-strike-drones-for-ukraine-reuters.html",
-    "title": "Германия профинансирует закупку 50 000 ударных дронов для Украины",
-    "source": "Укринформ",
-    "created_at": "2026-07-12T21:03:18.813895+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-07-12/ultimas-noticias-del-incendio-forestal-de-los-gallardos-almeria-en-directo.html",
-    "title": "Число погибших в результате лесного пожара в Альмерии возросло до 13",
-    "source": "El País",
-    "created_at": "2026-07-12T21:03:18.813910+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/politics/12/07/2026/6a53c1ef9a7947572b740c1c",
-    "title": "Израильский «12 канал» сообщил о плане покушения на Трампа в Турции",
-    "source": "РБК",
-    "created_at": "2026-07-12T21:03:18.813917+00:00"
-  },
-  {
     "url": "https://www.rbc.ru/politics/13/07/2026/6a54099f9a79474f61cd5c0f",
     "title": "ЦЕНТКОМ объяснил новые удары США по Ирану",
     "source": "РБК",
@@ -5398,5 +5380,23 @@
     "title": "Зеленский: Россия использовала баллистические ракеты КНДР при атаке на Украину 10 августа",
     "source": "Укринформ",
     "created_at": "2026-08-11T20:59:26.272480+00:00"
+  },
+  {
+    "url": "https://elpais.com/america-colombia/2026-08-11/colombia-se-vuelca-en-el-rescate-de-los-supervivientes-del-terremoto-no-se-desgasten-aqui-la-unica-senal-de-vida-es-en-el-otro-lado.html",
+    "title": "В Колумбии мобилизуются для спасения выживших после землетрясения",
+    "source": "El País",
+    "created_at": "2026-08-11T21:59:23.086668+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/12/8048312/",
+    "title": "Крупнейший нефтехимический комплекс в РФ остановил работу после атаки дронов",
+    "source": "Украинская правда",
+    "created_at": "2026-08-11T21:59:23.086681+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cvgj4m8e1ryo?at_medium=RSS&at_campaign=rss",
+    "title": "Россия освободила бывшего морского пехотинца США Роберта Гилмана",
+    "source": "BBC World",
+    "created_at": "2026-08-11T21:59:23.086688+00:00"
   }
 ]
