@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://www.elmundo.es/andalucia/2026/07/12/6a53646ae9cf4a03538b4578.html",
-    "title": "Лесной пожар в Лос-Галлардос локализован и стабилизирован: все эвакуированные сегодня вернутся домой",
-    "source": "El Mundo",
-    "created_at": "2026-07-12T13:50:15.898658+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-polytics/4143463-zelensky-announces-government-reshuffle-changes-in-law-enforcement-leadership.html",
-    "title": "Зеленский объявляет о перестановках в правительстве и изменениях в руководстве правоохранительных органов",
-    "source": "Укринформ",
-    "created_at": "2026-07-12T13:50:15.898672+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1102801",
-    "title": "МИД Омана вызвал посла Ирана после ударов по территории султаната",
-    "source": "Интерфакс",
-    "created_at": "2026-07-12T13:50:15.898680+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1102812",
-    "title": "Власти Ирана настаивают на невозможности транзита через Ормузский пролив",
-    "source": "Интерфакс",
-    "created_at": "2026-07-12T15:09:44.842260+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1102808",
-    "title": "Четыре человека погибли и столько же пострадали при ударе ВСУ по Энергодару",
-    "source": "Интерфакс",
-    "created_at": "2026-07-12T15:09:44.842274+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/andalucia/2026/07/12/6a5387e4fc6c83f74f8b457c.html",
-    "title": "Жители, пострадавшие от пожара в Лос-Гайярдос, возвращаются в свои дома",
-    "source": "El Mundo",
-    "created_at": "2026-07-12T15:09:44.842281+00:00"
-  },
-  {
     "url": "https://www.interfax.ru/world/1102820",
     "title": "США вновь нанесли удары по иранским военным объектам",
     "source": "Интерфакс",
@@ -5398,5 +5362,23 @@
     "title": "Во Франции три ядерных реактора приостановили работу из-за медуз",
     "source": "Интерфакс",
     "created_at": "2026-08-11T13:36:01.328556+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4153218-zaporizhstal-plant-shuts-down-due-to-russian-ballistic-strike-seven-workers-killed-dozens-wounded.html",
+    "title": "Завод «Запорожсталь» остановлен из-за российского баллистического удара: семеро рабочих погибли, десятки ранены",
+    "source": "Укринформ",
+    "created_at": "2026-08-11T15:12:06.284421+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-economy/4153178-zaporizhzhia-npp-rapidly-losing-recovery-capacity-expert.html",
+    "title": "Эксперт: Запорожская АЭС быстро теряет способность к восстановлению",
+    "source": "Укринформ",
+    "created_at": "2026-08-11T15:12:06.284437+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/6a7b2e79e523de999238d7f0",
+    "title": "Ливан стал первой арабской страной, отменившей смертную казнь",
+    "source": "РБК",
+    "created_at": "2026-08-11T15:12:06.284446+00:00"
   }
 ]
