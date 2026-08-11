@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/07/12/8043795/",
-    "title": "Удар по Сумам 11 июля: число пострадавших возросло до 43, пятеро в тяжелом состоянии",
-    "source": "Украинская правда",
-    "created_at": "2026-07-12T19:20:28.540003+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1102829",
-    "title": "Иран утверждает, что поразил в Кувейте пусковые установки США HIMARS",
-    "source": "Интерфакс",
-    "created_at": "2026-07-12T19:20:28.540015+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1102828",
-    "title": "Севастополь столкнулся с дефицитом электроэнергии из-за аварии на магистральных сетях",
-    "source": "Интерфакс",
-    "created_at": "2026-07-12T19:20:28.540021+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-economy/4143538-germany-to-finance-purchase-of-50000-strike-drones-for-ukraine-reuters.html",
     "title": "Германия профинансирует закупку 50 000 ударных дронов для Украины",
     "source": "Укринформ",
@@ -5398,5 +5380,23 @@
     "title": "В Болгарии допустили приостановку работы АЭС \"Козлодуй\" из-за обмеления Дуная",
     "source": "Интерфакс",
     "created_at": "2026-08-11T19:16:11.173584+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4153293-war-update-185-combat-clashes-on-front-line-most-attacks-in-kostiantynivka-direction.html",
+    "title": "Сводка с фронта: 185 боестолкновений, большинство атак на Константиновском направлении",
+    "source": "Укринформ",
+    "created_at": "2026-08-11T20:59:26.272457+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss",
+    "title": "Спасатели ищут выживших после землетрясения в Колумбии, число погибших достигло 180",
+    "source": "BBC World",
+    "created_at": "2026-08-11T20:59:26.272472+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4153279-russia-uses-ballistic-missiles-from-north-korea-in-attack-on-ukraine-on-august-10-zelensky.html",
+    "title": "Зеленский: Россия использовала баллистические ракеты КНДР при атаке на Украину 10 августа",
+    "source": "Укринформ",
+    "created_at": "2026-08-11T20:59:26.272480+00:00"
   }
 ]
