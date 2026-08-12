@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4143702-russia-strikes-foreign-vessel-unloading-in-odesa-region-three-sailors-killed-five-wounded.html",
-    "title": "Россия нанесла удар по иностранному судну, разгружавшемуся в Одесской области: трое моряков погибли, пятеро ранены",
-    "source": "Укринформ",
-    "created_at": "2026-07-13T11:26:46.528871+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4143717-two-people-killed-and-11-wounded-in-zaporizhzhia-due-to-russian-nighttime-attack.html",
-    "title": "В Запорожье двое погибших и 11 раненых в результате ночной российской атаки",
-    "source": "Укринформ",
-    "created_at": "2026-07-13T11:26:46.528886+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/13/8043867/",
-    "title": "Зеленский предлагает Раде продлить военное положение и мобилизацию с августа",
-    "source": "Украинская правда",
-    "created_at": "2026-07-13T11:26:46.528894+00:00"
-  },
-  {
     "url": "https://www.interfax.ru/world/1103031",
     "title": "Трамп объявил о возобновлении США морской блокады Ирана",
     "source": "Интерфакс",
@@ -5452,5 +5434,23 @@
     "title": "Путин надел форму ВМФ и выступил с новой порцией угроз Западу",
     "source": "Украинская правда",
     "created_at": "2026-08-12T10:17:48.010266+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4153471-zelensky-announces-unique-operation-by-defense-forces-to-strike-naval-base-in-novorossiysk.html",
+    "title": "Зеленский объявил об уникальной операции Сил обороны по удару по военно-морской базе в Новороссийске",
+    "source": "Укринформ",
+    "created_at": "2026-08-12T11:55:53.102421+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1108882",
+    "title": "В Новороссийске ввели режим ЧС после атаки БПЛА",
+    "source": "Интерфакс",
+    "created_at": "2026-08-12T11:55:53.102434+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/12/08/2026/6a7c595b9a79477b17577b08",
+    "title": "Джонсон рассказал о желании бывших властей ФРГ быстрого поражения Украины",
+    "source": "РБК",
+    "created_at": "2026-08-12T11:55:53.102442+00:00"
   }
 ]
