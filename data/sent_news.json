@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.rbc.ru/politics/14/07/2026/6a556a589a7947131822fe98",
-    "title": "Минобороны ОАЭ сообщило об атаке Ирана на два танкера в Ормузском проливе",
-    "source": "РБК",
-    "created_at": "2026-07-13T23:07:19.171341+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1103108",
-    "title": "ВМС Ирана заявили о ракетном ударе по американскому военному кораблю",
-    "source": "Интерфакс",
-    "created_at": "2026-07-13T23:07:19.171354+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-economy/4143755-poland-rules-out-lifting-ban-on-ukrainian-agricultural-imports.html",
-    "title": "Польша исключает отмену запрета на импорт украинской сельхозпродукции",
-    "source": "Укринформ",
-    "created_at": "2026-07-13T23:07:19.171361+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-economy/4143806-russian-oil-refining-falls-to-21year-low-after-ukrainian-drone-strikes-bloomberg.html",
     "title": "Российская нефтепереработка упала до 21-летнего минимума после ударов украинских дронов – Bloomberg",
     "source": "Укринформ",
@@ -5506,5 +5488,23 @@
     "title": "Координационный штаб: российские спецслужбы активизировали сбор данных об украинских военнопленных",
     "source": "Укринформ",
     "created_at": "2026-08-12T22:55:13.149298+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/13/8048469/",
+    "title": "Россияне убили дронами еще двух человек в Херсоне",
+    "source": "Украинская правда",
+    "created_at": "2026-08-12T23:54:01.135935+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/6a7c85009a79475923a1769f",
+    "title": "Девушка пострадала при падении БПЛА на базе отдыха в Ростовской области",
+    "source": "РБК",
+    "created_at": "2026-08-12T23:54:01.135949+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-society/4153648-around-6000-ukrainian-civilians-may-remain-in-occupied-parts-of-kherson-region-lubinets.html",
+    "title": "Около 6 000 украинских мирных жителей могут оставаться на оккупированных территориях Херсонской области – Лубинец",
+    "source": "Укринформ",
+    "created_at": "2026-08-12T23:54:01.135958+00:00"
   }
 ]
