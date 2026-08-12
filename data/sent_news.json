@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.elmundo.es/internacional/2026/07/13/6a54aaaafdddff6b118b45ab.html",
-    "title": "Трамп восстанавливает морскую блокаду Ирана и говорит, что будет взимать 20% за защиту судов в Ормузском проливе",
-    "source": "El Mundo",
-    "created_at": "2026-07-13T17:21:38.983503+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cn4dk3kl0l4o?at_medium=RSS&at_campaign=rss",
-    "title": "Глава военизированных Сил быстрого реагирования Судана приговорен к смертной казни за военные преступления",
-    "source": "BBC World",
-    "created_at": "2026-07-13T17:21:38.983517+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-economy/4143862-uk-to-join-eus-90b-ukraine-support-loan.html",
-    "title": "Великобритания присоединится к программе кредитования ЕС для поддержки Украины на 90 млрд евро",
-    "source": "Укринформ",
-    "created_at": "2026-07-13T17:21:38.983526+00:00"
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
     "title": "Трамп возобновляет военно-морскую блокаду иранских портов",
     "source": "BBC World",
@@ -5488,5 +5470,23 @@
     "title": "Правительство Марокко настаивает на своих притязаниях на Сеуту и Мелилью, Испания отвечает: \"Сеута – это Испания\"",
     "source": "El Mundo",
     "created_at": "2026-08-12T17:07:59.000323+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss",
+    "title": "Крупные российские зерновые экспортные терминалы пострадали от ударов",
+    "source": "BBC World",
+    "created_at": "2026-08-12T19:15:42.196386+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1108973",
+    "title": "В Новороссийске повреждения получили не менее 94 жилых домов",
+    "source": "Интерфакс",
+    "created_at": "2026-08-12T19:15:42.196401+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/12/8048447/",
+    "title": "В Польше из-за кибератаки произошла масштабная утечка персональных данных",
+    "source": "Украинская правда",
+    "created_at": "2026-08-12T19:15:42.196410+00:00"
   }
 ]
