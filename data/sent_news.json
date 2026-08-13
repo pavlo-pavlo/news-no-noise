@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4144142-parliament-extends-martial-law-and-mobilization-for-90-more-days.html",
-    "title": "Парламент Украины продлил военное положение и мобилизацию еще на 90 дней",
-    "source": "Укринформ",
-    "created_at": "2026-07-14T11:41:56.939568+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1103237",
-    "title": "Лавров заявил о попытках Киева и Брюсселя отвести США от договоренностей по урегулированию",
-    "source": "Интерфакс",
-    "created_at": "2026-07-14T11:41:56.939581+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-07-14/condenado-david-sanchez-hermano-del-presidente-del-gobierno-a-9-anos-de-inhabilitacion-por-un-delito-de-prevaricacion.html",
-    "title": "Брат премьер-министра Испании Давид Санчес приговорен к девяти годам дисквалификации за преварикацию",
-    "source": "El País",
-    "created_at": "2026-07-14T11:41:56.939589+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-economy/4144215-ukrainian-parliament-ratifies-free-trade-agreement-with-turkey.html",
     "title": "Парламент Украины ратифицировал Соглашение о свободной торговле с Турцией",
     "source": "Укринформ",
@@ -5542,5 +5524,23 @@
     "title": "Инвесторы Anthropic рассчитывают на оценку компании в $2 трлн в рамках IPO",
     "source": "Интерфакс",
     "created_at": "2026-08-13T10:19:28.745861+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4153820-un-437-civilians-killed-in-ukraine-in-july-kyiv-among-hardesthit-cities.html",
+    "title": "ООН: 437 мирных жителей погибли в Украине в июле, Киев — среди наиболее пострадавших городов",
+    "source": "Укринформ",
+    "created_at": "2026-08-13T11:56:10.709859+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4153787-sbu-uncovers-russian-spies-gathering-intelligence-on-f16-and-mirage-jets-at-ukrainian-airfields.html",
+    "title": "СБУ разоблачила российских шпионов, собиравших разведданные об истребителях F-16 и Mirage на украинских аэродромах",
+    "source": "Укринформ",
+    "created_at": "2026-08-13T11:56:10.709874+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cn0npn249qvo?at_medium=RSS&at_campaign=rss",
+    "title": "Великобритания защищает задержание танкера \"теневого флота\" после угрозы Путина",
+    "source": "BBC World",
+    "created_at": "2026-08-13T11:56:10.709882+00:00"
   }
 ]
