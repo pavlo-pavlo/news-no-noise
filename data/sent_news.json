@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-economy/4143806-russian-oil-refining-falls-to-21year-low-after-ukrainian-drone-strikes-bloomberg.html",
-    "title": "Российская нефтепереработка упала до 21-летнего минимума после ударов украинских дронов – Bloomberg",
-    "source": "Укринформ",
-    "created_at": "2026-07-14T03:26:39.524892+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/14/8043976/",
-    "title": "Рубио заявил, что США \"демонтируют\" Международный уголовный суд",
-    "source": "Украинская правда",
-    "created_at": "2026-07-14T03:26:39.524905+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1103132",
-    "title": "КСИР заявил, что атаковал американскую базу в Бахрейне",
-    "source": "Интерфакс",
-    "created_at": "2026-07-14T03:26:39.524912+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4143949-russia-launches-ballistic-missile-attack-on-kyiv-fires-reported-in-two-districts.html",
     "title": "Россия нанесла ракетный удар по Киеву, зафиксированы пожары в двух районах",
     "source": "Укринформ",
@@ -5524,5 +5506,23 @@
     "title": "США планируют завершить вывод войск из Ирака к концу сентября",
     "source": "Украинская правда",
     "created_at": "2026-08-13T02:41:07.507702+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1109016",
+    "title": "Над Ростовской областью за ночь уничтожено почти 100 БПЛА",
+    "source": "Интерфакс",
+    "created_at": "2026-08-13T05:00:44.025407+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-society/4153567-lubinets-says-russia-has-executed-at-least-345-ukrainian-soldiers-who-surrendered.html",
+    "title": "Лубинец заявил, что Россия казнила не менее 345 сдавшихся в плен украинских военнослужащих",
+    "source": "Укринформ",
+    "created_at": "2026-08-13T05:00:44.025420+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-emergencies/4153679-child-dies-without-medical-assistance-in-hola-prystan-community-in-occupied-kherson-region-military-administration.html",
+    "title": "В оккупированной части Херсонской области ребенок умер без медицинской помощи",
+    "source": "Укринформ",
+    "created_at": "2026-08-13T05:00:44.025428+00:00"
   }
 ]
