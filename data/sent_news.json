@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-economy/4144633-eu-to-allocate-eur-920-m-for-ukraine-to-prepare-for-winter.html",
-    "title": "ЕС выделит 920 млн евро Украине на подготовку к зиме",
-    "source": "Укринформ",
-    "created_at": "2026-07-15T15:46:02.713901+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/politics/13/07/2026/6a54b1db9a79474cff230876",
-    "title": "МИД РФ назвал силы «коалиции желающих» на Украине законными военными целями",
-    "source": "РБК",
-    "created_at": "2026-07-15T15:46:02.713916+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-07-15/sanchez-tras-la-desaparicion-de-la-verja-de-gibraltar-las-columnas-de-hercules-son-una-puerta-al-futuro-compartido.html",
-    "title": "Санчес о демонтаже забора на границе с Гибралтаром: «Падает последняя стена континентальной Европы»",
-    "source": "El País",
-    "created_at": "2026-07-15T15:46:02.713925+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-polytics/4144653-russia-may-announce-general-mobilization-after-elections-zelensky.html",
     "title": "Зеленский: Россия может объявить всеобщую мобилизацию после выборов",
     "source": "Укринформ",
@@ -5650,5 +5632,23 @@
     "title": "НПО в Сеуте сообщают о большом количестве детей младшего возраста и женщин среди мигрантов",
     "source": "El País",
     "created_at": "2026-08-14T15:03:07.262253+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4154215-airstrike-on-kramatorsk-injury-toll-rises-to-22.html",
+    "title": "Авиаудар по Краматорску: число раненых возросло до 22 человек",
+    "source": "Укринформ",
+    "created_at": "2026-08-14T16:02:21.477068+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4154214-us-backs-japan-amid-putins-visit-to-illegally-occupied-islands.html",
+    "title": "США поддерживают Японию на фоне визита Путина на незаконно оккупированные острова",
+    "source": "Укринформ",
+    "created_at": "2026-08-14T16:02:21.477082+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1109391",
+    "title": "Казахстан объяснил энергосбой отключением двух гидрогенераторов Токтогульской ГЭС в Киргизии",
+    "source": "Интерфакс",
+    "created_at": "2026-08-14T16:02:21.477089+00:00"
   }
 ]
