@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.rbc.ru/politics/14/07/2026/6a569b039a7947a5035f613f",
-    "title": "Иран и США вновь обменялись ударами",
-    "source": "РБК",
-    "created_at": "2026-07-15T03:27:07.227379+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4144327-war-update-203-clashes-on-front-line-fiercest-fighting-near-pokrovsk-and-sloviansk.html",
-    "title": "Сводка боевых действий: 203 столкновения на линии фронта, самые ожесточенные бои под Покровском и Славянском",
-    "source": "Укринформ",
-    "created_at": "2026-07-15T03:27:07.227397+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cp8l87784ngo?at_medium=RSS&at_campaign=rss",
-    "title": "Семь британцев среди погибших в результате лесных пожаров в Испании",
-    "source": "BBC World",
-    "created_at": "2026-07-15T03:27:07.227407+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4144373-war-update-253-combat-engagements-on-frontline-over-past-day.html",
     "title": "Обновление о войне: 253 боевых столкновения на линии фронта за прошедшие сутки",
     "source": "Укринформ",
@@ -5614,5 +5596,23 @@
     "title": "США планируют новые меры экономического давления на Иран",
     "source": "Интерфакс",
     "created_at": "2026-08-14T02:38:58.823915+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/14/8048617/",
+    "title": "Число погибших гражданских в Украине от российских атак достигло максимума с весны 2022 года: в июле погибли 437 человек – ООН",
+    "source": "Украинская правда",
+    "created_at": "2026-08-14T04:57:55.893084+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/6a7e84289a79476e7b10502a",
+    "title": "В порту Усть-Луга произошло возгорание из-за атаки БПЛА",
+    "source": "РБК",
+    "created_at": "2026-08-14T04:57:55.893098+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/13/08/2026/6a7e099b9a794751d3f5daae",
+    "title": "NHK узнал о готовящемся ответе Японии на визит Путина на Итуруп",
+    "source": "РБК",
+    "created_at": "2026-08-14T04:57:55.893105+00:00"
   }
 ]
