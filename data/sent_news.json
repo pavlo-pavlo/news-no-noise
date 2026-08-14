@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.rbc.ru/politics/15/07/2026/6a57dd579a79478088d95537",
-    "title": "США объявили о второй волне ударов по Ирану за сутки",
-    "source": "РБК",
-    "created_at": "2026-07-15T19:33:28.656707+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cvg7g2z4pv3o?at_medium=RSS&at_campaign=rss",
-    "title": "Французские депутаты одобрили закон об ассистированном самоубийстве",
-    "source": "BBC World",
-    "created_at": "2026-07-15T19:33:28.656722+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1103533",
-    "title": "Глава «Росатома» сообщил о гибели главного инженера ЗАЭС Яковлева",
-    "source": "Интерфакс",
-    "created_at": "2026-07-15T19:33:28.656730+00:00"
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/cd959q11g54o?at_medium=RSS&at_campaign=rss",
     "title": "Согласно исследованию Pew, теперь больше людей во всем мире предпочитают Китай США",
     "source": "BBC World",
@@ -5668,5 +5650,23 @@
     "title": "Йеменские хуситы заявили об ударе по НПЗ в Саудовской Аравии",
     "source": "Интерфакс",
     "created_at": "2026-08-14T19:08:53.637769+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/clyje43dz4eo?at_medium=RSS&at_campaign=rss",
+    "title": "Афганские женщины: жизнь неузнаваема спустя пять лет правления Талибана",
+    "source": "BBC World",
+    "created_at": "2026-08-14T20:40:03.044950+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1109433",
+    "title": "Трамп планирует объявить Ормузский пролив \"территорией США\"",
+    "source": "Интерфакс",
+    "created_at": "2026-08-14T20:40:03.044966+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4154266-ukrainian-egyptian-presidents-discuss-food-security-threats-from-russian-strikes.html",
+    "title": "Президенты Украины и Египта обсудили угрозы продовольственной безопасности от российских ударов",
+    "source": "Укринформ",
+    "created_at": "2026-08-14T20:40:03.044975+00:00"
   }
 ]
