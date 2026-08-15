@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss",
-    "title": "Смещение Зеленским популярного министра обороны вызывает протесты в Украине",
-    "source": "BBC World",
-    "created_at": "2026-07-16T16:38:28.802240+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/catalunya/2026-07-16/la-justicia-europea-avala-la-amnistia-a-los-cdr-que-estan-procesados-por-terrorismo.html",
-    "title": "Европейский суд одобрил амнистию для членов CDR, обвиняемых в терроризме",
-    "source": "El País",
-    "created_at": "2026-07-16T16:38:28.802256+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o?at_medium=RSS&at_campaign=rss",
-    "title": "Более 800 лесных пожаров бушуют в Канаде, предупреждения о качестве воздуха распространились на США",
-    "source": "BBC World",
-    "created_at": "2026-07-16T16:38:28.802265+00:00"
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/c36dnz1zez5o?at_medium=RSS&at_campaign=rss",
     "title": "Итальянские чиновники приговорены к тюремным срокам за обрушение моста в Генуе, в результате которого погибли 43 человека",
     "source": "BBC World",
@@ -5884,5 +5866,23 @@
     "title": "FT выяснила, почему Киев перестал публиковать статистику ракетных атак",
     "source": "РБК",
     "created_at": "2026-08-15T16:36:55.178440+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/08/15/6a808603e4d4d8ca7b8b4578.html",
+    "title": "Гражданская гвардия подтверждает 15 изнасилований в Сеуте и задержание подозреваемого в терроризме",
+    "source": "El Mundo",
+    "created_at": "2026-08-15T17:30:54.338621+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/6a7d63b49a7947af3d303f1b",
+    "title": "Власти Таджикистана назвали причину блэкаута в странах Центральной Азии",
+    "source": "РБК",
+    "created_at": "2026-08-15T17:30:54.338636+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4154477-enemy-attacks-wound-17-people-in-dnipropetrovsk-region.html",
+    "title": "В Днепропетровской области в результате вражеских атак ранены 17 человек",
+    "source": "Укринформ",
+    "created_at": "2026-08-15T17:30:54.338644+00:00"
   }
 ]
