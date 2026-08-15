@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.rbc.ru/politics/16/07/2026/6a57616f9a79470fedd23098",
-    "title": "Рада назначила Сергея Корецкого новым премьер-министром Украины",
-    "source": "РБК",
-    "created_at": "2026-07-16T09:23:56.414635+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-07-16/el-tjue-avala-la-ley-de-amnistia-al-descartar-que-contravenga-las-normas-europeas.html",
-    "title": "Суд ЕС одобрил закон об амнистии, открывая путь для возвращения Пучдемона",
-    "source": "El País",
-    "created_at": "2026-07-16T09:23:56.414651+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c2lq1ed28jxo?at_medium=RSS&at_campaign=rss",
-    "title": "Иран наносит удары по военным базам на фоне волны ударов США",
-    "source": "BBC World",
-    "created_at": "2026-07-16T09:23:56.414659+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-polytics/4144865-parliament-appoints-koretskyi-as-ukraines-new-prime-minister.html",
     "title": "Парламент Украины назначил нового премьер-министра Корецкого",
     "source": "Укринформ",
@@ -5794,5 +5776,23 @@
     "title": "Десятки гражданских гвардейцев и военных высаживаются в Сеуте накануне 15 августа",
     "source": "El País",
     "created_at": "2026-08-15T08:41:02.236971+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4154382-ukraine-strikes-key-roscosmos-facility-with-flamingo-missiles.html",
+    "title": "Украина нанесла удары по ключевым объектам Роскосмоса ракетами Flamingo",
+    "source": "Укринформ",
+    "created_at": "2026-08-15T09:36:05.846620+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/15/08/2026/6a802b869a7947196de02469",
+    "title": "NYT: Европа разрабатывает новый формат переговоров по Украине",
+    "source": "РБК",
+    "created_at": "2026-08-15T09:36:05.846634+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/society/11/08/2026/6a7b2b8c9a794777a0ad2bb6",
+    "title": "Власти США призвали Apple отказаться от китайских чипов памяти",
+    "source": "РБК",
+    "created_at": "2026-08-15T09:36:05.846641+00:00"
   }
 ]
