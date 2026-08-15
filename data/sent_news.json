@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.elmundo.es/espana/2026/07/16/6a5894afe9cf4a42658b45a2.html",
-    "title": "Суд ЕС подтвердил соответствие закона об амнистии нормам сообщества",
-    "source": "El Mundo",
-    "created_at": "2026-07-16T14:15:59.849284+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-economy/4144955-germany-grants-ukraine-largest-share-of-arms-export-licenses-in-h1-2026.html",
-    "title": "Германия предоставила Украине наибольшую долю лицензий на экспорт оружия в первом полугодии 2026 года",
-    "source": "Укринформ",
-    "created_at": "2026-07-16T14:15:59.849299+00:00"
-  },
-  {
-    "url": "https://valenciaplaza.com/valenciaplaza/europa/bruselas-impone-a-google-abrir-android-a-servicios-rivales-de-ia-y-compartir-datos-con-motores-de-busqueda",
-    "title": "Евросоюз обязал Google открыть Android для конкурирующих ИИ-сервисов",
-    "source": "Valencia Plaza",
-    "created_at": "2026-07-16T14:15:59.849309+00:00"
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss",
     "title": "Смещение Зеленским популярного министра обороны вызывает протесты в Украине",
     "source": "BBC World",
@@ -5848,5 +5830,23 @@
     "title": "МИД РФ запросил в США и Турции разъяснения в связи с информацией о планах на поставки оружия Киеву",
     "source": "Интерфакс",
     "created_at": "2026-08-15T13:38:35.777126+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/08/08/2026/6a7708b49a7947b8b05155d2",
+    "title": "В Швейцарии раскрыли объем замороженных российских активов",
+    "source": "РБК",
+    "created_at": "2026-08-15T14:34:32.090478+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1109528",
+    "title": "Путин 18 августа проведет в Кремле переговоры с президентом Республики Союз Мьянма",
+    "source": "Интерфакс",
+    "created_at": "2026-08-15T14:34:32.090491+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4154439-russian-forces-attack-kryvyi-rih-two-injured.html",
+    "title": "Российские войска атаковали Кривой Рог, двое ранены",
+    "source": "Укринформ",
+    "created_at": "2026-08-15T14:34:32.090498+00:00"
   }
 ]
