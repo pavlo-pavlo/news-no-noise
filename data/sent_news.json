@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/07/16/8044320/",
-    "title": "США пятую ночь подряд атакуют Иран",
-    "source": "Украинская правда",
-    "created_at": "2026-07-16T06:29:04.608457+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-polytics/4144744-latvian-president-warns-russia-may-be-preparing-provocations-against-baltic-states.html",
-    "title": "Президент Латвии предупреждает о возможных провокациях России против стран Балтии",
-    "source": "Укринформ",
-    "created_at": "2026-07-16T06:29:04.608471+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/16/8044321/",
-    "title": "В Запорожской и Николаевской областях в результате российских атак погибли 9 человек, 21 пострадал",
-    "source": "Украинская правда",
-    "created_at": "2026-07-16T06:29:04.608479+00:00"
-  },
-  {
     "url": "https://www.rbc.ru/politics/16/07/2026/6a57616f9a79470fedd23098",
     "title": "Рада назначила Сергея Корецкого новым премьер-министром Украины",
     "source": "РБК",
@@ -5776,5 +5758,23 @@
     "title": "Пять человек погибли в Индонезии после землетрясения магнитудой 7,7",
     "source": "BBC World",
     "created_at": "2026-08-15T05:35:52.604231+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4154310-russian-forces-launch-over-20-attacks-on-dnipropetrovsk-region-overnight-killing-threemonthold-boy.html",
+    "title": "Российские войска нанесли более 20 ударов по Днепропетровской области, погиб трехмесячный мальчик",
+    "source": "Укринформ",
+    "created_at": "2026-08-15T06:54:41.092884+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/69fe5b839a7947166bd148b2",
+    "title": "Путин назвал отношения с КНДР всеобъемлющим стратегическим партнерством",
+    "source": "РБК",
+    "created_at": "2026-08-15T06:54:41.092899+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-14/cuatro-claves-del-presente-fronterizo-de-ceuta.html",
+    "title": "Беспрецедентное развертывание полиции в Сеуте на фоне опасений новой массовой миграции",
+    "source": "El País",
+    "created_at": "2026-08-15T06:54:41.092908+00:00"
   }
 ]
