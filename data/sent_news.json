@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-polytics/4144865-parliament-appoints-koretskyi-as-ukraines-new-prime-minister.html",
-    "title": "Парламент Украины назначил нового премьер-министра Корецкого",
-    "source": "Укринформ",
-    "created_at": "2026-07-16T11:50:53.117785+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-07-16/asi-explica-el-tribunal-de-la-ue-su-decision-de-avalar-la-ley-de-amnistia-su-proposito-es-reducir-tensiones.html",
-    "title": "Суд ЕС одобрил закон об амнистии в Испании, направленный на снижение напряженности",
-    "source": "El País",
-    "created_at": "2026-07-16T11:50:53.117800+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1103710",
-    "title": "Конституционный суд РФ разрешил взрослым детям лишать родительских прав родителей-насильников",
-    "source": "Интерфакс",
-    "created_at": "2026-07-16T11:50:53.117808+00:00"
-  },
-  {
     "url": "https://www.elmundo.es/espana/2026/07/16/6a5894afe9cf4a42658b45a2.html",
     "title": "Суд ЕС подтвердил соответствие закона об амнистии нормам сообщества",
     "source": "El Mundo",
@@ -5830,5 +5812,23 @@
     "title": "Российские войска 21 раз обстреляли Черниговскую область за сутки, ранен ребенок",
     "source": "Укринформ",
     "created_at": "2026-08-15T11:30:30.345216+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/moscow/1109523",
+    "title": "Собянин сообщил об уничтожении 123 дронов на подлете к Москве за неделю",
+    "source": "Интерфакс",
+    "created_at": "2026-08-15T12:55:30.283216+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/08/15/6a802564e85ece610b8b457f.html",
+    "title": "Напряженная тишина в Сеуте после предотвращения попытки проникновения сотен мигрантов Марокко",
+    "source": "El Mundo",
+    "created_at": "2026-08-15T12:55:30.283230+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-15/la-junta-de-anadalucia-activa-la-fase-de-emergencia-por-un-seismo-de-magnitud-cinco-en-granada.html",
+    "title": "Землетрясение магнитудой 5 сотрясло Гранаду, вызвав страх у жителей",
+    "source": "El País",
+    "created_at": "2026-08-15T12:55:30.283238+00:00"
   }
 ]
