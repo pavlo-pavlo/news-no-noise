@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4145245-russian-forces-attack-port-in-mykolaiv-two-ukrainians-killed-aboard-foreign-vessel.html",
-    "title": "Российские войска атаковали порт в Николаеве, погибли двое граждан Украины",
-    "source": "Укринформ",
-    "created_at": "2026-07-17T10:09:42.374231+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4145238-largescale-fire-at-kerch-train-station-following-drone-attack.html",
-    "title": "Масштабный пожар на железнодорожной станции в Керчи после атаки беспилотника",
-    "source": "Укринформ",
-    "created_at": "2026-07-17T10:09:42.374245+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1103876",
-    "title": "Нефтяной танкер атакован недалеко от терминала КТК в Черном море",
-    "source": "Интерфакс",
-    "created_at": "2026-07-17T10:09:42.374252+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4145326-ssu-destroys-tu95-military-aircraft-in-engels.html",
     "title": "СБУ уничтожила военный самолет Ту-95 в Энгельсе",
     "source": "Укринформ",
@@ -6064,5 +6046,23 @@
     "title": "Двенадцать человек погибли при съезде польского автобуса с трассы в Венгрии",
     "source": "BBC World",
     "created_at": "2026-08-16T09:37:01.545933+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
+    "title": "Пять человек погибли в результате новых авиаударов России по Украине",
+    "source": "BBC World",
+    "created_at": "2026-08-16T10:33:51.771638+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1109600",
+    "title": "Число жертв землетрясения в Индонезии выросло до 51",
+    "source": "Интерфакс",
+    "created_at": "2026-08-16T10:33:51.771652+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/internacional/2026/08/16/6a8144e021efa08e1f8b4583.html",
+    "title": "Два испанских истребителя F-18 НАТО сбили дрон над воздушным пространством Румынии",
+    "source": "El Mundo",
+    "created_at": "2026-08-16T10:33:51.771658+00:00"
   }
 ]
