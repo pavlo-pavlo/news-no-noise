@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-polytics/4145140-macron-merz-to-discuss-support-for-ukraine-european-defense.html",
-    "title": "Макрон и Мерц обсудят поддержку Украины, европейскую оборону",
-    "source": "Укринформ",
-    "created_at": "2026-07-17T04:18:12.545976+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4145128-russian-missile-strike-on-odesa-kills-two-people-children-among-injured.html",
-    "title": "В результате российского ракетного удара по Одессе погибли два человека, среди раненых дети",
-    "source": "Укринформ",
-    "created_at": "2026-07-17T04:18:12.545993+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o?at_medium=RSS&at_campaign=rss",
-    "title": "США наносят новую волну ударов, Иран заявляет о поражении гражданской инфраструктуры",
-    "source": "BBC World",
-    "created_at": "2026-07-17T04:18:12.546003+00:00"
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/cr59n096mrmo?at_medium=RSS&at_campaign=rss",
     "title": "Более 500 рохинджа пропали без вести в море",
     "source": "BBC World",
@@ -5992,5 +5974,23 @@
     "title": "Катар отрицает захват трех иранских пилотов после сбития истребителей",
     "source": "BBC World",
     "created_at": "2026-08-16T03:09:38.738696+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/13/08/2026/6a7cdfe49a7947315a411940",
+    "title": "Что известно об атаках БПЛА на регионы России. Главное к 16 августа",
+    "source": "РБК",
+    "created_at": "2026-08-16T04:46:26.938971+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-16/ceuta-al-limite-urgencias-repletas-vecinos-desbordados-y-ruidos-de-sirena.html",
+    "title": "Сеута на пределе: переполненные отделения неотложной помощи, перегруженные жители и звуки сирен",
+    "source": "El País",
+    "created_at": "2026-08-16T04:46:26.938984+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/16/8048852/",
+    "title": "Россияне ударили баллистикой по промышленным объектам Кривого Рога: 1 погибший и 13 раненых",
+    "source": "Украинская правда",
+    "created_at": "2026-08-16T04:46:26.938991+00:00"
   }
 ]
