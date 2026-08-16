@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4145326-ssu-destroys-tu95-military-aircraft-in-engels.html",
-    "title": "СБУ уничтожила военный самолет Ту-95 в Энгельсе",
-    "source": "Укринформ",
-    "created_at": "2026-07-17T12:19:22.384497+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cx2k9wvv5wyo?at_medium=RSS&at_campaign=rss",
-    "title": "Трамп утверждает, что Китай вмешивался в выборы 2020 года и ставит под вопрос безопасность голосования перед промежуточными выборами",
-    "source": "BBC World",
-    "created_at": "2026-07-17T12:19:22.384510+00:00"
-  },
-  {
-    "url": "https://elpais.com/clima-y-medio-ambiente/2026-07-17/bruselas-suaviza-el-sistema-que-penaliza-las-emisiones-de-co-tras-la-presion-de-una-decena-de-gobiernos.html",
-    "title": "Брюссель смягчает систему штрафов за выбросы CO₂ после давления десяти правительств",
-    "source": "El País",
-    "created_at": "2026-07-17T12:19:22.384518+00:00"
-  },
-  {
     "url": "https://www.pravda.com.ua/news/2026/07/17/8044589/",
     "title": "Генштаб Украины заявил об ударе по двум танкерам, кораблю \"Светляк\" и НПЗ в Ярославле",
     "source": "Украинская правда",
@@ -6082,5 +6064,23 @@
     "title": "В Сеуте введена двойная физическая и юридическая морская преграда",
     "source": "El Mundo",
     "created_at": "2026-08-16T11:30:04.210720+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/16/8048890/",
+    "title": "Зеленский: За неделю РФ выпустила по Украине 62 ракеты, большинство из которых – баллистика",
+    "source": "Украинская правда",
+    "created_at": "2026-08-16T12:57:25.713278+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/salud/2026/08/16/6a818e3421efa0e7588b456f.html",
+    "title": "Министр здравоохранения Испании отрицает «коллапс системы здравоохранения» в Сеуте",
+    "source": "El Mundo",
+    "created_at": "2026-08-16T12:57:25.713298+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/6a7bf07e9a79474b3c77b927",
+    "title": "На Тайване выявлены проблемы в системе противодействия БПЛА",
+    "source": "РБК",
+    "created_at": "2026-08-16T12:57:25.713308+00:00"
   }
 ]
