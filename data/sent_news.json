@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.bbc.co.uk/news/articles/cr59n096mrmo?at_medium=RSS&at_campaign=rss",
-    "title": "Более 500 рохинджа пропали без вести в море",
-    "source": "BBC World",
-    "created_at": "2026-07-17T07:27:03.089896+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/17/8044469/",
-    "title": "Российский удар по Одессе: число пострадавших возросло до 10",
-    "source": "Украинская правда",
-    "created_at": "2026-07-17T07:27:03.089907+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/espana/2026/07/16/6a58e3d521efa0411d8b458c.html",
-    "title": "ЕС критикует правительство Испании за давление на судей",
-    "source": "El Mundo",
-    "created_at": "2026-07-17T07:27:03.089913+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4145245-russian-forces-attack-port-in-mykolaiv-two-ukrainians-killed-aboard-foreign-vessel.html",
     "title": "Российские войска атаковали порт в Николаеве, погибли двое граждан Украины",
     "source": "Укринформ",
@@ -6028,5 +6010,23 @@
     "title": "Австралийский штат Новый Южный Уэльс запускает программу выкупа оружия после атаки на пляже Бонди",
     "source": "BBC World",
     "created_at": "2026-08-16T06:55:45.282728+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/611749a69a7947149eb0a24c",
+    "title": "Утечка данных военных США через фитнес-приложение",
+    "source": "РБК",
+    "created_at": "2026-08-16T07:39:52.065243+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4154549-russias-largest-wildberries-warehouse-catches-fire-near-moscow-after-drone-attack-media.html",
+    "title": "Крупнейший склад Wildberries загорелся под Москвой после атаки беспилотника",
+    "source": "Укринформ",
+    "created_at": "2026-08-16T07:39:52.065257+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/internacional/2026/08/15/6a7356cd21efa085228b4583.html",
+    "title": "Референдум в Исландии о вступлении в ЕС проходит на фоне опасений по поводу Путина и Трампа",
+    "source": "El Mundo",
+    "created_at": "2026-08-16T07:39:52.065265+00:00"
   }
 ]
