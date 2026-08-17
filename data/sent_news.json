@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4145483-russian-defense-factories-fined-for-failing-to-recruit-drone-defense-volunteers-intelligence-says.html",
-    "title": "Российские оборонные заводы оштрафованы за невыполнение квот по набору добровольцев для ПВО, сообщает разведка",
-    "source": "Укринформ",
-    "created_at": "2026-07-18T22:04:04.083848+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cpd7q7eev7po?at_medium=RSS&at_campaign=rss",
-    "title": "Президент Венгрии согласился уйти в отставку после одобрения парламентом его смещения",
-    "source": "BBC World",
-    "created_at": "2026-07-18T22:04:04.083863+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/clyekv7rld3o?at_medium=RSS&at_campaign=rss",
-    "title": "Индийский космический стартап запустил первую коммерческую ракету для вывода на орбиту",
-    "source": "BBC World",
-    "created_at": "2026-07-18T22:04:04.083871+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4145516-drone-attack-sparks-fires-at-oil-depot-logistics-center-in-moscow-region.html",
     "title": "Атака дронов вызвала пожары на нефтебазе и логистическом центре в Московской области",
     "source": "Укринформ",
@@ -6352,5 +6334,23 @@
     "title": "В Запорожье в результате российской атаки беспилотника погибли два человека",
     "source": "Укринформ",
     "created_at": "2026-08-17T21:35:45.888412+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4154740-kremlin-stepping-up-recruitment-of-youth-from-occupied-ukraine-with-propaganda-ccd.html",
+    "title": "Кремль усиливает вербовку молодежи из оккупированной Украины с помощью пропаганды – ЦПД",
+    "source": "Укринформ",
+    "created_at": "2026-08-17T22:36:03.215815+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1109813",
+    "title": "Путин проведет переговоры в Кремле с президентом Республики Союз Мьянма Мин Аун Хлайном",
+    "source": "Интерфакс",
+    "created_at": "2026-08-17T22:36:03.215830+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/cronica/2026/08/17/6a7f24ade9cf4a90188b459e.html",
+    "title": "США обвиняют испанца в финансировании оружия массового поражения Ким Чен Ына",
+    "source": "El Mundo",
+    "created_at": "2026-08-17T22:36:03.215838+00:00"
   }
 ]
