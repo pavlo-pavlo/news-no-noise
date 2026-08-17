@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4145516-drone-attack-sparks-fires-at-oil-depot-logistics-center-in-moscow-region.html",
-    "title": "Атака дронов вызвала пожары на нефтебазе и логистическом центре в Московской области",
-    "source": "Укринформ",
-    "created_at": "2026-07-18T23:03:55.110688+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1104124",
-    "title": "Силы CENTCOM начали новую волну ударов по Ирану",
-    "source": "Интерфакс",
-    "created_at": "2026-07-18T23:03:55.110702+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/19/8044755/",
-    "title": "Баллистическая атака на Киев: горят дома, ТРЦ, автомобили",
-    "source": "Украинская правда",
-    "created_at": "2026-07-18T23:03:55.110710+00:00"
-  },
-  {
     "url": "https://www.interfax.ru/russia/1104125",
     "title": "Трамп назвал гибель американских военнослужащих в ходе атак Ирана печальным событием",
     "source": "Интерфакс",
@@ -6352,5 +6334,23 @@
     "title": "США обвиняют испанца в финансировании оружия массового поражения Ким Чен Ына",
     "source": "El Mundo",
     "created_at": "2026-08-17T22:36:03.215838+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss",
+    "title": "Россия и Украина обменялись смертоносными ударами",
+    "source": "BBC World",
+    "created_at": "2026-08-17T23:32:58.221222+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/08/17/6a7af7affdddfffc2d8b458c.html",
+    "title": "Правительство Испании объявило о создании 1500 новых мест для размещения мигрантов в Сеуте",
+    "source": "El Mundo",
+    "created_at": "2026-08-17T23:32:58.221236+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/6a80faa39a794768835f234c",
+    "title": "Три московских аэропорта закрыты для полетов",
+    "source": "РБК",
+    "created_at": "2026-08-17T23:32:58.221243+00:00"
   }
 ]
