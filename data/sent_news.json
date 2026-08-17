@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/07/18/8044750/",
-    "title": "В Херсоне в результате удара дрона РФ по многоэтажке пострадали 5 человек, двое детей в тяжелом состоянии",
-    "source": "Украинская правда",
-    "created_at": "2026-07-18T21:03:22.223172+00:00"
-  },
-  {
-    "url": "https://elpais.com/internacional/2026-07-18/iran-deja-en-suspenso-la-tregua-con-estados-unidos-tras-acusarle-de-matar-a-50-personas-en-tres-semanas.html",
-    "title": "Иран убил двух американских солдат в результате атаки на базу в Иордании",
-    "source": "El País",
-    "created_at": "2026-07-18T21:03:22.223186+00:00"
-  },
-  {
-    "url": "https://elpais.com/economia/negocios/2026-07-18/jamie-dimon-el-banquero-mas-poderoso-del-mundo-se-que-europa-no-ve-a-ee-uu-como-un-amigo-pero-lo-es-somos-aliados-desde-la-ii-guerra-mundial-y-esa-relacion-con-algunos-cambios-continuara.html",
-    "title": "Глава JPMorgan Джейми Даймон предупреждает о завышенных ценах на биржах и рисках",
-    "source": "El País",
-    "created_at": "2026-07-18T21:03:22.223195+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4145483-russian-defense-factories-fined-for-failing-to-recruit-drone-defense-volunteers-intelligence-says.html",
     "title": "Российские оборонные заводы оштрафованы за невыполнение квот по набору добровольцев для ПВО, сообщает разведка",
     "source": "Укринформ",
@@ -6352,5 +6334,23 @@
     "title": "Премьер-министра Франции освистали из-за реагирования на лесные пожары, которые продолжаются по всей Европе",
     "source": "BBC World",
     "created_at": "2026-08-17T20:38:24.782539+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1109812",
+    "title": "ВМС США перехватили 64 торговых судна после возобновления блокады Ирана",
+    "source": "Интерфакс",
+    "created_at": "2026-08-17T21:35:45.888390+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/18/8049078/",
+    "title": "Греческий танкер с российской нефтью атакован в Черном море – Bloomberg",
+    "source": "Украинская правда",
+    "created_at": "2026-08-17T21:35:45.888404+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4155046-russian-drone-attack-kills-two-people-in-zaporizhzhia.html",
+    "title": "В Запорожье в результате российской атаки беспилотника погибли два человека",
+    "source": "Укринформ",
+    "created_at": "2026-08-17T21:35:45.888412+00:00"
   }
 ]
