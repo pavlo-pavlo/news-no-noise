@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4145569-zelensky-confirms-strikes-on-two-major-logistics-hubs-in-moscow-and-tambov-regions.html",
-    "title": "Зеленский подтвердил удары по двум крупным логистическим узлам в Московской и Тамбовской областях",
-    "source": "Укринформ",
-    "created_at": "2026-07-18T10:36:02.810304+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4145514-unmanned-systems-forces-hit-13-more-vessels-of-russias-shadow-fleet.html",
-    "title": "Силы беспилотных систем Украины поразили еще 13 судов «теневого флота» России",
-    "source": "Укринформ",
-    "created_at": "2026-07-18T10:36:02.810318+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
-    "title": "Трамп угрожает Канаде новыми пошлинами из-за пожаров, загрязняющих воздух в городах США",
-    "source": "BBC World",
-    "created_at": "2026-07-18T10:36:02.810326+00:00"
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
     "title": "Российские склады онлайн-ретейлера подверглись смертоносным ударам Украины",
     "source": "BBC World",
@@ -6244,5 +6226,23 @@
     "title": "Нехватка помощи и опасения голода, пока Индонезия оправляется от смертельного землетрясения",
     "source": "BBC World",
     "created_at": "2026-08-17T09:54:25.357496+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/17/8048993/",
+    "title": "Минобороны Польши заявило о подготовке к войне с РФ и ожидании провокаций Кремля",
+    "source": "Украинская правда",
+    "created_at": "2026-08-17T10:44:28.801048+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/technology_and_media/15/08/2026/6a8009f99a7947309c6cff68",
+    "title": "FT раскрыла стратегию Китая по защите от рисков блокады США",
+    "source": "РБК",
+    "created_at": "2026-08-17T10:44:28.801064+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4154850-russian-attack-damages-power-facility-in-chernihiv-leaving-more-than-10000-customers-without-power.html",
+    "title": "Российская атака повредила энергетический объект в Чернигове, оставив без света более 10 000 потребителей",
+    "source": "Укринформ",
+    "created_at": "2026-08-17T10:44:28.801072+00:00"
   }
 ]
