@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o?at_medium=RSS&at_campaign=rss",
-    "title": "Российские склады онлайн-ретейлера подверглись смертоносным ударам Украины",
-    "source": "BBC World",
-    "created_at": "2026-07-18T13:43:32.480194+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1104076",
-    "title": "В Иране сообщили о 50 погибших с момента возобновления ударов США",
-    "source": "Интерфакс",
-    "created_at": "2026-07-18T13:43:32.480208+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cvg8w4dpjkwo?at_medium=RSS&at_campaign=rss",
-    "title": "Солдаты ВСУ выражают возмущение отставкой министра обороны",
-    "source": "BBC World",
-    "created_at": "2026-07-18T13:43:32.480215+00:00"
-  },
-  {
     "url": "https://www.elmundo.es/internacional/2026/07/18/6a5b9252fdddff6f568b4582.html",
     "title": "Персидский залив снова «пылает», Иран заявляет о приостановке всех своих обязательств",
     "source": "El Mundo",
@@ -6262,5 +6244,23 @@
     "title": "Президент Сеуты пригрозил обратиться в суд из-за \"пассивности\" правительства в миграционном кризисе",
     "source": "El Mundo",
     "created_at": "2026-08-17T11:36:06.146338+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/17/8049018/",
+    "title": "Трамп пригрозил Оману ударами, если страна помешает США в противостоянии с Ираном",
+    "source": "Украинская правда",
+    "created_at": "2026-08-17T13:50:09.668036+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-defense/4154913-ukraine-approves-dovbush-t40-drone-capable-of-striking-targets-deep-in-siberia.html",
+    "title": "Украина одобрила дрон Dovbush T40, способный наносить удары вглубь Сибири",
+    "source": "Укринформ",
+    "created_at": "2026-08-17T13:50:09.668051+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4154928-russia-deploying-warships-to-baltic-sea-posing-threat-to-regional-countries-bild.html",
+    "title": "Россия развертывает военные корабли в Балтийском море, что представляет угрозу для стран региона – Bild",
+    "source": "Укринформ",
+    "created_at": "2026-08-17T13:50:09.668061+00:00"
   }
 ]
