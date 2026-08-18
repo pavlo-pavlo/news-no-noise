@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/07/19/8044851/",
-    "title": "Атака РФ на судно в Черном море: 6 моряков погибли, 4 считаются пропавшими без вести",
-    "source": "Украинская правда",
-    "created_at": "2026-07-19T21:04:35.145945+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1104229",
-    "title": "Трое детей ранены в результате атаки беспилотника на белгородский поселок",
-    "source": "Интерфакс",
-    "created_at": "2026-07-19T21:04:35.145960+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1104231",
-    "title": "МИД Иордании вызвал временного поверенного в делах Ирана в связи с иранскими ударами",
-    "source": "Интерфакс",
-    "created_at": "2026-07-19T21:04:35.145968+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-polytics/4145951-polish-defense-minister-criticizes-calls-to-end-support-for-ukraine.html",
     "title": "Министр обороны Польши критикует призывы прекратить поддержку Украины",
     "source": "Укринформ",
@@ -6514,5 +6496,23 @@
     "title": "Международный уголовный суд раскритиковал США за введение санкций",
     "source": "Интерфакс",
     "created_at": "2026-08-18T20:35:33.162110+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4155413-war-update-192-clashes-on-front-line-russians-make-16-attempts-to-breach-ukrainian-defenses-in-pokrovsk-sector.html",
+    "title": "Сводка о ходе боевых действий: на фронте зафиксировано 192 столкновения, российские войска 16 раз пытались прорвать оборону Украины на Покровском направлении",
+    "source": "Укринформ",
+    "created_at": "2026-08-18T21:34:25.144956+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/18/08/2026/6a84bffa9a7947a5b1e8abeb",
+    "title": "ОАЭ приостановили торговлю и все финансовые операции с Ираном",
+    "source": "РБК",
+    "created_at": "2026-08-18T21:34:25.144971+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-economy/4155412-ukraine-germany-exploring-equipment-to-restore-chornobyls-new-safe-confinement.html",
+    "title": "Украина и Германия изучают возможности поставки оборудования для восстановления нового безопасного конфайнмента Чернобыля",
+    "source": "Укринформ",
+    "created_at": "2026-08-18T21:34:25.144980+00:00"
   }
 ]
