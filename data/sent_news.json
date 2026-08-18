@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.interfax.ru/russia/1104125",
-    "title": "Трамп назвал гибель американских военнослужащих в ходе атак Ирана печальным событием",
-    "source": "Интерфакс",
-    "created_at": "2026-07-19T00:05:47.662129+00:00"
-  },
-  {
-    "url": "https://elpais.com/sociedad/2026-07-18/dimite-el-lider-parlamentario-conservador-aleman-tras-tener-un-bebe-por-vientre-de-alquiler-mi-felicidad-no-es-compatible-con-mi-cargo.html",
-    "title": "Лидер парламентской фракции консерваторов Германии подал в отставку после рождения ребенка от суррогатной матери",
-    "source": "El País",
-    "created_at": "2026-07-19T00:05:47.662144+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cglj255jk8ko?at_medium=RSS&at_campaign=rss",
-    "title": "Россияне переходят на наличные, что усиливает нагрузку на замедляющуюся экономику военного времени",
-    "source": "BBC World",
-    "created_at": "2026-07-19T00:05:47.662152+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4145734-russian-ballistic-missile-attack-on-kyiv-kills-one-injures-seven.html",
     "title": "Российский баллистический ракетный удар по Киеву: один погибший, семь раненых",
     "source": "Укринформ",
@@ -6352,5 +6334,23 @@
     "title": "Три московских аэропорта закрыты для полетов",
     "source": "РБК",
     "created_at": "2026-08-17T23:32:58.221243+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/6a8393579a794755739c74d9",
+    "title": "На подлете к Москве сбили более 80 беспилотников",
+    "source": "РБК",
+    "created_at": "2026-08-18T01:46:22.355122+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/18/08/2026/6a83a6a49a79473e9eeb20bf",
+    "title": "WP рассказала, как сокращения в Белом доме усилили биоугрозу из-за ИИ",
+    "source": "РБК",
+    "created_at": "2026-08-18T01:46:22.355136+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-society/4154805-ukraines-military-intelligence-names-ten-more-individuals-involved-in-militarizing-children-in-occupied-territories.html",
+    "title": "Военная разведка Украины назвала имена еще десяти лиц, причастных к милитаризации детей на оккупированных территориях",
+    "source": "Укринформ",
+    "created_at": "2026-08-18T01:46:22.355146+00:00"
   }
 ]
