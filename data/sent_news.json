@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
-    "title": "Йеменские хуситы объявили \"морское эмбарго\" Саудовской Аравии",
-    "source": "BBC World",
-    "created_at": "2026-07-20T19:03:52.033769+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cx25nzkyj50o?at_medium=RSS&at_campaign=rss",
-    "title": "ХАМАС назвал Халиля аль-Хайю новым общим лидером",
-    "source": "BBC World",
-    "created_at": "2026-07-20T19:03:52.033783+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4146263-india-confirms-death-of-four-of-its-citizens-on-vessel-attacked-by-russia-in-black-sea.html",
-    "title": "Индия подтверждает гибель четырех своих граждан на судне, атакованном Россией в Черном море",
-    "source": "Укринформ",
-    "created_at": "2026-07-20T19:03:52.033792+00:00"
-  },
-  {
     "url": "https://www.interfax.ru/world/1104435",
     "title": "Силы CENTCOM перехватили семь связанных с Ираном судов после возобновления блокады",
     "source": "Интерфакс",
@@ -6694,5 +6676,23 @@
     "title": "Миграционный кризис в Сеуте: PP обращается в Верховный суд, город принимает план по мигрантам",
     "source": "El País",
     "created_at": "2026-08-19T18:50:02.003595+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4155759-russian-forces-kill-six-civilians-injure-12-in-kherson-region.html",
+    "title": "Российские войска убили шесть мирных жителей, ранили 12 в Херсонской области",
+    "source": "Укринформ",
+    "created_at": "2026-08-19T19:35:22.998060+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/08/19/6a848bdde85eced66d8b4588.html",
+    "title": "Суды в Сеуте «перегружены»: 20 задержаний в день, в 8 раз больше сексуальных нападений и 96 смертей",
+    "source": "El Mundo",
+    "created_at": "2026-08-19T19:35:22.998081+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cpvwgk1n2k8o?at_medium=RSS&at_campaign=rss",
+    "title": "Лобовое столкновение автобуса и грузовика в Бразилии унесло жизни более 20 человек",
+    "source": "BBC World",
+    "created_at": "2026-08-19T19:35:22.998091+00:00"
   }
 ]
