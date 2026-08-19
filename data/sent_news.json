@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4146007-russian-attack-on-a-foreign-cargo-vessel-near-odesa-kills-10-people-including-ukrainian-pilot.html",
-    "title": "Атака РФ на иностранное грузовое судно у Одессы привела к гибели 10 человек",
-    "source": "Укринформ",
-    "created_at": "2026-07-20T08:15:34.772378+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4146018-russian-strikes-on-kharkiv-and-region-over-past-day-leave-four-people-killed-48-injured.html",
-    "title": "Российские удары по Харькову и области за сутки: 4 погибших, 48 раненых",
-    "source": "Укринформ",
-    "created_at": "2026-07-20T08:15:34.772392+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/quote/20/07/2026/6a3e05a09a79477772e22308",
-    "title": "Цены на газ в Европе превысили $700 впервые с конца марта",
-    "source": "РБК",
-    "created_at": "2026-07-20T08:15:34.772399+00:00"
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/cly52xzjd3qo?at_medium=RSS&at_campaign=rss",
     "title": "Трамп заявил, что удары США по Ирану нанесены в \"честь\" погибших американских солдат",
     "source": "BBC World",
@@ -6568,5 +6550,23 @@
     "title": "Нетаньяху приветствовал санкции США против сотрудников МУС, Нидерланды выступили против",
     "source": "Интерфакс",
     "created_at": "2026-08-19T05:40:20.072690+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/19/8049269/",
+    "title": "В Херсоне в результате атаки российского дрона на маршрутку погибли 4 человека, 5 ранены",
+    "source": "Украинская правда",
+    "created_at": "2026-08-19T08:51:31.751366+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/19/8049261/",
+    "title": "НАБУ и САП анонсировали спецоперацию \"Форест Гамп\" по разоблачению преступной организации с участием нардепов и чиновников ОП",
+    "source": "Украинская правда",
+    "created_at": "2026-08-19T08:51:31.751380+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/68eaec169a7947610d95a4e9",
+    "title": "ЦБ РФ: все крупные банки готовы к запуску цифрового рубля",
+    "source": "РБК",
+    "created_at": "2026-08-19T08:51:31.751385+00:00"
   }
 ]
