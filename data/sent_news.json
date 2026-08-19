@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4146222-russian-strike-on-odesa-three-people-killed-injury-toll-climbs-to-six.html",
-    "title": "Российский удар по Одессе: три человека погибли, число раненых возросло до шести",
-    "source": "Укринформ",
-    "created_at": "2026-07-20T16:41:50.535381+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/business/1104410",
-    "title": "Минфин РФ приостановил аукционы ОФЗ для стабилизации рыночной ситуации",
-    "source": "Интерфакс",
-    "created_at": "2026-07-20T16:41:50.535394+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/rbcfreenews/6a1977eb9a7947aa10c60201",
-    "title": "ХАМАС избрал Халиля аль-Хайю новым лидером движения",
-    "source": "РБК",
-    "created_at": "2026-07-20T16:41:50.535402+00:00"
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
     "title": "Йеменские хуситы объявили \"морское эмбарго\" Саудовской Аравии",
     "source": "BBC World",
@@ -6658,5 +6640,23 @@
     "title": "Россияне попали в здание полиции в Житомире: 2 погибших, 20 пострадавших",
     "source": "Украинская правда",
     "created_at": "2026-08-19T15:40:41.801707+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
+    "title": "Израиль объявил тендеры на спорный проект поселения на Западном берегу",
+    "source": "BBC World",
+    "created_at": "2026-08-19T16:43:17.524657+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4155728-russian-attack-in-zhytomyr-kills-two-police-officers-and-injures-at-least-20-people.html",
+    "title": "Российская атака в Житомире: двое полицейских погибли, не менее 20 человек ранены",
+    "source": "Укринформ",
+    "created_at": "2026-08-19T16:43:17.524671+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-19/el-gobierno-trabaja-en-el-traslado-urgente-de-500-ninas-migrantes-de-ceuta-a-la-peninsula.html",
+    "title": "Правительство работает над срочным переводом 500 девочек-мигранток из Сеуты на полуостров",
+    "source": "El País",
+    "created_at": "2026-08-19T16:43:17.524680+00:00"
   }
 ]
