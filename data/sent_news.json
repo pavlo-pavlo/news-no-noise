@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/07/21/8045238/",
-    "title": "Новым главнокомандующим ВСУ станет Михаил Драпатый",
-    "source": "Украинская правда",
-    "created_at": "2026-07-21T19:48:04.350835+00:00"
-  },
-  {
-    "url": "https://elpais.com/sociedad/2026-07-21/francia-se-convierte-en-el-primer-pais-europeo-en-vetar-el-acceso-a-redes-sociales-a-menores-de-15-anos.html",
-    "title": "Франция стала первой страной Европы, запретившей доступ к соцсетям для лиц моложе 15 лет",
-    "source": "El País",
-    "created_at": "2026-07-21T19:48:04.350850+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-economy/4146629-ukraine-disrupts-russias-attempt-to-connect-zaporizhzhia-nuclear-power-plant-to-its-energy-system-greenpeace.html",
-    "title": "Украина сорвала попытку России подключить Запорожскую АЭС к своей энергосистеме – Greenpeace",
-    "source": "Укринформ",
-    "created_at": "2026-07-21T19:48:04.350858+00:00"
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/cyvl35z3917o?at_medium=RSS&at_campaign=rss",
     "title": "Зеленский уволил главнокомандующего ВСУ после многодневных протестов",
     "source": "BBC World",
@@ -6874,5 +6856,23 @@
     "title": "Российские войска атаковали объект критической инфраструктуры в Киеве",
     "source": "Укринформ",
     "created_at": "2026-08-20T19:39:56.932381+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1110398",
+    "title": "Два человека погибли, трое взрослых и ребенок пострадали в Крыму в результате украинской атаки",
+    "source": "Интерфакс",
+    "created_at": "2026-08-20T20:40:16.977054+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c998evlgz8ko?at_medium=RSS&at_campaign=rss",
+    "title": "Великобритания, Франция, Германия, Италия и Канада осуждают проект строительства израильских поселений на Западном берегу",
+    "source": "BBC World",
+    "created_at": "2026-08-20T20:40:16.977070+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/20/8049603/",
+    "title": "В Хорватии взят под стражу украинец, задержанный по делу о подрыве «Северных потоков»",
+    "source": "Украинская правда",
+    "created_at": "2026-08-20T20:40:16.977079+00:00"
   }
 ]
