@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.rbc.ru/rbcfreenews/6a5f8e169a79470ea27bea05",
-    "title": "Зеленский уволил главкома ВСУ Сырского и назначил Драпатого",
-    "source": "РБК",
-    "created_at": "2026-07-21T23:08:04.876739+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/22/8045247/",
-    "title": "Парламент Франции запретил соцсети для детей до 15 лет",
-    "source": "Украинская правда",
-    "created_at": "2026-07-21T23:08:04.876754+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-economy/4146644-indian-refineries-increase-purchases-of-russian-oil-bloomberg.html",
-    "title": "НПЗ Индии увеличили закупки российской нефти до рекордных уровней",
-    "source": "Укринформ",
-    "created_at": "2026-07-21T23:08:04.876762+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-polytics/4146652-zelensky-drapatyi-appointed-as-ukraines-new-commanderinchief-of-armed-forces.html",
     "title": "Зеленский: Драпатый назначен новым Главнокомандующим Вооруженными силами Украины",
     "source": "Укринформ",
@@ -6892,5 +6874,23 @@
     "title": "Аэропорты Волгограда, Пензы и Саратова приостановили работу",
     "source": "Интерфакс",
     "created_at": "2026-08-20T22:39:10.494645+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-crime/4155949-student-detained-and-charged-with-plotting-to-kill-military-unit-commander-in-poltava-region-sbu.html",
+    "title": "В Полтавской области СБУ задержала студента по обвинению в подготовке убийства командира воинской части",
+    "source": "Укринформ",
+    "created_at": "2026-08-20T23:35:48.333187+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4156093-another-fire-breaks-out-in-kyivs-holosiivskyi-district-after-russian-drone-debris-falls-one-injured.html",
+    "title": "В Голосеевском районе Киева возник пожар из-за падения обломков российского дрона, один погиб, один ранен",
+    "source": "Укринформ",
+    "created_at": "2026-08-20T23:35:48.333200+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/20/08/2026/6a86aa7e9a79473fad7bc0c3",
+    "title": "В ЕС рассказали, что Украина просит вместо ПВО",
+    "source": "РБК",
+    "created_at": "2026-08-20T23:35:48.333206+00:00"
   }
 ]
