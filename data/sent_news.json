@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.rbc.ru/politics/21/07/2026/6a5f650a9a79472ba086161b",
-    "title": "Турция узнала о подготовке покушения на Эрдогана",
-    "source": "РБК",
-    "created_at": "2026-07-21T12:43:15.683322+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/21/8045153/",
-    "title": "Politico: Турция блокирует проект трубопроводов НАТО на €27 млрд",
-    "source": "Украинская правда",
-    "created_at": "2026-07-21T12:43:15.683336+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/quote/21/07/2026/6a5e242b9a7947e6a2d8eece",
-    "title": "Инфляционные ожидания россиян в июле резко выросли до 14,7%",
-    "source": "РБК",
-    "created_at": "2026-07-21T12:43:15.683344+00:00"
-  },
-  {
     "url": "https://www.pravda.com.ua/news/2026/07/21/8045188/",
     "title": "Президент Азербайджана заявил о тайных переговорах представителей РФ и Германии по войне в Украине",
     "source": "Украинская правда",
@@ -6802,5 +6784,23 @@
     "title": "\"Испытывает решимость НАТО\": Сибига отреагировал на дроны РФ, залетевшие в Молдову и Румынию",
     "source": "Украинская правда",
     "created_at": "2026-08-20T11:36:50.498375+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4155984-fm-sybiha-calls-on-partners-and-ukrainians-abroad-to-help-strengthen-air-defense-following-massive-russian-attack.html",
+    "title": "Глава МИД Сибига призывает партнеров и украинцев за рубежом помочь усилить ПВО после массированной российской атаки",
+    "source": "Укринформ",
+    "created_at": "2026-08-20T13:06:17.046543+00:00"
+  },
+  {
+    "url": "https://www.ukinform.net/rubric-ato/4155960-general-staff-confirms-strikes-on-oil-refinery-in-tatarstan-oil-terminal-in-krasnodar-krai.html",
+    "title": "Генштаб подтвердил удары по НПЗ в Татарстане и нефтяному терминалу в Краснодарском крае",
+    "source": "Укринформ",
+    "created_at": "2026-08-20T13:06:17.046557+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-20/el-gobierno-reubica-a-1800-migrantes-de-la-playa-de-el-trampolin-y-preve-habilitar-nuevos-espacios.html",
+    "title": "Правительство Испании переселило 1800 мигрантов с пляжа Эль-Трамполин и планирует создать новые места размещения",
+    "source": "El País",
+    "created_at": "2026-08-20T13:06:17.046565+00:00"
   }
 ]
