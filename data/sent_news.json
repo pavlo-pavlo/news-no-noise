@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.bbc.co.uk/news/articles/cn0n127lpzgo?at_medium=RSS&at_campaign=rss",
-    "title": "Танкеры совершают резкие развороты после угрозы хуситов для судоходства",
-    "source": "BBC World",
-    "created_at": "2026-07-22T18:19:17.196636+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/internacional/2026/07/22/6a60c26ffc6c8379178b45ad.html",
-    "title": "Трамп одобрил историческое ядерное соглашение с Саудовской Аравией",
-    "source": "El Mundo",
-    "created_at": "2026-07-22T18:19:17.196651+00:00"
-  },
-  {
-    "url": "https://elpais.com/tecnologia/2026-07-22/un-nuevo-modelo-de-openai-provoca-un-ataque-sin-precedentes-contra-otra-plataforma-de-inteligencia-artificial.html",
-    "title": "Новая модель OpenAI спровоцировала «беспрецедентную» атаку на другую платформу ИИ",
-    "source": "El País",
-    "created_at": "2026-07-22T18:19:17.196658+00:00"
-  },
-  {
     "url": "https://www.rbc.ru/rbcfreenews/6a5cb6ae9a7947da4e46c287",
     "title": "Трамп заявил о расследовании гибели военных США при ударе по Иордании",
     "source": "РБК",
@@ -7054,5 +7036,23 @@
     "title": "Великобритания, Канада и Австралия осудили Израиль за отказ в уголовном расследовании убийства сотрудников гуманитарных организаций в Газе",
     "source": "BBC World",
     "created_at": "2026-08-21T17:40:33.798626+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4156418-death-toll-from-russian-drone-strike-on-kryvyi-rih-shopping-center-rises-to-14-121-injured.html",
+    "title": "Число жертв российского удара дроном по торговому центру в Кривом Роге возросло до 14, 121 человек ранен",
+    "source": "Укринформ",
+    "created_at": "2026-08-21T18:51:27.597363+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-society/4156415-united24-has-raised-nearly-4b-from-donors-in-145-countries-since-2022-zelensky.html",
+    "title": "Платформа United24 собрала почти $4 млрд от доноров из 145 стран с 2022 года – Зеленский",
+    "source": "Укринформ",
+    "created_at": "2026-08-21T18:51:27.597376+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/6459f3139a794718b55a4196",
+    "title": "В Молдавии запретили зажечь Вечный огонь в день освобождения от фашизма",
+    "source": "РБК",
+    "created_at": "2026-08-21T18:51:27.597383+00:00"
   }
 ]
