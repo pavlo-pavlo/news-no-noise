@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://elpais.com/internacional/2026-07-22/trump-autoriza-un-pacto-nuclear-que-permitira-a-arabia-saudi-enriquecer-uranio.html",
-    "title": "Трамп разрешил ядерный пакт, который позволит Саудовской Аравии обогащать уран",
-    "source": "El País",
-    "created_at": "2026-07-23T00:13:03.749848+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/politics/23/07/2026/6a6141f89a79473bd7227573",
-    "title": "Иран заявил об атаке на Бушер, где находится АЭС",
-    "source": "РБК",
-    "created_at": "2026-07-23T00:13:03.749885+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-polytics/4147042-ukraine-urgently-calls-for-un-security-council-meeting-over-russian-attacks-on-civilian-ships.html",
-    "title": "Украина срочно созывает заседание Совета Безопасности ООН из-за атак России на гражданские суда",
-    "source": "Укринформ",
-    "created_at": "2026-07-23T00:13:03.749895+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4147056-russia-prepares-falseflag-provocations-against-nato-countries-ccd.html",
     "title": "Россия готовит провокации под чужим флагом против стран НАТО – ЦПД",
     "source": "Укринформ",
@@ -7108,5 +7090,23 @@
     "title": "Правительство Испании не смогло полностью вернуть мигрантов, 6500 человек остаются в Сеуте",
     "source": "El Mundo",
     "created_at": "2026-08-21T23:34:14.416654+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/20/08/2026/6a86651d9a79479f260ce090",
+    "title": "Politico: Германия планирует создать дальнобойный арсенал на €12 млрд",
+    "source": "РБК",
+    "created_at": "2026-08-22T01:46:38.148246+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss",
+    "title": "TikTok выплатит $400 млн США по делу о конфиденциальности данных детей",
+    "source": "BBC World",
+    "created_at": "2026-08-22T01:46:38.148261+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/finances/22/08/2026/6a88fd799a794714279fda30",
+    "title": "Основатель Bridgewater Далио предрек США долговой кризис в течение 3 лет",
+    "source": "РБК",
+    "created_at": "2026-08-22T01:46:38.148269+00:00"
   }
 ]
