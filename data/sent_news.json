@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/07/23/8045615/",
-    "title": "В Запорожье число пострадавших от атаки РФ выросло до 25",
-    "source": "Украинская правда",
-    "created_at": "2026-07-23T19:41:07.009487+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1105159",
-    "title": "Визит Си Цзиньпина в США состоится 24 сентября",
-    "source": "Интерфакс",
-    "created_at": "2026-07-23T19:41:07.009501+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/economia/dinero-inversion/2026/07/23/6a6234dee85ece6c4f8b4571.html",
-    "title": "Цена на нефть выросла более чем на 7% и превысила $100",
-    "source": "El Mundo",
-    "created_at": "2026-07-23T19:41:07.009510+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4147376-russia-declares-its-black-sea-waters-unsafe-for-navigation.html",
     "title": "Россия объявляет свои воды в Черном море небезопасными для судоходства",
     "source": "Укринформ",
@@ -7306,5 +7288,23 @@
     "title": "В ЕС предложено ввести налог на сверхприбыль нефтяных компаний",
     "source": "РБК",
     "created_at": "2026-08-22T19:31:12.661527+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/22/08/2026/6a8a02179a7947fca59db3ab",
+    "title": "На Украине заявили о рассмотрении «радикальных мер» в рамках мобилизации",
+    "source": "РБК",
+    "created_at": "2026-08-22T20:34:55.848424+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/20/08/2026/6a86d6fe9a79475455b84895",
+    "title": "Дания решила ужесточить правила пребывания украинцев из части регионов",
+    "source": "РБК",
+    "created_at": "2026-08-22T20:34:55.848439+00:00"
+  },
+  {
+    "url": "https://elpais.com/internacional/2026-08-22/el-pais-mas-caro-del-mundo-se-acerca-a-la-ue-empujado-por-el-alto-coste-de-la-vida.html",
+    "title": "Самая дорогая страна мира приближается к ЕС из-за высокой стоимости жизни",
+    "source": "El País",
+    "created_at": "2026-08-22T20:34:55.848447+00:00"
   }
 ]
