@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
-    "title": "Цены на нефть впервые с мая превысили $100",
-    "source": "BBC World",
-    "created_at": "2026-07-23T17:43:12.803089+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/23/8045600/",
-    "title": "ЕС окончательно утвердил новые санкции против РФ: ограничения для финансовых услуг и криптовалют",
-    "source": "Украинская правда",
-    "created_at": "2026-07-23T17:43:12.803102+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
-    "title": "Йеменские хуситы атаковали саудовский танкер на фоне новых ударов США по Ирану",
-    "source": "BBC World",
-    "created_at": "2026-07-23T17:43:12.803110+00:00"
-  },
-  {
     "url": "https://www.pravda.com.ua/news/2026/07/23/8045615/",
     "title": "В Запорожье число пострадавших от атаки РФ выросло до 25",
     "source": "Украинская правда",
@@ -7288,5 +7270,23 @@
     "title": "Макрон пообещал Киеву новые поставки ракет для ПВО",
     "source": "РБК",
     "created_at": "2026-08-22T17:31:42.119478+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4156695-russian-forces-attack-dtek-gas-production-facility-in-poltava-region.html",
+    "title": "Российские войска атаковали газодобывающее предприятие ДТЭК в Полтавской области",
+    "source": "Укринформ",
+    "created_at": "2026-08-22T18:44:51.466015+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
+    "title": "Премьер-министр Канады назвал новые пошлины Трампа \"ошибочным расчетом\" после срыва торговых переговоров",
+    "source": "BBC World",
+    "created_at": "2026-08-22T18:44:51.466028+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/internacional/2026/08/22/6a89cbf2e4d4d8815f8b459f.html",
+    "title": "Федеральный суд отменил приостановку выдачи виз, введенную Трампом для 75 стран",
+    "source": "El Mundo",
+    "created_at": "2026-08-22T18:44:51.466036+00:00"
   }
 ]
