@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4147726-ten-killed-dozens-injured-rescuers-show-aftermath-of-russian-missile-strike-on-kyiv-region.html",
-    "title": "В результате российского ракетного удара по Киевской области погибли десять человек",
-    "source": "Укринформ",
-    "created_at": "2026-07-24T18:40:35.478799+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/politics/26/01/2026/697733659a79471e2f4478dc",
-    "title": "NYT сообщила об опасениях Европы после отказа от российского газа",
-    "source": "РБК",
-    "created_at": "2026-07-24T18:40:35.478813+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/madrid/2026-07-24/los-tres-incendios-que-arrasan-madrid-siguen-ardiendo-sin-control.html",
-    "title": "В Испании пожары в Мадриде и Авиле рискуют объединиться в один",
-    "source": "El País",
-    "created_at": "2026-07-24T18:40:35.478823+00:00"
-  },
-  {
     "url": "https://www.elmundo.es/espana/2026/07/24/6a632fdce85ece8e1b8b456f.html",
     "title": "Аюсо назвала \"беспрецедентным\" пожар, из-за которого в Мадриде эвакуировано 19 000 человек: \"Это идеальный шторм. Это катастрофа\"",
     "source": "El Mundo",
@@ -7486,5 +7468,23 @@
     "title": "Глава Народной партии Испании призвал закрыть Сеуту из-за риска для здоровья",
     "source": "El Mundo",
     "created_at": "2026-08-23T17:30:34.255818+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/23/8049962/",
+    "title": "Российские войска атаковали завод американской компании Mondelez в Сумской области",
+    "source": "Украинская правда",
+    "created_at": "2026-08-23T18:44:04.299186+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1110829",
+    "title": "Представители Израиля и Сирии провели встречу для нормализации отношений",
+    "source": "Интерфакс",
+    "created_at": "2026-08-23T18:44:04.299202+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cqlxlp4lx9yo?at_medium=RSS&at_campaign=rss",
+    "title": "Во Франции зафиксирован значительный рост случаев утопления, связанный с аномальной жарой",
+    "source": "BBC World",
+    "created_at": "2026-08-23T18:44:04.299210+00:00"
   }
 ]
