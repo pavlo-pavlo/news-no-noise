@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-polytics/4147706-khmara-meets-us-delegation-urges-faster-delivery-of-patriot-interceptor-missiles.html",
-    "title": "Хмара призвал США ускорить поставки ракет Patriot для ПВО",
-    "source": "Укринформ",
-    "created_at": "2026-07-24T16:52:50.372613+00:00"
-  },
-  {
-    "url": "https://elpais.com/internacional/2026-07-24/la-ue-moviliza-su-mecanismo-de-emergencia-por-los-incendios-de-espana-y-francia-y-avisa-nos-preparamos-para-una-situacion-grave.html",
-    "title": "ЕС мобилизовал экстренный механизм из-за пожаров в Испании и Франции",
-    "source": "El País",
-    "created_at": "2026-07-24T16:52:50.372627+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/c05ql5llj4do?at_medium=RSS&at_campaign=rss",
-    "title": "США и Иран обмениваются ударами в Персидском заливе",
-    "source": "BBC World",
-    "created_at": "2026-07-24T16:52:50.372635+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4147726-ten-killed-dozens-injured-rescuers-show-aftermath-of-russian-missile-strike-on-kyiv-region.html",
     "title": "В результате российского ракетного удара по Киевской области погибли десять человек",
     "source": "Укринформ",
@@ -7486,5 +7468,23 @@
     "title": "В Китае создали первую в мире ИИ-систему защиты растений от патогенов",
     "source": "РБК",
     "created_at": "2026-08-23T16:37:56.883436+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/69cf6a4c9a7947bb9ab0327b",
+    "title": "NYT назвала три условия угрозы мирового продовольственного кризиса",
+    "source": "РБК",
+    "created_at": "2026-08-23T17:30:34.255793+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4156937-nb8-summit-held-in-kyiv-air-defense-winter-preparations-and-defense-funding-shortfall-discussed.html",
+    "title": "В Киеве прошел саммит стран Северной Европы и Балтии (NB8)",
+    "source": "Укринформ",
+    "created_at": "2026-08-23T17:30:34.255810+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/08/23/6a8b1e6ffc6c833d098b4590.html",
+    "title": "Глава Народной партии Испании призвал закрыть Сеуту из-за риска для здоровья",
+    "source": "El Mundo",
+    "created_at": "2026-08-23T17:30:34.255818+00:00"
   }
 ]
