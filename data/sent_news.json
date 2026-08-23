@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/07/24/8045687/",
-    "title": "Румынский F-16 сбил беспилотник, залетевший на территорию Румынии",
-    "source": "Украинская правда",
-    "created_at": "2026-07-24T09:29:25.661371+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-07-24/ultima-hora-de-los-incendios-forestales-en-directo.html",
-    "title": "Испания запросила помощь ЕС для борьбы с лесными пожарами",
-    "source": "El País",
-    "created_at": "2026-07-24T09:29:25.661387+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1105280",
-    "title": "Совфед одобрил закон об отказе в гражданстве иностранцам с судимостью",
-    "source": "Интерфакс",
-    "created_at": "2026-07-24T09:29:25.661395+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-polytics/4147594-martial-law-and-mobilization-extended-in-ukraine-zelensky-signs-laws.html",
     "title": "В Украине продлены военное положение и мобилизация: Зеленский подписал законы",
     "source": "Укринформ",
@@ -7396,5 +7378,23 @@
     "title": "Масштабный пожар вспыхнул на складе в Санкт-Петербурге – СМИ",
     "source": "Укринформ",
     "created_at": "2026-08-23T08:43:29.653569+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4156823-putin-still-has-plans-for-offensive-toward-kyiv-and-chernihiv-zelensky.html",
+    "title": "Зеленский: Путин по-прежнему имеет планы наступления на Киев и Чернигов",
+    "source": "Укринформ",
+    "created_at": "2026-08-23T09:38:17.071092+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4156813-ukraine-willing-to-negotiate-with-russia-on-halting-strikes-on-energy-and-agricultural-infrastructure-president.html",
+    "title": "Украина готова к переговорам с Россией о прекращении ударов по инфраструктуре",
+    "source": "Укринформ",
+    "created_at": "2026-08-23T09:38:17.071108+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/economics/31/03/2026/69cb63ec9a794764a095b46d",
+    "title": "Госдолг Украины вырос почти в 35 раз за 13 лет",
+    "source": "РБК",
+    "created_at": "2026-08-23T09:38:17.071116+00:00"
   }
 ]
