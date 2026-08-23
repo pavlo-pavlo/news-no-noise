@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-polytics/4147594-martial-law-and-mobilization-extended-in-ukraine-zelensky-signs-laws.html",
-    "title": "В Украине продлены военное положение и мобилизация: Зеленский подписал законы",
-    "source": "Укринформ",
-    "created_at": "2026-07-24T11:52:22.263263+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-economy/4147518-iaea-reports-water-supply-problems-at-zaporizhzhia-nuclear-plant.html",
-    "title": "МАГАТЭ сообщает о проблемах с водоснабжением на Запорожской АЭС",
-    "source": "Укринформ",
-    "created_at": "2026-07-24T11:52:22.263296+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss",
-    "title": "Десятки тысяч человек эвакуированы из туристических районов Франции и под Мадридом из-за распространения лесных пожаров",
-    "source": "BBC World",
-    "created_at": "2026-07-24T11:52:22.263304+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4147614-ten-killed-around-100-injured-as-russia-launches-ballistic-missile-strike-on-private-training-ground-in-kyiv-region.html",
     "title": "Десять человек погибли, около 100 ранены в результате ракетного удара России по частному полигону в Киевской области",
     "source": "Укринформ",
@@ -7432,5 +7414,23 @@
     "title": "Фейхоо заявил, что ситуация в Испании «самая деликатная» после «вторжения» в Сеуту",
     "source": "El Mundo",
     "created_at": "2026-08-23T11:31:31.141368+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4156885-ukrainian-drones-strike-two-russian-aircraft-eight-radar-systems-and-s400-battalion-position.html",
+    "title": "Украинские дроны поразили два российских самолета, восемь радиолокационных систем и позицию дивизиона С-400",
+    "source": "Укринформ",
+    "created_at": "2026-08-23T12:58:26.624371+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/23/8049939/",
+    "title": "Федоров призвал Зеленского ответить, знал ли он о коррупции в своем окружении",
+    "source": "Украинская правда",
+    "created_at": "2026-08-23T12:58:26.624385+00:00"
+  },
+  {
+    "url": "https://elpais.com/ciencia/2026-08-23/los-graficos-para-entender-el-despegue-de-la-inteligencia-artificial.html",
+    "title": "Графики, чтобы понять взлет искусственного интеллекта",
+    "source": "El País",
+    "created_at": "2026-08-23T12:58:26.624393+00:00"
   }
 ]
