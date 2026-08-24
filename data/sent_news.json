@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4147887-ukrainian-sof-confirm-strike-on-tyumen-oil-refinery.html",
-    "title": "Украинские ССО подтвердили удар по Тюменскому НПЗ",
-    "source": "Укринформ",
-    "created_at": "2026-07-25T15:16:29.527397+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/25/8045882/",
-    "title": "Токаев заявил Путину о необходимости \"заморозить\" войну РФ против Украины",
-    "source": "Украинская правда",
-    "created_at": "2026-07-25T15:16:29.527411+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1105595",
-    "title": "Число погибших из-за удара по турбазам в Запорожской области возросло до 12",
-    "source": "Интерфакс",
-    "created_at": "2026-07-25T15:16:29.527418+00:00"
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
     "title": "Более 250 000 человек эвакуированы из-за лесных пожаров во Франции и Испании",
     "source": "BBC World",
@@ -7630,5 +7612,23 @@
     "title": "Зеленский подвел итоги «коалиции желающих» в Киеве: пакеты помощи, ПВО — приоритет",
     "source": "Украинская правда",
     "created_at": "2026-08-24T14:54:44.694947+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1111016",
+    "title": "Хуситы нанесли удар по нефтяному танкеру у берегов Саудовской Аравии",
+    "source": "Интерфакс",
+    "created_at": "2026-08-24T15:51:41.603587+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-24/sanchez-convoca-el-consejo-de-seguridad-nacional-26-dias-despues-del-estallido-de-la-crisis-de-ceuta.html",
+    "title": "Санчес созывает Совет национальной безопасности спустя 26 дней после начала кризиса в Сеуте",
+    "source": "El País",
+    "created_at": "2026-08-24T15:51:41.603609+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4157233-drone-strikes-apartment-in-kherson-injuring-people-woman-killed-in-shelling-in-region.html",
+    "title": "В Херсоне в результате удара беспилотника пострадали люди, в области погибла женщина",
+    "source": "Укринформ",
+    "created_at": "2026-08-24T15:51:41.603617+00:00"
   }
 ]
