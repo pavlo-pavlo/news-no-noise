@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://elpais.com/espana/2026-07-25/los-incendios-de-madrid-y-avila-ya-han-calcinado-mas-de-15000-hectareas-y-han-obligado-a-evacuar-o-confinar-a-63000-personas.html",
-    "title": "Пожары в Мадриде и Авиле выжгли более 22 000 гектаров и вынудили эвакуировать или изолировать почти 80 000 человек",
-    "source": "El País",
-    "created_at": "2026-07-25T11:22:39.749280+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/25/8045854/",
-    "title": "Российский удар по выставке вооружения в Киевской области: организатору мероприятия объявлено подозрение",
-    "source": "Украинская правда",
-    "created_at": "2026-07-25T11:22:39.749295+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/25/8045863/",
-    "title": "Силы обороны и СБУ поразили российский завод, НПЗ и корабли в Каспийском море",
-    "source": "Украинская правда",
-    "created_at": "2026-07-25T11:22:39.749304+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4147899-ukrainian-forces-repel-assault-by-two-russian-armies-and-tank-division-in-donetsk-region.html",
     "title": "Украинские силы отразили наступление двух российских армий и танковой дивизии в Донецкой области",
     "source": "Укринформ",
@@ -7612,5 +7594,23 @@
     "title": "В Адыгее локализовали пожар на территории логоцентра Ozon",
     "source": "Интерфакс",
     "created_at": "2026-08-24T10:49:30.369903+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4157161-ukrainian-defense-forces-strike-russian-defense-industry-plant-in-rostov-region.html",
+    "title": "ВСУ нанесли удар по оборонному предприятию в Ростовской области России",
+    "source": "Укринформ",
+    "created_at": "2026-08-24T11:39:01.202998+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
+    "title": "Иран столкнется с «величайшим финансовым наступлением в истории», заявил министр финансов США",
+    "source": "BBC World",
+    "created_at": "2026-08-24T11:39:01.203013+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1110961",
+    "title": "Верховный суд РФ: Школа не может отказать ученику в продолжении учебы в 10-м классе",
+    "source": "Интерфакс",
+    "created_at": "2026-08-24T11:39:01.203021+00:00"
   }
 ]
