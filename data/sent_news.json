@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://www.pravda.com.ua/news/2026/07/25/8045912/",
-    "title": "Зеленский: РФ снимает военные объекты США в странах Персидского залива для Ирана",
-    "source": "Украинская правда",
-    "created_at": "2026-07-25T21:06:15.363907+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/25/8045919/",
-    "title": "Иран обвинил Украину в атаке на свое торговое судно в Каспийском море",
-    "source": "Украинская правда",
-    "created_at": "2026-07-25T21:06:15.363921+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/comunidad-valenciana/2026/07/25/6a64de75fc6c83f1498b4574.html",
-    "title": "Неконтролируемый пожар в Валь-д'Уишо (Кастельон) привел к массовой эвакуации и жертвам",
-    "source": "El Mundo",
-    "created_at": "2026-07-25T21:06:15.363929+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-polytics/4147958-zelensky-to-instruct-intelligence-to-share-information-with-partners-on-russias-new-assistance-to-iran.html",
-    "title": "Зеленский поручит разведке передать партнерам данные о новой помощи РФ Ирану",
-    "source": "Укринформ",
-    "created_at": "2026-07-25T22:08:21.896130+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/26/8045921/",
-    "title": "Более 250 тысяч человек эвакуированы из-за сильных лесных пожаров во Франции и Испании",
-    "source": "Украинская правда",
-    "created_at": "2026-07-25T22:08:21.896144+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/politics/25/07/2026/6a64bd039a79477d4102fe6c",
-    "title": "NYP сообщила о готовности США к «самой сложной операции в военной истории»",
-    "source": "РБК",
-    "created_at": "2026-07-25T22:08:21.896152+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-crime/4147844-ssu-detains-russian-agent-in-dnipro-who-activated-over-1000-starlink-systems-for-enemies.html",
     "title": "СБУ задержала российского агента в Днепре, активировавшего более 1000 систем Starlink для врага",
     "source": "Укринформ",
@@ -7666,5 +7630,23 @@
     "title": "США угрожают новыми санкциями любой стране, которая торгует с Ираном, включая Китай: \"Пришло время выбрать, на чьей вы стороне\"",
     "source": "El Mundo",
     "created_at": "2026-08-24T19:39:08.636466+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4157353-july-becomes-deadliest-month-for-ukrainian-civilians-since-russias-fullscale-war-begins-un-deputy-chief.html",
+    "title": "Июль стал самым смертоносным месяцем для мирных жителей Украины с начала полномасштабной войны России – заместитель генсека ООН",
+    "source": "Укринформ",
+    "created_at": "2026-08-24T22:38:53.336992+00:00"
+  },
+  {
+    "url": "https://elpais.com/internacional/2026-08-24/estados-unidos-da-un-ultimatum-a-cualquier-pais-lo-suficientemente-loco-como-para-seguir-negociando-con-iran.html",
+    "title": "Операция «Экономический изгой»: США намерены изолировать Иран от правительств, поддерживающих его финансы",
+    "source": "El País",
+    "created_at": "2026-08-24T22:38:53.337009+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4157348-over-50-un-member-states-call-on-russia-to-agree-to-full-unconditional-ceasefire-in-ukraine.html",
+    "title": "Более 50 стран-членов ООН призвали Россию согласиться на полное и безоговорочное прекращение огня в Украине",
+    "source": "Укринформ",
+    "created_at": "2026-08-24T22:38:53.337017+00:00"
   }
 ]
