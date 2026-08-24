@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
-    "title": "Более 250 000 человек эвакуированы из-за лесных пожаров во Франции и Испании",
-    "source": "BBC World",
-    "created_at": "2026-07-25T17:12:24.279822+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/politics/06/08/2025/6892f8359a794785d0e38e0b",
-    "title": "Reuters: США и Украина обсудили прекращение огня в воздушном пространстве",
-    "source": "РБК",
-    "created_at": "2026-07-25T17:12:24.279836+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-economy/4147934-major-vegetable-oil-producer-suspends-operations-in-odesa-region-due-to-security-risks.html",
-    "title": "Крупный производитель растительного масла приостанавливает работу в Одесской области",
-    "source": "Укринформ",
-    "created_at": "2026-07-25T17:12:24.279844+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-economy/4147954-zelensky-warns-russias-aggression-could-once-again-threaten-global-food-security.html",
     "title": "Зеленский предупреждает, что агрессия России может снова угрожать глобальной продовольственной безопасности",
     "source": "Укринформ",
@@ -7648,5 +7630,23 @@
     "title": "Санчес созывает Совет национальной безопасности спустя 26 дней после «атаки на территориальную целостность» Сеуты",
     "source": "El Mundo",
     "created_at": "2026-08-24T16:51:19.654570+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/24/8050135/",
+    "title": "ПВО, санкции и многонациональные силы: о чем договорилась «Коалиция желающих» в Киеве",
+    "source": "Украинская правда",
+    "created_at": "2026-08-24T17:40:25.901381+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/24/08/2026/6a8c7e04aba01dfb81cd2ad7",
+    "title": "США объявили о начале операции против финансовых связей Ирана по всему миру",
+    "source": "РБК",
+    "created_at": "2026-08-24T17:40:25.901393+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/salud/2026/08/24/6a8c2ebd21efa034138b4589.html",
+    "title": "Минздрав Испании запросил помощь у регионов для отправки 45 000 вакцин в Сеуту",
+    "source": "El Mundo",
+    "created_at": "2026-08-24T17:40:25.901400+00:00"
   }
 ]
