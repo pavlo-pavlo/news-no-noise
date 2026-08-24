@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-economy/4147954-zelensky-warns-russias-aggression-could-once-again-threaten-global-food-security.html",
-    "title": "Зеленский предупреждает, что агрессия России может снова угрожать глобальной продовольственной безопасности",
-    "source": "Укринформ",
-    "created_at": "2026-07-25T19:23:25.387860+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4147952-zelensky-putin-preparing-for-broader-mobilization-planning-to-recruit-30000-more-north-korean-troops.html",
-    "title": "Зеленский: Путин готовится к более широкой мобилизации, планирует привлечь еще 30 000 северокорейских военнослужащих",
-    "source": "Укринформ",
-    "created_at": "2026-07-25T19:23:25.387875+00:00"
-  },
-  {
-    "url": "https://elpais.com/sociedad/2026-07-25/protegerse-frente-al-humo-mejor-quedarse-en-casa-usar-mascarilla-ffp2-al-salir-y-llamar-a-urgencias-si-cuesta-respirar.html",
-    "title": "Правительство призывает оставаться в помещениях и использовать маски на улице из-за дыма от пожаров в Мадриде и Авиле",
-    "source": "El País",
-    "created_at": "2026-07-25T19:23:25.387882+00:00"
-  },
-  {
     "url": "https://www.pravda.com.ua/news/2026/07/25/8045912/",
     "title": "Зеленский: РФ снимает военные объекты США в странах Персидского залива для Ирана",
     "source": "Украинская правда",
@@ -7666,5 +7648,23 @@
     "title": "Трамп анонсировал 50% пошлины на автомобили и сталь из Канады с 1 января 2027 года",
     "source": "El País",
     "created_at": "2026-08-24T18:54:13.106662+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4157321-humanitarian-supplies-worth-nearly-28-million-damaged-or-destroyed-in-russian-attack-on-ukrainian-red-cross-warehouse-in-kherson.html",
+    "title": "Гуманитарные грузы на почти 28 млн гривен повреждены или уничтожены в результате атаки России на склад Красного Креста в Херсоне",
+    "source": "Укринформ",
+    "created_at": "2026-08-24T19:39:08.636411+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/24/8050140/",
+    "title": "Украина и Великобритания договорились совместно развивать военные технологии на основе ИИ",
+    "source": "Украинская правда",
+    "created_at": "2026-08-24T19:39:08.636456+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/internacional/2026/08/24/6a8c85d9e4d4d870468b4579.html",
+    "title": "США угрожают новыми санкциями любой стране, которая торгует с Ираном, включая Китай: \"Пришло время выбрать, на чьей вы стороне\"",
+    "source": "El Mundo",
+    "created_at": "2026-08-24T19:39:08.636466+00:00"
   }
 ]
