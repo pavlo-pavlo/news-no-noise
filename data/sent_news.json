@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://elpais.com/espana/2026-07-26/los-incendios-de-madrid-y-avila-obligan-a-evacuar-o-confinar-a-mas-de-100000-personas.html",
-    "title": "Пожары в Мадриде и Авиле вынудили эвакуировать или изолировать 100 000 человек",
-    "source": "El País",
-    "created_at": "2026-07-26T12:12:59.307147+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/politics/26/07/2026/6a65f3619a794706cd4dbb0e",
-    "title": "Путин подписал закон, ужесточающий правила пребывания трудовых мигрантов",
-    "source": "РБК",
-    "created_at": "2026-07-26T12:12:59.307161+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/26/8045959/",
-    "title": "Румыния сообщила о третьем подряд сбитом БПЛА за три дня",
-    "source": "Украинская правда",
-    "created_at": "2026-07-26T12:12:59.307169+00:00"
-  },
-  {
     "url": "https://www.elmundo.es/ciencia/2026/07/26/6a65e130fdddff283a8b4588.html",
     "title": "Мегапожар на юге Франции: уничтожено 42 000 гектаров, эвакуировано 220 000 человек",
     "source": "El Mundo",
@@ -7774,5 +7756,23 @@
     "title": "Китай предупреждает, что будет защищать свои интересы после расширения санкций США против Ирана",
     "source": "BBC World",
     "created_at": "2026-08-25T11:37:48.964565+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4157581-zelensky-confirms-britain-and-france-have-agreed-to-grant-ukraine-a-license-to-produce-storm-shadowscalp-missiles.html",
+    "title": "Зеленский подтвердил согласие Британии и Франции предоставить Украине лицензию на производство ракет Storm Shadow/SCALP",
+    "source": "Укринформ",
+    "created_at": "2026-08-25T13:06:14.195176+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4157521-novoshakhtinsk-oil-refinery-shut-down-following-drone-attack-rostov-region-authorities-say.html",
+    "title": "Власти Ростовской области заявили о закрытии Новошахтинского НПЗ после атаки беспилотника",
+    "source": "Укринформ",
+    "created_at": "2026-08-25T13:06:14.195194+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1111183",
+    "title": "«Росатом» и Египет начали обсуждение проекта второй очереди АЭС «Эль-Дабаа»",
+    "source": "Интерфакс",
+    "created_at": "2026-08-25T13:06:14.195202+00:00"
   }
 ]
