@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss",
-    "title": "Франция борется с огненными \"смерчами\", эвакуировано еще 55 000 человек",
-    "source": "BBC World",
-    "created_at": "2026-07-26T07:44:22.361567+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/26/8045936/",
-    "title": "РФ атаковала 110 целями: ПВО обезвредила 5 из 7 баллистических ракет, Х-59/69 и более сотни дронов",
-    "source": "Украинская правда",
-    "created_at": "2026-07-26T07:44:22.361582+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1105639",
-    "title": "Вэнс и Кейн предостерегли руководство США от усиления кампании против Ирана",
-    "source": "Интерфакс",
-    "created_at": "2026-07-26T07:44:22.361590+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4148051-zelensky-russians-launch-95-missiles-at-ukraine-in-one-week-more-than-half-of-which-ballistic.html",
     "title": "Зеленский: Россия выпустила 95 ракет по Украине за неделю, более половины из них — баллистические",
     "source": "Укринформ",
@@ -7720,5 +7702,23 @@
     "title": "Торговая война между США и Канадой обостряется на фоне угроз Трампа повысить пошлины на автомобили",
     "source": "BBC World",
     "created_at": "2026-08-25T07:03:38.098633+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cg598m3meeyo?at_medium=RSS&at_campaign=rss",
+    "title": "Советник Кремля: заводы по производству дронов в Великобритании могут подвергнуться атакам",
+    "source": "BBC World",
+    "created_at": "2026-08-25T07:55:36.790501+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1111104",
+    "title": "Новошахтинский НПЗ в Ростовской области приостановил работу после атаки БПЛА",
+    "source": "Интерфакс",
+    "created_at": "2026-08-25T07:55:36.790514+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-25/sanchez-da-un-giro-a-la-gestion-de-la-crisis-de-ceuta-casi-un-mes-despues-con-un-mando-unico-y-un-plan-economico.html",
+    "title": "Испания меняет подход к управлению миграционным кризисом в Сеуте",
+    "source": "El País",
+    "created_at": "2026-08-25T07:55:36.790521+00:00"
   }
 ]
