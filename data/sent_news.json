@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-crime/4147844-ssu-detains-russian-agent-in-dnipro-who-activated-over-1000-starlink-systems-for-enemies.html",
-    "title": "СБУ задержала российского агента в Днепре, активировавшего более 1000 систем Starlink для врага",
-    "source": "Укринформ",
-    "created_at": "2026-07-26T00:09:45.158463+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/26/8045920/",
-    "title": "Россия ударила по Киеву ракетами: в одном из районов обломки упали на 18-этажный дом",
-    "source": "Украинская правда",
-    "created_at": "2026-07-26T00:09:45.158478+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1105617",
-    "title": "США перехватили и вывели из строя 14 судов после возобновления блокады Ирана",
-    "source": "Интерфакс",
-    "created_at": "2026-07-26T00:09:45.158485+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4147975-missile-debris-falls-on-18story-building-in-kyiv.html",
     "title": "Обломки ракеты упали на 18-этажный дом в Киеве",
     "source": "Укринформ",
@@ -7666,5 +7648,23 @@
     "title": "США в ООН призвали Россию и Украину вернуться за стол переговоров",
     "source": "Украинская правда",
     "created_at": "2026-08-24T23:31:17.139128+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c33knmyl0y5o?at_medium=RSS&at_campaign=rss",
+    "title": "США исключили Сирию из списка государств-спонсоров терроризма",
+    "source": "BBC World",
+    "created_at": "2026-08-25T01:48:01.106949+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/25/8050157/",
+    "title": "Премьер Британии намерен убедить Трампа помочь Украине ракетами Patriot – СМИ",
+    "source": "Украинская правда",
+    "created_at": "2026-08-25T01:48:01.106963+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1111053",
+    "title": "Минфин США предупредил о рисках санкций за соблюдение требований Ирана в Ормузском проливе",
+    "source": "Интерфакс",
+    "created_at": "2026-08-25T01:48:01.106972+00:00"
   }
 ]
