@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4148051-zelensky-russians-launch-95-missiles-at-ukraine-in-one-week-more-than-half-of-which-ballistic.html",
-    "title": "Зеленский: Россия выпустила 95 ракет по Украине за неделю, более половины из них — баллистические",
-    "source": "Укринформ",
-    "created_at": "2026-07-26T10:09:47.912765+00:00"
-  },
-  {
-    "url": "https://elpais.com/internacional/2026-07-26/el-fuego-del-suroeste-de-francia-gana-terreno-y-obliga-a-nuevas-evacuaciones-masivas.html",
-    "title": "Пожары на юго-западе Франции распространяются, вызвав новые массовые эвакуации",
-    "source": "El País",
-    "created_at": "2026-07-26T10:09:47.912779+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/rbcfreenews/6a572f529a7947609349c1ec",
-    "title": "В России началось проектирование атомных подводных лодок пятого поколения",
-    "source": "РБК",
-    "created_at": "2026-07-26T10:09:47.912787+00:00"
-  },
-  {
     "url": "https://elpais.com/espana/2026-07-26/los-incendios-de-madrid-y-avila-obligan-a-evacuar-o-confinar-a-mas-de-100000-personas.html",
     "title": "Пожары в Мадриде и Авиле вынудили эвакуировать или изолировать 100 000 человек",
     "source": "El País",
@@ -7756,5 +7738,23 @@
     "title": "Группа хакеров опубликовала данные 70 000 марокканских агентов и утверждает, что штурм Сеуты был спланирован государством",
     "source": "El Mundo",
     "created_at": "2026-08-25T09:47:22.202075+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4157483-general-staff-confirms-strikes-on-afipsky-oil-refinery-and-astrakhan-gas-processing-plant.html",
+    "title": "Генштаб подтверждает удары по Афипскому НПЗ и Астраханскому газоперерабатывающему заводу",
+    "source": "Укринформ",
+    "created_at": "2026-08-25T10:44:31.850338+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1111153",
+    "title": "На Амурском газохимическом комплексе в результате пожара погиб гражданин КНР",
+    "source": "Интерфакс",
+    "created_at": "2026-08-25T10:44:31.850352+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-25/ultima-hora-de-la-entrada-de-inmigrantes-a-ceuta-en-directo.html",
+    "title": "Министр обороны Испании Роблес выступит в Конгрессе по миграционному кризису в Сеуте",
+    "source": "El País",
+    "created_at": "2026-08-25T10:44:31.850360+00:00"
   }
 ]
