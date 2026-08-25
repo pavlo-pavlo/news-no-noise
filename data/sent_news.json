@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-polytics/4148108-white-house-confirms-trumpzelensky-meeting-on-tuesday.html",
-    "title": "Белый дом подтвердил встречу Трампа и Зеленского во вторник",
-    "source": "Укринформ",
-    "created_at": "2026-07-26T22:09:11.712712+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/comunidad-valenciana/2026-07-26/anatomia-de-un-desalojo-vi-como-el-fuego-avanzaba-hacia-mi-casa.html",
-    "title": "17 000 человек эвакуированы из-за масштабных пожаров в Испании",
-    "source": "El País",
-    "created_at": "2026-07-26T22:09:11.712726+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss",
-    "title": "По сообщениям палестинцев, израильские поселенцы подожгли мечети, автомобили и сельскохозяйственные угодья на Западном берегу",
-    "source": "BBC World",
-    "created_at": "2026-07-26T22:09:11.712734+00:00"
-  },
-  {
     "url": "https://www.interfax.ru/world/1105740",
     "title": "Сестра Ким Чен Ына заявила о постоянном обновлении ядерного арсенала КНДР",
     "source": "Интерфакс",
@@ -7846,5 +7828,23 @@
     "title": "Глава Transbosphor обвинил Украину в пиратстве",
     "source": "РБК",
     "created_at": "2026-08-25T21:38:46.885154+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-crime/4157396-russian-spotter-who-planted-devices-near-defense-facilities-detained-in-rivne-region.html",
+    "title": "В Ровенской области задержан российский корректировщик, устанавливавший устройства возле оборонных объектов",
+    "source": "Укринформ",
+    "created_at": "2026-08-25T22:39:01.933071+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/08/25/6a8ddf73fdddff030c8b457e.html",
+    "title": "Представительство правительства в Сеуте опровергает Роблес и отрицает получение предупреждений о массовом притоке мигрантов",
+    "source": "El Mundo",
+    "created_at": "2026-08-25T22:39:01.933086+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/6a8be3e19a7947467c0182e1",
+    "title": "В трех московских аэропортах ввели ограничения на полеты",
+    "source": "РБК",
+    "created_at": "2026-08-25T22:39:01.933093+00:00"
   }
 ]
