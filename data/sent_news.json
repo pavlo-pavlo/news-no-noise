@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://elpais.com/espana/2026-07-26/ultima-hora-de-los-incendios-forestales-en-directo.html",
-    "title": "Лесные пожары: Пожар в Авиле стал крупнейшим в истории Испании, выгорело 50 000 гектаров",
-    "source": "El País",
-    "created_at": "2026-07-26T16:11:46.674042+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-polytics/4148146-un-security-council-to-hold-emergency-meeting-over-russian-attacks-on-civilian-vessels-in-black-sea.html",
-    "title": "Совет Безопасности ООН проведет экстренное заседание из-за атак России на гражданские суда в Черном море",
-    "source": "Укринформ",
-    "created_at": "2026-07-26T16:11:46.674056+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cevmdxz4872o?at_medium=RSS&at_campaign=rss",
-    "title": "Что известно о наезде автомобиля на толпу во время ЛГБТ-прайда в Берлине",
-    "source": "BBC World",
-    "created_at": "2026-07-26T16:11:46.674063+00:00"
-  },
-  {
     "url": "https://www.elmundo.es/comunidad-valenciana/2026/07/26/6a65e4dae4d4d8ee268b4571.html",
     "title": "Пожар в Ла-Валь-д'Ушо остается \"вне контроля\" после уничтожения 4300 гектаров, подозревается умышленный поджог",
     "source": "El Mundo",
@@ -7792,5 +7774,23 @@
     "title": "Казахстанский НПЗ будет перерабатывать российскую нефть, отправляя 70% топлива в Россию",
     "source": "Укринформ",
     "created_at": "2026-08-25T15:54:44.915215+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4157662-cia-director-john-ratcliffe-in-russia-on-secret-trip-cbs-news.html",
+    "title": "Директор ЦРУ Джон Рэтклифф прибыл в Россию с секретным визитом – CBS News",
+    "source": "Укринформ",
+    "created_at": "2026-08-25T16:50:51.324364+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/25/8050280/",
+    "title": "Axios: США попросили Украину не наносить удары по России, пока там директор ЦРУ",
+    "source": "Украинская правда",
+    "created_at": "2026-08-25T16:50:51.324380+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/08/25/6a8d74f1e85ece475a8b4571.html",
+    "title": "Влиятельный марокканский министр в присутствии Мухаммеда VI заявил об «освобождении оккупированных городов», упомянув Сеуту",
+    "source": "El Mundo",
+    "created_at": "2026-08-25T16:50:51.324387+00:00"
   }
 ]
