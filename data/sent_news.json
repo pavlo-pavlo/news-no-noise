@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4148457-un-reports-sharp-rise-in-civilian-casualties-in-ukraine-due-to-russian-attacks.html",
-    "title": "ООН сообщает о резком росте числа жертв среди гражданского населения в Украине из-за российских атак",
-    "source": "Укринформ",
-    "created_at": "2026-07-27T17:51:47.298013+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/27/8046140/",
-    "title": "Трамп пригрозил Ирану \"мощными военными действиями\" в случае провала дипломатии",
-    "source": "Украинская правда",
-    "created_at": "2026-07-27T17:51:47.298028+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/comunidad-valenciana/2026/07/27/6a671f50fdddff9b428b45a5.html",
-    "title": "Санчес призывает к \"раз и навсегда\" государственному пакту по борьбе с изменением климата на фоне пожара в Валь-д'Уишо",
-    "source": "El Mundo",
-    "created_at": "2026-07-27T17:51:47.298037+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4148525-four-civilians-killed-18-injured-in-russian-attacks-on-donetsk-region.html",
     "title": "В результате российских атак в Донецкой области погибли четверо мирных жителей, 18 ранены",
     "source": "Укринформ",
@@ -8008,5 +7990,23 @@
     "title": "Россияне убили 2 человек в Никопольском районе",
     "source": "Украинская правда",
     "created_at": "2026-08-26T16:27:09.346943+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-economy/4158022-russias-fourthlargest-oil-refinery-halts-oil-processing-after-drone-attack-reuters.html",
+    "title": "Четвертый по величине НПЗ России остановил переработку нефти после атаки БПЛА",
+    "source": "Укринформ",
+    "created_at": "2026-08-26T19:15:21.889178+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1111455",
+    "title": "США готовы к военному сценарию, если переговоры по ядерной проблеме Ирана не увенчаются успехом",
+    "source": "Интерфакс",
+    "created_at": "2026-08-26T19:15:21.889192+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/26/8050468/",
+    "title": "Число погибших в результате наводнения на границе Непала и Китая возросло до 98 человек",
+    "source": "Украинская правда",
+    "created_at": "2026-08-26T19:15:21.889200+00:00"
   }
 ]
