@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4148266-putin-plans-to-mobilize-between-300000-and-500000-people-says-zelensky.html",
-    "title": "Зеленский заявил, что Путин планирует мобилизовать от 300 000 до 500 000 человек",
-    "source": "Укринформ",
-    "created_at": "2026-07-27T08:42:49.189024+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-07-27/los-incendios-de-madrid-avila-y-toledo-afectan-ya-a-77000-hectareas-y-obligan-a-evacuar-o-confinar-a-90000-personas.html",
-    "title": "Пожары в Мадриде, Авиле и Толедо затронули 77 000 гектаров и вынудили эвакуировать или ограничить передвижение 90 000 человек",
-    "source": "El País",
-    "created_at": "2026-07-27T08:42:49.189038+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/27/8046045/",
-    "title": "FT: ЕС рассматривает новый подход к введению санкций против РФ",
-    "source": "Украинская правда",
-    "created_at": "2026-07-27T08:42:49.189045+00:00"
-  },
-  {
     "url": "https://elpais.com/espana/comunidad-valenciana/2026-07-27/12-municipios-evacuados-por-el-incendio-de-la-vall-duixo-integran-el-parque-natural-de-sierra-de-espadan-el-pulmon-verde-de-castellon.html",
     "title": "В Испании эвакуированы 12 муниципалитетов из-за пожара в Ла-Валь-д'Уишо",
     "source": "El País",
@@ -7936,5 +7918,23 @@
     "title": "В Нижегородской области при атаке более 40 БПЛА пострадало предприятие",
     "source": "РБК",
     "created_at": "2026-08-26T07:56:33.989867+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-economy/4157809-eu-discusses-new-program-of-cooperation-with-ukraine-for-up-to-100b-costa.html",
+    "title": "ЕС обсуждает новую программу сотрудничества с Украиной на сумму до €100 млрд",
+    "source": "Укринформ",
+    "created_at": "2026-08-26T08:57:12.519006+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/society/27/07/2026/6a66e2f59a7947166fd12021",
+    "title": "Bloomberg узнал о попытках Meta урегулировать спор о вреде соцсетей до наложения штрафа",
+    "source": "РБК",
+    "created_at": "2026-08-26T08:57:12.519020+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-ato/4157769-russian-attacks-in-kharkiv-region-leave-23-injured-over-past-day.html",
+    "title": "Российские атаки в Харьковской области привели к ранениям 23 человек за последние сутки",
+    "source": "Укринформ",
+    "created_at": "2026-08-26T08:57:12.519028+00:00"
   }
 ]
