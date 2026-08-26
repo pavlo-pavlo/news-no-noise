@@ -1,59 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4148525-four-civilians-killed-18-injured-in-russian-attacks-on-donetsk-region.html",
-    "title": "В результате российских атак в Донецкой области погибли четверо мирных жителей, 18 ранены",
-    "source": "Укринформ",
-    "created_at": "2026-07-27T19:49:19.929684+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1105946",
-    "title": "Трамп обсудит с Зеленским урегулирование конфликта с Россией",
-    "source": "Интерфакс",
-    "created_at": "2026-07-27T19:49:19.929698+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-polytics/4148513-ukraine-at-un-russia-deliberately-targeting-grain-exports-and-civilian-shipping-in-black-sea.html",
-    "title": "Украина в ООН: Россия намеренно наносит удары по экспорту зерна и гражданскому судоходству в Черном море",
-    "source": "Укринформ",
-    "created_at": "2026-07-27T19:49:19.929706+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/internacional/2026/07/27/6a671711fdddfff3038b458e.html",
-    "title": "Трамп распорядился прекратить бомбардировки Ирана для переговоров",
-    "source": "El Mundo",
-    "created_at": "2026-07-27T21:21:33.099667+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/politics/19/07/2026/6a5d1baf9a79479b0065f02a",
-    "title": "Reuters: ЕС ждет непростая зима из-за нехватки энергоресурсов",
-    "source": "РБК",
-    "created_at": "2026-07-27T21:21:33.099680+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-07-27/claves-de-los-incendios-hectareas-quemadas-desalojos-y-carreteras-cortadas.html",
-    "title": "Лесные пожары в Испании охватили более 113 000 гектаров, эвакуировано 80 000 человек",
-    "source": "El País",
-    "created_at": "2026-07-27T21:21:33.099688+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss",
-    "title": "Украина отвергает угрозы Ирана, поскольку удар в Каспийском море напрямую связывает конфликты",
-    "source": "BBC World",
-    "created_at": "2026-07-27T23:16:25.740769+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/28/8046169/",
-    "title": "Трамп намерен принять Зеленского и Нетаньяху в Белом доме во вторник – CNN",
-    "source": "Украинская правда",
-    "created_at": "2026-07-27T23:16:25.740784+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1105955",
-    "title": "Более 170 тысяч человек в Испании эвакуированы или ограничили передвижение из-за лесных пожаров",
-    "source": "Интерфакс",
-    "created_at": "2026-07-27T23:16:25.740792+00:00"
-  },
-  {
     "url": "https://www.rbc.ru/rbcfreenews/6a67fbff9a794719569eea36",
     "title": "В районе Москвы сбит 81 беспилотник",
     "source": "РБК",
@@ -8008,5 +7954,23 @@
     "title": "Число погибших в результате наводнения на границе Непала и Китая возросло до 98 человек",
     "source": "Украинская правда",
     "created_at": "2026-08-26T19:15:21.889200+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/economia/empresas/2026/08/26/6a8eebb7e4d4d850368b4595.html",
+    "title": "Meta согласилась выплатить почти $17 млрд по иску о вреде для несовершеннолетних",
+    "source": "El Mundo",
+    "created_at": "2026-08-26T23:23:52.066545+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/27/08/2026/6a8f5820392e107909950261",
+    "title": "Германия заинтересована в ядерном «зонтике» двух стран",
+    "source": "РБК",
+    "created_at": "2026-08-26T23:23:52.066557+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/26/8050478/",
+    "title": "Все основные НПЗ \"Лукойла\" в России остановили работу из-за повреждений",
+    "source": "Украинская правда",
+    "created_at": "2026-08-26T23:23:52.066565+00:00"
   }
 ]
