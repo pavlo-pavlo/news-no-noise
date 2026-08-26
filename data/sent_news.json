@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://elpais.com/espana/comunidad-valenciana/2026-07-27/12-municipios-evacuados-por-el-incendio-de-la-vall-duixo-integran-el-parque-natural-de-sierra-de-espadan-el-pulmon-verde-de-castellon.html",
-    "title": "В Испании эвакуированы 12 муниципалитетов из-за пожара в Ла-Валь-д'Уишо",
-    "source": "El País",
-    "created_at": "2026-07-27T12:35:59.541728+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-polytics/4148381-zelensky-arrives-in-britain-for-talks-with-pm-burnham.html",
-    "title": "Зеленский прибыл в Великобританию для переговоров с премьер-министром Бернхэмом",
-    "source": "Укринформ",
-    "created_at": "2026-07-27T12:35:59.541742+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/politics/27/07/2026/6a67490a9a794720f78a39a6",
-    "title": "Кремль увидел риск расширения конфликта из-за атаки ВСУ на судно Ирана",
-    "source": "РБК",
-    "created_at": "2026-07-27T12:35:59.541750+00:00"
-  },
-  {
     "url": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss",
     "title": "Цены на нефть падают на фоне паузы в атаках США и Ирана",
     "source": "BBC World",
@@ -7990,5 +7972,23 @@
     "title": "Товарооборот между Россией и Китаем достиг почти $160 млрд за полгода",
     "source": "Интерфакс",
     "created_at": "2026-08-26T11:39:35.035083+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/czdz13elezlo?at_medium=RSS&at_campaign=rss",
+    "title": "В Пакистане в больнице, где в пожаре погибли 14 младенцев, дверь была заперта, сообщают очевидцы",
+    "source": "BBC World",
+    "created_at": "2026-08-26T13:11:44.451926+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/08/26/6a8e8c9ce9cf4a001a8b45ab.html",
+    "title": "Педро Санчес выступит в Конгрессе 3 сентября для обсуждения кризиса в Сеуте",
+    "source": "El Mundo",
+    "created_at": "2026-08-26T13:11:44.451941+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/26/8050413/",
+    "title": "В Беларуси строится железная дорога для нового военного объекта",
+    "source": "Украинская правда",
+    "created_at": "2026-08-26T13:11:44.451950+00:00"
   }
 ]
