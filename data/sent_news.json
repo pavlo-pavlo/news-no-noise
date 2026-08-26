@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4148211-casualties-reported-as-russinans-attack-zaporizhzhia-with-bombs-and-drones.html",
-    "title": "Сообщается о жертвах в результате российской атаки на Запорожье бомбами и дронами",
-    "source": "Укринформ",
-    "created_at": "2026-07-27T04:48:46.421720+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/27/8046025/",
-    "title": "Израиль одобрил ввод международных стабилизационных сил в Сектор Газа – СМИ",
-    "source": "Украинская правда",
-    "created_at": "2026-07-27T04:48:46.421734+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/quote/27/07/2026/6a6216ac9a794742df6e1a5d",
-    "title": "Цена на нефть Brent упала на 11% и опустилась ниже $90 за баррель",
-    "source": "РБК",
-    "created_at": "2026-07-27T04:48:46.421743+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4148266-putin-plans-to-mobilize-between-300000-and-500000-people-says-zelensky.html",
     "title": "Зеленский заявил, что Путин планирует мобилизовать от 300 000 до 500 000 человек",
     "source": "Укринформ",
@@ -7882,5 +7864,23 @@
     "title": "Рабат продолжает заявлять о своих притязаниях на Сеуту и Мелилью",
     "source": "El Mundo",
     "created_at": "2026-08-26T03:14:58.337091+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-society/4157740-heat-causes-35000-excess-deaths-in-europe-this-summer-media.html",
+    "title": "Жара стала причиной 35 000 избыточных смертей в Европе этим летом – СМИ",
+    "source": "Укринформ",
+    "created_at": "2026-08-26T04:52:20.959716+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/rbcfreenews/6a8e1d179a794752c120d4fd",
+    "title": "Что известно об атаках БПЛА на регионы России. Главное к 26 августа",
+    "source": "РБК",
+    "created_at": "2026-08-26T04:52:20.959731+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/08/26/6a8da4e5fc6c8325158b4598.html",
+    "title": "Число жалоб в Сеуте выросло в 10 раз после массового перехода границы, зафиксировано 16 изнасилований",
+    "source": "El Mundo",
+    "created_at": "2026-08-26T04:52:20.959739+00:00"
   }
 ]
