@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://www.rbc.ru/rbcfreenews/6a67fbff9a794719569eea36",
-    "title": "В районе Москвы сбит 81 беспилотник",
-    "source": "РБК",
-    "created_at": "2026-07-28T03:28:50.833779+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cly5qwwdvr1o?at_medium=RSS&at_campaign=rss",
-    "title": "Более 300 000 человек эвакуированы из-за лесных пожаров",
-    "source": "BBC World",
-    "created_at": "2026-07-28T03:28:50.833792+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-polytics/4148408-vlasiuk-eu-sanctions-on-chinese-companies-supplying-components-for-russian-weapons-are-necessary.html",
-    "title": "Власюк: Санкции ЕС против китайских компаний, поставляющих компоненты для российского оружия, необходимы",
-    "source": "Укринформ",
-    "created_at": "2026-07-28T03:28:50.833800+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4148567-moscow-reports-drone-attack-airports-temporarily-suspend-operations.html",
-    "title": "Москва сообщает об атаке беспилотников, аэропорты временно приостановили работу",
-    "source": "Укринформ",
-    "created_at": "2026-07-28T06:37:32.347846+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4148572-russian-army-launches-1107-strikes-on-zaporizhzhia-region-in-one-day-injuring-14.html",
-    "title": "Российская армия нанесла 1107 ударов по Запорожской области за сутки, ранены 14 человек",
-    "source": "Укринформ",
-    "created_at": "2026-07-28T06:37:32.347862+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/espana/2026/07/27/6a67bf74fdddfff8058b456d.html",
-    "title": "Крупнейшая эвакуация в истории Испании: 73 000 человек покинули дома из-за лесных пожаров в четырех провинциях",
-    "source": "El Mundo",
-    "created_at": "2026-07-28T06:37:32.347871+00:00"
-  },
-  {
     "url": "https://www.pravda.com.ua/news/2026/07/28/8046213/",
     "title": "Оккупанты обстреляли жилые кварталы Херсона: погиб 61-летний мужчина",
     "source": "Украинская правда",
@@ -7972,5 +7936,23 @@
     "title": "Все основные НПЗ \"Лукойла\" в России остановили работу из-за повреждений",
     "source": "Украинская правда",
     "created_at": "2026-08-26T23:23:52.066565+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/27/8050533/",
+    "title": "ГУР и СВР: Россия готовит новую волну мобилизации на 600 тысяч человек",
+    "source": "Украинская правда",
+    "created_at": "2026-08-27T09:31:07.715444+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/clyq4ge4wk9o?at_medium=RSS&at_campaign=rss",
+    "title": "Агентство США по лекарственным средствам одобрило прорывное лечение рака поджелудочной железы",
+    "source": "BBC World",
+    "created_at": "2026-08-27T09:31:07.715460+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1111550",
+    "title": "В Сеуле заявили о наращивании Пхеньяном возможностей в ядерной сфере в 100 тыс. раз за 30 лет",
+    "source": "Интерфакс",
+    "created_at": "2026-08-27T09:31:07.715468+00:00"
   }
 ]
