@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://elpais.com/espana/2026-07-30/policias-y-guardias-civiles-alertan-del-colapso-operativo-en-ceuta-por-la-entrada-masiva-de-migrantes-a-nado-estamos-desbordados.html",
-    "title": "Полиция и гражданская гвардия предупреждают об оперативном коллапсе в Сеуте из-за массового наплыва мигрантов вплавь: «Мы перегружены»",
-    "source": "El País",
-    "created_at": "2026-07-30T14:26:57.318476+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-economy/4149525-ukraine-receives-nearly-35b-from-eu-for-drones-missiles-air-defense-and-fighter-jets.html",
-    "title": "Украина получила почти 3,5 млрд евро от ЕС на дроны, ракеты, ПВО и истребители",
-    "source": "Укринформ",
-    "created_at": "2026-07-30T14:26:57.318491+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/economics/30/07/2026/6a6b599a9a794775d6671a78",
-    "title": "Правительство России ввело новый временный запрет на экспорт топлива",
-    "source": "РБК",
-    "created_at": "2026-07-30T14:26:57.318500+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-emergencies/4149563-missile-with-large-warhead-strikes-poland-prosecutors-office-says.html",
     "title": "Ракета с крупной боеголовкой упала в Польше, заявляет прокуратура",
     "source": "Укринформ",
@@ -7756,5 +7738,23 @@
     "title": "Трамп объявил о соглашении с Венесуэлой о получении части её нефтяных запасов",
     "source": "El País",
     "created_at": "2026-08-29T09:59:20.443837+00:00"
+  },
+  {
+    "url": "https://elpais.com/internacional/2026-08-29/al-menos-27-muertos-en-un-bombardeo-ruso-contra-kiev-en-uno-de-los-peores-ataques-de-la-guerra.html",
+    "title": "По меньшей мере 38 человек погибли в результате российского обстрела Киева",
+    "source": "El País",
+    "created_at": "2026-08-29T15:02:02.712910+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/15/12/2025/69404f539a7947599efc0538",
+    "title": "МИД Турции вызвал посла Украины из-за атаки на турецкие суда",
+    "source": "РБК",
+    "created_at": "2026-08-29T15:02:02.712923+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/espana/2026/08/29/6a92cdc521efa0ce738b45b3.html",
+    "title": "Сержант ранен, четыре марокканца задержаны после засады на военных в Сеуте",
+    "source": "El Mundo",
+    "created_at": "2026-08-29T15:02:02.712932+00:00"
   }
 ]
