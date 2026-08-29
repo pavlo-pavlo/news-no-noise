@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://www.elmundo.es/internacional/2026/07/30/6a6b660fe85ecea1468b45a7.html",
-    "title": "Сирены прозвучали в Польше: российская ракета вторглась в воздушное пространство НАТО и упала у города Люблин",
-    "source": "El Mundo",
-    "created_at": "2026-07-30T18:40:35.369731+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-07-30/ultima-hora-de-la-entrada-de-inmigrantes-a-ceuta-en-directo.html",
-    "title": "В Сеуте погибли по меньшей мере девять мигрантов, пытавшихся въехать в город вплавь",
-    "source": "El País",
-    "created_at": "2026-07-30T18:40:35.369746+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cn0nqv05g0do?at_medium=RSS&at_campaign=rss",
-    "title": "Рекордно низкий уровень Дуная вынудил остановить единственную АЭС Венгрии",
-    "source": "BBC World",
-    "created_at": "2026-07-30T18:40:35.369752+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/espana/2026/07/30/6a6b284621efa0762d8b45ae.html",
-    "title": "Правительство Испании мобилизует армию в ответ на кризис в Сеуте",
-    "source": "El Mundo",
-    "created_at": "2026-07-30T20:23:15.082159+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-polytics/4149642-nato-chief-condemns-russian-missile-landing-in-poland-and-massive-attack-on-ukraine.html",
-    "title": "Глава НАТО осудил падение российской ракеты в Польше и массированную атаку на Украину",
-    "source": "Укринформ",
-    "created_at": "2026-07-30T20:23:15.082173+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1106652",
-    "title": "Иран назвал атаку на порт в Египте предупреждением о последствиях эскалации в регионе",
-    "source": "Интерфакс",
-    "created_at": "2026-07-30T20:23:15.082181+00:00"
-  },
-  {
     "url": "https://elpais.com/espana/2026-07-30/otra-manana-de-centenares-de-entradas-de-inmigrantes-a-ceuta-pone-en-jaque-a-la-ciudad-autonoma.html",
     "title": "Максимальная тревога в Сеуте после неконтролируемого пересечения границы тысячами людей из Марокко",
     "source": "El País",
@@ -7756,5 +7720,23 @@
     "title": "В Испании при взрыве 8000 баллончиков с лаком погибли девять человек",
     "source": "El Mundo",
     "created_at": "2026-08-29T18:23:48.199180+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/29/8050978/",
+    "title": "Россияне снова атаковали Киев: горит многоэтажка и склады",
+    "source": "Украинская правда",
+    "created_at": "2026-08-29T21:41:34.118725+00:00"
+  },
+  {
+    "url": "https://www.elmundo.es/internacional/2026/08/29/6a922770e9cf4aa4208b45ae.html",
+    "title": "США получат контроль над большей частью нефтяных запасов Венесуэлы",
+    "source": "El Mundo",
+    "created_at": "2026-08-29T21:41:34.118740+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/world/1112027",
+    "title": "Опрос показал хорошие шансы Ле Пен на победу на президентских выборах во Франции в 2027 году",
+    "source": "Интерфакс",
+    "created_at": "2026-08-29T21:41:34.118748+00:00"
   }
 ]
