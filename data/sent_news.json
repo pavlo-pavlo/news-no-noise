@@ -1,41 +1,5 @@
 [
   {
-    "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss",
-    "title": "США нанесли «мощные» удары по Ирану после попытки нападения на американские войска",
-    "source": "BBC World",
-    "created_at": "2026-07-30T03:19:21.470239+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/07/30/8046479/",
-    "title": "В пригороде Кривого Рога в результате прямого попадания погибли двое детей и четверо взрослых",
-    "source": "Украинская правда",
-    "created_at": "2026-07-30T03:19:21.470252+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1106449",
-    "title": "Лес на площади почти 166 тыс. га горит в Якутии",
-    "source": "Интерфакс",
-    "created_at": "2026-07-30T03:19:21.470260+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss",
-    "title": "Премьер-министр Польши: ракета, оставившая кратер в Польше, вероятно, российская",
-    "source": "BBC World",
-    "created_at": "2026-07-30T09:37:31.744245+00:00"
-  },
-  {
-    "url": "https://elpais.com/internacional/2026-07-30/ee-uu-cumple-la-amenaza-de-atacar-iran-en-respuesta-a-los-misiles-lanzados-contra-sus-bases-en-jordania.html",
-    "title": "США ответили на агрессию Ирана против своих баз в Иордании \"интенсивной\" волной атак",
-    "source": "El País",
-    "created_at": "2026-07-30T09:37:31.744259+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-07-30/el-presidente-de-ceuta-pide-al-gobierno-la-emergencia-nacional-y-mando-unico-por-la-presion-migratoria.html",
-    "title": "Сеута просит правительство объявить \"чрезвычайную ситуацию национального масштаба\" из-за наплыва мигрантов",
-    "source": "El País",
-    "created_at": "2026-07-30T09:37:31.744267+00:00"
-  },
-  {
     "url": "https://elpais.com/espana/2026-07-30/policias-y-guardias-civiles-alertan-del-colapso-operativo-en-ceuta-por-la-entrada-masiva-de-migrantes-a-nado-estamos-desbordados.html",
     "title": "Полиция и гражданская гвардия предупреждают об оперативном коллапсе в Сеуте из-за массового наплыва мигрантов вплавь: «Мы перегружены»",
     "source": "El País",
@@ -7774,5 +7738,23 @@
     "title": "Полиция обнаружила, что марокканские сутенеры вербуют девочек, прибывших в Сеуту, для проституции в обмен на еду",
     "source": "El Mundo",
     "created_at": "2026-08-29T02:07:17.654510+00:00"
+  },
+  {
+    "url": "https://www.pravda.com.ua/news/2026/08/29/8050919/",
+    "title": "Зеленский об ударе по Бучанскому району: Боеприпасов рядом с жилой застройкой быть не может",
+    "source": "Украинская правда",
+    "created_at": "2026-08-29T09:59:20.443815+00:00"
+  },
+  {
+    "url": "https://elpais.com/internacional/2026-08-29/la-catastrofe-de-nepal-deja-mas-de-620-fallecidos-mientras-los-equipos-de-rescate-alcanzan-el-nucleo-de-la-tragedia-en-tibet.html",
+    "title": "Катастрофа в Гималаях: более 630 погибших, спасатели достигают эпицентра трагедии в Тибете",
+    "source": "El País",
+    "created_at": "2026-08-29T09:59:20.443829+00:00"
+  },
+  {
+    "url": "https://elpais.com/us/2026-08-28/trump-anuncia-un-acuerdo-con-venezuela-para-aduenarse-de-parte-de-su-sector-petrolero.html",
+    "title": "Трамп объявил о соглашении с Венесуэлой о получении части её нефтяных запасов",
+    "source": "El País",
+    "created_at": "2026-08-29T09:59:20.443837+00:00"
   }
 ]
