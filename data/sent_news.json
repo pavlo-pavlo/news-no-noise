@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://elpais.com/espana/2026-07-30/otra-manana-de-centenares-de-entradas-de-inmigrantes-a-ceuta-pone-en-jaque-a-la-ciudad-autonoma.html",
-    "title": "Максимальная тревога в Сеуте после неконтролируемого пересечения границы тысячами людей из Марокко",
-    "source": "El País",
-    "created_at": "2026-07-30T22:16:43.834801+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4149644-zelensky-preliminary-data-indicate-russia-used-north-korean-ballistic-missile-in-strike-on-radushne.html",
-    "title": "Зеленский: Предварительные данные указывают на использование Россией северокорейской баллистической ракеты при ударе по Радушному",
-    "source": "Укринформ",
-    "created_at": "2026-07-30T22:16:43.834820+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/politics/06/07/2026/6a4bfff69a79472b65cbd519",
-    "title": "Axios: США оценивают скорое подписание ХАМАС соглашения о разоружении",
-    "source": "РБК",
-    "created_at": "2026-07-30T22:16:43.834828+00:00"
-  },
-  {
     "url": "https://www.rbc.ru/politics/31/07/2026/6a6bdbc29a7947a2d3c37ff7",
     "title": "Испания мобилизовала армию из-за прорыва границы мигрантами из Марокко",
     "source": "РБК",
@@ -7738,5 +7720,23 @@
     "title": "Опрос показал хорошие шансы Ле Пен на победу на президентских выборах во Франции в 2027 году",
     "source": "Интерфакс",
     "created_at": "2026-08-29T21:41:34.118748+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/30/08/2026/6a9371081d5edad095f6bee4",
+    "title": "Глава ЦРУ предложил Москве провести встречу лидеров США, России и Украины",
+    "source": "РБК",
+    "created_at": "2026-08-30T00:11:45.314099+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/c99dvm39mreo?at_medium=RSS&at_campaign=rss",
+    "title": "Хозяйка квартир угонщиков 9/11 раскрывает их связи с предполагаемым саудовским шпионом",
+    "source": "BBC World",
+    "created_at": "2026-08-30T00:11:45.314116+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-defense/4158892-diu-reveals-details-of-secret-russian-biological-laboratory-conducting-experiments-with-dangerous-viruses.html",
+    "title": "ГУР раскрыло детали секретной российской биологической лаборатории, проводящей эксперименты с опасными вирусами",
+    "source": "Укринформ",
+    "created_at": "2026-08-30T00:11:45.314124+00:00"
   }
 ]
