@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://www.interfax.ru/world/1106875",
-    "title": "США и Израиль готовят удары по объектам энергоинфраструктуры Ирана",
-    "source": "Интерфакс",
-    "created_at": "2026-07-31T22:13:50.178218+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-07-31/bruselas-y-berlin-reclaman-el-retorno-rapido-a-marruecos-de-los-migrantes-que-han-cruzado-la-frontera-en-ceuta.html",
-    "title": "Италия объявляет о приостановке Шенгенского соглашения с Испанией для неевропейцев из-за миграционного кризиса в Сеуте",
-    "source": "El País",
-    "created_at": "2026-07-31T22:13:50.178233+00:00"
-  },
-  {
-    "url": "https://www.rbc.ru/quote/01/08/2026/6a56184c9a7947875c2b4fbe",
-    "title": "Что изменится в личных финансах для россиян с 1 августа 2026 года",
-    "source": "РБК",
-    "created_at": "2026-07-31T22:13:50.178240+00:00"
-  },
-  {
     "url": "https://www.interfax.ru/world/1106880",
     "title": "США готовы атаковать ядерные объекты Ирана, включая объект под горой Пикакс",
     "source": "Интерфакс",
@@ -7648,5 +7630,23 @@
     "title": "Россия запустила почти 1500 дронов по Украине за четыре дня, включая около 800 реактивных — Зеленский",
     "source": "Укринформ",
     "created_at": "2026-08-30T20:59:34.366150+00:00"
+  },
+  {
+    "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
+    "title": "США нанесли удары по иранским пусковым установкам на острове Ларак",
+    "source": "BBC World",
+    "created_at": "2026-08-30T23:26:14.794763+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1112162",
+    "title": "Приостановлена работа аэропортов Саратова, Тамбова и Геленджика",
+    "source": "Интерфакс",
+    "created_at": "2026-08-30T23:26:14.794777+00:00"
+  },
+  {
+    "url": "https://elpais.com/internacional/2026-08-30/el-no-de-islandia-debilita-a-la-ue-ante-trump-y-las-fuerzas-antieuropeas.html",
+    "title": "Отказ Исландии ослабляет ЕС перед Трампом и антиевропейскими силами",
+    "source": "El País",
+    "created_at": "2026-08-30T23:26:14.794784+00:00"
   }
 ]
