@@ -1,59 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4150015-injury-toll-from-russian-attack-on-kyiv-rises-to-28.html",
-    "title": "Число пострадавших в результате российской атаки на Киев возросло до 28",
-    "source": "Укринформ",
-    "created_at": "2026-08-01T07:36:48.187583+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/espana/2026/07/31/6a6ced9bfdddfffa7a8b456f.html",
-    "title": "В Сеуте погибли по меньшей мере 57 человек во время миграционного кризиса",
-    "source": "El Mundo",
-    "created_at": "2026-08-01T07:36:48.187598+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1106903",
-    "title": "В Курской области за сутки сбили 130 беспилотников, есть пострадавшие",
-    "source": "Интерфакс",
-    "created_at": "2026-08-01T07:36:48.187605+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-08-01/ultima-hora-de-la-entrada-de-inmigrantes-a-ceuta-en-directo.html",
-    "title": "Число погибших мигрантов в Сеуте возросло до 67; Испания обратится в Брюссель",
-    "source": "El País",
-    "created_at": "2026-08-01T10:08:49.322815+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1106921",
-    "title": "В Черном море затонул теплоход «Янина» после атаки дронов ВСУ",
-    "source": "Интерфакс",
-    "created_at": "2026-08-01T10:08:49.322827+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
-    "title": "В результате российских ударов по Киеву погибли по меньшей мере девять человек",
-    "source": "BBC World",
-    "created_at": "2026-08-01T10:08:49.322833+00:00"
-  },
-  {
-    "url": "https://www.ukrinform.net/rubric-ato/4150115-zelensky-confirms-strikes-on-three-oil-refineries-in-bashkortostan-and-sanctioned-russian-container-ship.html",
-    "title": "Зеленский подтвердил удары по трем НПЗ в Башкортостане и российскому контейнеровозу",
-    "source": "Укринформ",
-    "created_at": "2026-08-01T12:09:49.862827+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-08-01/sanchez-afea-la-actitud-egoista-de-algunos-gobiernos-europeos-por-la-crisis-de-ceuta-y-pide-una-reunion-urgente-de-la-ue.html",
-    "title": "Санчес осудил \"эгоистичную\" реакцию некоторых стран ЕС на кризис в Сеуте и призвал к срочной встрече ЕС",
-    "source": "El País",
-    "created_at": "2026-08-01T12:09:49.862842+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1106937",
-    "title": "Посольства США на Ближнем Востоке призвали граждан быть готовыми к отъезду",
-    "source": "Интерфакс",
-    "created_at": "2026-08-01T12:09:49.862850+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-ato/4150132-ballistic-missile-strike-on-kyiv-nine-killed-injury-toll-rises-to-33.html",
     "title": "Ракетный удар по Киеву: 9 погибших, число пострадавших возросло до 33",
     "source": "Укринформ",
@@ -7630,5 +7576,23 @@
     "title": "Восемь человек погибли, 18 пропали без вести после опрокидывания парома у Северного Кипра",
     "source": "BBC World",
     "created_at": "2026-08-31T05:23:44.269333+00:00"
+  },
+  {
+    "url": "https://www.interfax.ru/russia/1112281",
+    "title": "В МИД Турции сообщили о контактах с РФ и Украиной по ситуации в Черном море",
+    "source": "Интерфакс",
+    "created_at": "2026-08-31T13:34:50.858854+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-economy/4159418-russian-strikes-on-energy-facilities-in-dnipropetrovsk-region-leave-30000-consumers-without-power.html",
+    "title": "Российские удары по энергетическим объектам в Днепропетровской области оставили 30 000 потребителей без электричества",
+    "source": "Укринформ",
+    "created_at": "2026-08-31T13:34:50.858869+00:00"
+  },
+  {
+    "url": "https://elpais.com/espana/2026-08-31/sanchez-destaca-la-cooperacion-instantanea-con-marruecos-y-asegura-que-el-rey-visitara-ceuta.html",
+    "title": "Санчес оправдывает Марокко за кризис в Сеуте и предполагает, что Король впервые посетит город при этом правительстве",
+    "source": "El País",
+    "created_at": "2026-08-31T13:34:50.858877+00:00"
   }
 ]
