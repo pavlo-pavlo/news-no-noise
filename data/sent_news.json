@@ -1,59 +1,5 @@
 [
   {
-    "url": "https://www.ukrinform.net/rubric-ato/4150132-ballistic-missile-strike-on-kyiv-nine-killed-injury-toll-rises-to-33.html",
-    "title": "Ракетный удар по Киеву: 9 погибших, число пострадавших возросло до 33",
-    "source": "Укринформ",
-    "created_at": "2026-08-01T14:40:01.213036+00:00"
-  },
-  {
-    "url": "https://elpais.com/espana/2026-07-31/marruecos-manda-parar-el-exodo-de-50000-migrantes-sobre-ceuta.html",
-    "title": "Марокко приказало остановить исход 50 000 мигрантов в Сеуту",
-    "source": "El País",
-    "created_at": "2026-08-01T14:40:01.213050+00:00"
-  },
-  {
-    "url": "https://www.elmundo.es/espana/2026/08/01/6a6db0e9e85eceff058b456e.html",
-    "title": "Санчес выносит кризис Сеуты на европейский уровень, обвиняя страны в «эгоистичной» реакции",
-    "source": "El Mundo",
-    "created_at": "2026-08-01T14:40:01.213059+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/08/01/8046850/",
-    "title": "В Киеве завершены работы после ночного обстрела: 9 погибших, 33 пострадавших",
-    "source": "Украинская правда",
-    "created_at": "2026-08-01T16:10:42.701066+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/russia/1106957",
-    "title": "ЗАЭС кратковременно оставалась без внешнего электроснабжения",
-    "source": "Интерфакс",
-    "created_at": "2026-08-01T16:10:42.701078+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/world/1106950",
-    "title": "ВОЗ сообщила о стремительном распространении вспышки лихорадки Эбола в ДРК",
-    "source": "Интерфакс",
-    "created_at": "2026-08-01T16:10:42.701084+00:00"
-  },
-  {
-    "url": "https://www.pravda.com.ua/news/2026/08/01/8046858/",
-    "title": "Российская атака на центр Херсона: погибла женщина, 18 пострадавших",
-    "source": "Украинская правда",
-    "created_at": "2026-08-01T18:08:23.129573+00:00"
-  },
-  {
-    "url": "https://www.interfax.ru/moscow/1106963",
-    "title": "Взрыв произошел в ресторане в центре Москвы, есть погибшие и пострадавшие",
-    "source": "Интерфакс",
-    "created_at": "2026-08-01T18:08:23.129588+00:00"
-  },
-  {
-    "url": "https://www.bbc.co.uk/news/articles/cx2v91xn1z9o?at_medium=RSS&at_campaign=rss",
-    "title": "Испания критикует «эгоистичную» реакцию некоторых стран ЕС на миграционный кризис в Сеуте",
-    "source": "BBC World",
-    "created_at": "2026-08-01T18:08:23.129597+00:00"
-  },
-  {
     "url": "https://www.ukrinform.net/rubric-polytics/4150220-zelensky-partners-decision-to-provide-patriot-missiles-and-impose-sanctions-on-russia-crucial-now.html",
     "title": "Зеленский: Решение партнеров о Patriot и санкциях против России сейчас является ключевым",
     "source": "Укринформ",
@@ -7594,5 +7540,23 @@
     "title": "Санчес оправдывает Марокко за кризис в Сеуте и предполагает, что Король впервые посетит город при этом правительстве",
     "source": "El País",
     "created_at": "2026-08-31T13:34:50.858877+00:00"
+  },
+  {
+    "url": "https://www.ukrinform.net/rubric-polytics/4159544-modi-tells-putin-war-against-ukraine-must-end.html",
+    "title": "Моди заявил Путину, что войне против Украины должен быть положен конец",
+    "source": "Укринформ",
+    "created_at": "2026-08-31T19:58:39.191584+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/politics/31/08/2026/6a94f82d4105b42716c2071f",
+    "title": "Axios узнал о плане США «подстричь газон» военному потенциалу Ирана",
+    "source": "РБК",
+    "created_at": "2026-08-31T19:58:39.191599+00:00"
+  },
+  {
+    "url": "https://www.rbc.ru/economics/31/08/2026/6a95d84df2c432a61445e49f",
+    "title": "Силуанов на G20 назвал основные вызовы для мировой экономики",
+    "source": "РБК",
+    "created_at": "2026-08-31T19:58:39.191607+00:00"
   }
 ]
