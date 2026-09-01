@@ -3,7 +3,8 @@ name: Test Telegram
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5 * * * *"
+  - cron: "5 7 * * *"
+  - cron: "5 16 * * *"
 
 permissions:
   contents: write
