@@ -1,7 +1,8 @@
-name: News Shumyan Digest
+name: Новости шумят — сводка
 
 on:
   workflow_dispatch:
+
   schedule:
     - cron: "5 9 * * *"
       timezone: "Europe/Madrid"
@@ -12,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: news-shumyan-digest
+  group: news-shumyat-digest
   cancel-in-progress: false
 
 jobs:
