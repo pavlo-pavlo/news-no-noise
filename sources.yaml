@@ -1,36 +1,107 @@
 sources:
-  ukraine:
-    - name: "Укринформ"
-      url: "https://www.ukrinform.net/rss/block-lastnews"
-      language: "en"
-    - name: "Украинская правда"
-      url: "https://www.pravda.com.ua/rss/view_news/"
-      language: "uk"
-
-  russia:
-    - name: "РБК"
-      url: "https://rssexport.rbc.ru/rbcnews/news/30/full.rss"
-      language: "ru"
-    - name: "Интерфакс"
-      url: "https://www.interfax.ru/rss.asp"
-      language: "ru"
-
-  spain:
-    - name: "El País"
-      url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada"
-      language: "es"
-    - name: "El Mundo"
-      url: "https://e00-elmundo.uecdn.es/elmundo/rss/portada.xml"
-      language: "es"
-
-  valencia:
-    
-    - name: "Valencia Plaza"
-      url: "https://valenciaplaza.com/rss"
-      language: "es"
-
   world:
     - name: "BBC World"
       url: "https://feeds.bbci.co.uk/news/world/rss.xml"
       language: "en"
-    
+
+    - name: "Deutsche Welle World"
+      url: "https://rss.dw.com/rdf/rss-en-world"
+      language: "en"
+
+    - name: "The Guardian World"
+      url: "https://www.theguardian.com/world/rss"
+      language: "en"
+
+    - name: "RTVE Mundo"
+      url: "https://www.rtve.es/rss/temas_mundo.xml"
+      language: "es"
+
+  ukraine:
+    - name: "Укринформ"
+      url: "https://www.ukrinform.net/rss/block-lastnews"
+      language: "en"
+
+    - name: "Украинская правда"
+      url: "https://www.pravda.com.ua/rss/view_news/"
+      language: "uk"
+
+    - name: "Украинская правда — главное"
+      url: "https://www.pravda.com.ua/rss/view_mainnews/"
+      language: "uk"
+
+  spain:
+    - name: "El País España"
+      url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada"
+      language: "es"
+
+    - name: "RTVE España"
+      url: "https://www.rtve.es/rss/temas_espana.xml"
+      language: "es"
+
+    - name: "Cadena SER"
+      url: "https://cadenaser.com/?feed=rss2"
+      language: "es"
+
+  valencia:
+    - name: "Valencia Plaza"
+      url: "https://valenciaplaza.com/rss"
+      language: "es"
+
+    - name: "El Periódico de Aquí — Valencia"
+      url: "https://www.elperiodic.com/feed/rss_valencia.xml"
+      language: "es"
+
+    - name: "El Periódico de Aquí — Provincia de Valencia"
+      url: "https://www.elperiodic.com/feed/rss_pvalencia.xml"
+      language: "es"
+
+    - name: "RTVE Comunitat Valenciana"
+      url: "https://www.rtve.es/rss/temas_comunidad-valenciana.xml"
+      language: "es"
+
+  lugansk:
+    - name: "Луганский информационный центр"
+      url: "https://lug-info.ru/rss.xml"
+      language: "ru"
+      match_regex:
+        - "\\bлуганск(?:е|а|у|ом)?\\b"
+        - "\\bлуганчан\\w*\\b"
+
+    - name: "Блокнот Луганск"
+      url: "https://bloknot-lugansk.ru/rss_news.php"
+      language: "ru"
+      match_regex:
+        - "\\bлуганск(?:е|а|у|ом)?\\b"
+        - "\\bлуганчан\\w*\\b"
+
+    - name: "Лента новостей ЛНР"
+      url: "https://lnrnews.ru/rss.xml"
+      language: "ru"
+      match_regex:
+        - "\\bлуганск(?:е|а|у|ом)?\\b"
+        - "\\bлуганчан\\w*\\b"
+
+  alchevsk:
+    - name: "Лента новостей Алчевска"
+      url: "https://alchevsknews.ru/rss.xml"
+      language: "ru"
+      match_regex:
+        - "\\bалчевск\\w*\\b"
+
+    - name: "Луганский информационный центр"
+      url: "https://lug-info.ru/rss.xml"
+      language: "ru"
+      match_regex:
+        - "\\bалчевск\\w*\\b"
+
+    - name: "Блокнот Луганск"
+      url: "https://bloknot-lugansk.ru/rss_news.php"
+      language: "ru"
+      match_regex:
+        - "\\bалчевск\\w*\\b"
+
+    - name: "Лента новостей ЛНР"
+      url: "https://lnrnews.ru/rss.xml"
+      language: "ru"
+      match_regex:
+        - "\\bалчевск\\w*\\b"
