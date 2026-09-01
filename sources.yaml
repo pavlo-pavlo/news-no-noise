@@ -1,135 +1,284 @@
 sources:
   world:
-    - name: "BBC World"
+    - type: rss
+      name: "BBC World"
       url: "https://feeds.bbci.co.uk/news/world/rss.xml"
       language: "en"
+      reliability: "major_media"
 
-    - name: "Deutsche Welle World"
+    - type: rss
+      name: "Deutsche Welle World"
       url: "https://rss.dw.com/rdf/rss-en-world"
       language: "en"
+      reliability: "major_media"
 
-    - name: "The Guardian World"
+    - type: rss
+      name: "The Guardian World"
       url: "https://www.theguardian.com/world/rss"
       language: "en"
+      reliability: "major_media"
 
-    - name: "The New York Times World"
+    - type: rss
+      name: "The New York Times World"
       url: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
       language: "en"
+      reliability: "major_media"
 
-    - name: "The Washington Post World"
-      url: "https://feeds.washingtonpost.com/rss/world"
-      language: "en"
-
-    - name: "RTVE Mundo"
+    - type: rss
+      name: "RTVE Mundo"
       url: "https://www.rtve.es/rss/temas_mundo.xml"
       language: "es"
+      reliability: "public_media"
 
   ukraine:
-    - name: "УНИАН"
+    - type: rss
+      name: "УНИАН"
       url: "https://rss.unian.net/site/news_ukr.rss"
       language: "uk"
+      reliability: "major_media"
 
-    - name: "Украинская правда"
+    - type: rss
+      name: "Украинская правда"
       url: "https://www.pravda.com.ua/rss/view_news/"
       language: "uk"
+      reliability: "major_media"
 
-    - name: "Украинская правда — главное"
+    - type: rss
+      name: "Украинская правда — главное"
       url: "https://www.pravda.com.ua/rss/view_mainnews/"
       language: "uk"
+      reliability: "major_media"
 
-    - name: "Суспільне Новини"
+    - type: rss
+      name: "Суспільне Новини"
       url: "https://suspilne.media/rss/all.rss"
       language: "uk"
+      reliability: "public_media"
 
-    - name: "Интерфакс-Украина"
+    - type: rss
+      name: "Интерфакс-Украина"
       url: "https://en.interfax.com.ua/news/last.rss"
       language: "en"
+      reliability: "news_agency"
 
-    - name: "The Kyiv Independent"
+    - type: rss
+      name: "The Kyiv Independent"
       url: "https://kyivindependent.com/news-archive/rss/"
       language: "en"
+      reliability: "major_media"
 
   spain:
-    - name: "El País España"
+    - type: rss
+      name: "El País España"
       url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada"
       language: "es"
+      reliability: "major_media"
 
-    - name: "RTVE España"
+    - type: rss
+      name: "RTVE España"
       url: "https://www.rtve.es/rss/temas_espana.xml"
       language: "es"
+      reliability: "public_media"
 
-    - name: "El Mundo"
+    - type: rss
+      name: "El Mundo"
       url: "https://e00-elmundo.uecdn.es/elmundo/rss/portada.xml"
       language: "es"
+      reliability: "major_media"
 
-    - name: "La Vanguardia"
+    - type: rss
+      name: "La Vanguardia"
       url: "https://www.lavanguardia.com/rss/home.xml"
       language: "es"
+      reliability: "major_media"
 
   valencia:
-    - name: "Valencia Plaza"
+    - type: rss
+      name: "Valencia Plaza"
       url: "https://valenciaplaza.com/rss"
       language: "es"
+      reliability: "local_media"
 
-    - name: "El Periódico de Aquí — Valencia"
+    - type: rss
+      name: "El Periódico — Valencia"
       url: "https://www.elperiodic.com/feed/rss_valencia.xml"
       language: "es"
+      reliability: "local_media"
 
-    - name: "El Periódico de Aquí — Provincia de Valencia"
+    - type: rss
+      name: "El Periódico — Provincia de Valencia"
       url: "https://www.elperiodic.com/feed/rss_pvalencia.xml"
       language: "es"
+      reliability: "local_media"
 
-    - name: "RTVE Comunitat Valenciana"
+    - type: rss
+      name: "RTVE Comunitat Valenciana"
       url: "https://www.rtve.es/rss/temas_comunidad-valenciana.xml"
       language: "es"
+      reliability: "public_media"
 
-    - name: "La Vanguardia — Comunidad Valenciana"
+    - type: rss
+      name: "La Vanguardia — Comunidad Valenciana"
       url: "https://www.lavanguardia.com/rss/local/valencia.xml"
       language: "es"
+      reliability: "major_media"
+
+    - type: html
+      name: "Europa Press Valencia"
+      url: "https://www.europapress.es/comunitat-valenciana/valencia-00393/"
+      language: "es"
+      reliability: "news_agency"
+      include_regex: "https?://www\\.europapress\\.es/(comunitat-valenciana|valencia)/.+\\.html$"
+      allowed_domains:
+        - "www.europapress.es"
+      discover_limit: 40
+
+    - type: html
+      name: "À Punt — València"
+      url: "https://www.apuntmedia.es/comarques/valencia/"
+      language: "ca"
+      reliability: "public_media"
+      include_regex: "https?://www\\.apuntmedia\\.es/(noticies|comarques)/.+\\.html$"
+      allowed_domains:
+        - "www.apuntmedia.es"
+      discover_limit: 40
 
   lugansk:
-    - name: "Луганский информационный центр"
+    - type: telegram
+      name: "Администрация города Луганска"
+      channel: "agl_lnr"
+      language: "ru"
+      reliability: "official"
+      trusted_city_scope: "Луганск"
+      max_pages: 6
+
+    - type: telegram
+      name: "Луганск 24"
+      channel: "GTRKLNR_Lugansk24"
+      language: "ru"
+      reliability: "regional_media"
+      match_regex:
+        - "\\bлуганск(?:е|а|у|ом)?\\b"
+        - "\\bлуганчан\\w*\\b"
+      max_pages: 6
+
+    - type: telegram
+      name: "ВЕСТИ ЛУГАНСК"
+      channel: "GTRKLUG"
+      language: "ru"
+      reliability: "regional_media"
+      match_regex:
+        - "\\bлуганск(?:е|а|у|ом)?\\b"
+        - "\\bлуганчан\\w*\\b"
+      max_pages: 6
+
+    - type: telegram
+      name: "Луганьмедиа"
+      channel: "luganmedia"
+      language: "ru"
+      reliability: "regional_media"
+      match_regex:
+        - "\\bлуганск(?:е|а|у|ом)?\\b"
+        - "\\bлуганчан\\w*\\b"
+      max_pages: 6
+
+    - type: telegram
+      name: "МЛНР LIVE ЛУГАНСК"
+      channel: "mlnrlive"
+      language: "ru"
+      reliability: "community"
+      match_regex:
+        - "\\bлуганск(?:е|а|у|ом)?\\b"
+        - "\\bлуганчан\\w*\\b"
+      max_pages: 6
+
+    - type: telegram
+      name: "ЛУГАНСК СЕГОДНЯ"
+      channel: "luhansktoday"
+      language: "ru"
+      reliability: "community"
+      match_regex:
+        - "\\bлуганск(?:е|а|у|ом)?\\b"
+        - "\\bлуганчан\\w*\\b"
+      max_pages: 6
+
+    - type: telegram
+      name: "ЛУГАНСК онлайн"
+      channel: "lugansk_online"
+      language: "ru"
+      reliability: "community"
+      match_regex:
+        - "\\bлуганск(?:е|а|у|ом)?\\b"
+        - "\\bлуганчан\\w*\\b"
+        - "#луганск"
+      max_pages: 6
+
+    - type: rss
+      name: "Луганский информационный центр"
       url: "https://lug-info.ru/rss.xml"
       language: "ru"
+      reliability: "regional_media"
       match_regex:
         - "\\bлуганск(?:е|а|у|ом)?\\b"
         - "\\bлуганчан\\w*\\b"
 
-    - name: "Блокнот Луганск"
+    - type: rss
+      name: "Блокнот Луганск"
       url: "https://bloknot-lugansk.ru/rss_news.php"
       language: "ru"
-      match_regex:
-        - "\\bлуганск(?:е|а|у|ом)?\\b"
-        - "\\bлуганчан\\w*\\b"
-
-    - name: "Лента новостей ЛНР"
-      url: "https://lnrnews.ru/rss.xml"
-      language: "ru"
+      reliability: "local_media"
       match_regex:
         - "\\bлуганск(?:е|а|у|ом)?\\b"
         - "\\bлуганчан\\w*\\b"
 
   alchevsk:
-    - name: "Лента новостей Алчевска"
-      url: "https://alchevsknews.ru/rss.xml"
+    - type: telegram
+      name: "Алчевск"
+      channel: "city_alchevsk"
       language: "ru"
+      reliability: "community"
+      trusted_city_scope: "Алчевск"
+      max_pages: 8
+
+    - type: telegram
+      name: "ВЕСТИ ЛУГАНСК"
+      channel: "GTRKLUG"
+      language: "ru"
+      reliability: "regional_media"
       match_regex:
         - "\\bалчевск\\w*\\b"
+      max_pages: 7
 
-    - name: "Луганский информационный центр"
+    - type: telegram
+      name: "Луганьмедиа"
+      channel: "luganmedia"
+      language: "ru"
+      reliability: "regional_media"
+      match_regex:
+        - "\\bалчевск\\w*\\b"
+      max_pages: 7
+
+    - type: telegram
+      name: "МЛНР LIVE ЛУГАНСК"
+      channel: "mlnrlive"
+      language: "ru"
+      reliability: "community"
+      match_regex:
+        - "\\bалчевск\\w*\\b"
+      max_pages: 7
+
+    - type: rss
+      name: "Луганский информационный центр"
       url: "https://lug-info.ru/rss.xml"
       language: "ru"
+      reliability: "regional_media"
       match_regex:
         - "\\bалчевск\\w*\\b"
 
-    - name: "Блокнот Луганск"
+    - type: rss
+      name: "Блокнот Луганск"
       url: "https://bloknot-lugansk.ru/rss_news.php"
       language: "ru"
-      match_regex:
-        - "\\bалчевск\\w*\\b"
-
-    - name: "Лента новостей ЛНР"
-      url: "https://lnrnews.ru/rss.xml"
-      language: "ru"
+      reliability: "local_media"
       match_regex:
         - "\\bалчевск\\w*\\b"
