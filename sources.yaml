@@ -12,6 +12,14 @@ sources:
       url: "https://www.theguardian.com/world/rss"
       language: "en"
 
+    - name: "The New York Times World"
+      url: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+      language: "en"
+
+    - name: "The Washington Post World"
+      url: "https://feeds.washingtonpost.com/rss/world"
+      language: "en"
+
     - name: "RTVE Mundo"
       url: "https://www.rtve.es/rss/temas_mundo.xml"
       language: "es"
@@ -29,6 +37,18 @@ sources:
       url: "https://www.pravda.com.ua/rss/view_mainnews/"
       language: "uk"
 
+    - name: "Суспільне Новини"
+      url: "https://suspilne.media/rss/all.rss"
+      language: "uk"
+
+    - name: "Интерфакс-Украина"
+      url: "https://en.interfax.com.ua/news/last.rss"
+      language: "en"
+
+    - name: "The Kyiv Independent"
+      url: "https://kyivindependent.com/news-archive/rss/"
+      language: "en"
+
   spain:
     - name: "El País España"
       url: "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada"
@@ -38,8 +58,12 @@ sources:
       url: "https://www.rtve.es/rss/temas_espana.xml"
       language: "es"
 
-    - name: "Cadena SER"
-      url: "https://cadenaser.com/?feed=rss2"
+    - name: "El Mundo"
+      url: "https://e00-elmundo.uecdn.es/elmundo/rss/portada.xml"
+      language: "es"
+
+    - name: "La Vanguardia"
+      url: "https://www.lavanguardia.com/rss/home.xml"
       language: "es"
 
   valencia:
@@ -57,6 +81,10 @@ sources:
 
     - name: "RTVE Comunitat Valenciana"
       url: "https://www.rtve.es/rss/temas_comunidad-valenciana.xml"
+      language: "es"
+
+    - name: "La Vanguardia — Comunidad Valenciana"
+      url: "https://www.lavanguardia.com/rss/local/valencia.xml"
       language: "es"
 
   lugansk:
