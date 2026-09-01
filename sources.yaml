@@ -25,9 +25,9 @@ sources:
       language: "es"
 
   ukraine:
-    - name: "Укринформ"
-      url: "https://www.ukrinform.net/rss/block-lastnews"
-      language: "en"
+    - name: "УНИАН"
+      url: "https://rss.unian.net/site/news_ukr.rss"
+      language: "uk"
 
     - name: "Украинская правда"
       url: "https://www.pravda.com.ua/rss/view_news/"
