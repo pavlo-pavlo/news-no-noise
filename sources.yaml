@@ -67,6 +67,43 @@ sources:
       language: "en"
       reliability: "major_media"
 
+  russia:
+    - type: rss
+      name: "РБК"
+      url: "https://rssexport.rbc.ru/rbcnews/news/30/full.rss"
+      language: "ru"
+      reliability: "major_media"
+
+    - type: rss
+      name: "Интерфакс"
+      url: "https://www.interfax.ru/rss.asp"
+      language: "ru"
+      reliability: "news_agency"
+
+    - type: rss
+      name: "РИА Новости"
+      url: "https://ria.ru/export/rss2/archive/index.xml"
+      language: "ru"
+      reliability: "news_agency"
+
+    - type: rss
+      name: "Ведомости"
+      url: "https://www.vedomosti.ru/rss/news"
+      language: "ru"
+      reliability: "major_media"
+
+    - type: rss
+      name: "Коммерсантъ"
+      url: "https://www.kommersant.ru/RSS/news.xml"
+      language: "ru"
+      reliability: "major_media"
+
+    - type: rss
+      name: "Российская газета"
+      url: "https://rg.ru/xml/index.xml"
+      language: "ru"
+      reliability: "major_media"
+
   spain:
     - type: rss
       name: "El País España"
