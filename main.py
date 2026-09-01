@@ -232,7 +232,7 @@ def save_sent_news(items):
         json.dump(cleaned, file, ensure_ascii=False, indent=2)
 
 
-def telegram_send(chat_id, text, enable_preview=True, parse_mode=None):
+def telegram_send(chat_id, text, enable_preview=True, parse_mode=None, reply_markup=None):
     api_url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     last_error = None
     for attempt in range(1, TELEGRAM_ATTEMPTS + 1):
@@ -244,6 +244,7 @@ def telegram_send(chat_id, text, enable_preview=True, parse_mode=None):
                     "text": text,
                     "disable_web_page_preview": not enable_preview,
                     **({"parse_mode": parse_mode} if parse_mode else {}),
+                    **({"reply_markup": reply_markup} if reply_markup else {}),
                 },
                 timeout=TELEGRAM_TIMEOUT_SECONDS,
             )
@@ -271,6 +272,49 @@ def telegram_send(chat_id, text, enable_preview=True, parse_mode=None):
                 continue
             raise
     raise RuntimeError(f"Telegram не принял сообщение: {last_error}")
+
+
+def telegram_send_photo(chat_id, photo_url, caption, parse_mode=None, reply_markup=None):
+    api_url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendPhoto"
+    last_error = None
+    for attempt in range(1, TELEGRAM_ATTEMPTS + 1):
+        try:
+            payload = {
+                "chat_id": chat_id,
+                "photo": photo_url,
+                "caption": caption,
+                **({"parse_mode": parse_mode} if parse_mode else {}),
+                **({"reply_markup": reply_markup} if reply_markup else {}),
+            }
+            response = session.post(api_url, json=payload, timeout=TELEGRAM_TIMEOUT_SECONDS)
+            print(response.text)
+
+            if response.status_code == 429:
+                try:
+                    retry_after = int(response.json().get("parameters", {}).get("retry_after", 3))
+                except Exception:
+                    retry_after = 3
+                if attempt < TELEGRAM_ATTEMPTS:
+                    time.sleep(retry_after + 1)
+                    continue
+
+            if 500 <= response.status_code < 600 and attempt < TELEGRAM_ATTEMPTS:
+                time.sleep(2 ** (attempt - 1))
+                continue
+
+            response.raise_for_status()
+            data = response.json()
+            if not data.get("ok"):
+                raise RuntimeError(f"Telegram API вернул ошибку: {data}")
+            return data
+        except Exception as exc:
+            last_error = exc
+            if attempt < TELEGRAM_ATTEMPTS:
+                time.sleep(2 ** (attempt - 1))
+                continue
+            raise
+
+    raise RuntimeError(f"Telegram не принял фотографию: {last_error}")
 
 
 def send_admin_alert(text):
@@ -386,7 +430,41 @@ def entry_summary(entry):
     return ""
 
 
-def make_candidate(source, category, title, summary, url, published_at):
+def entry_image_url(entry):
+    """Пытается получить изображение прямо из RSS/Atom."""
+    for field in ("media_content", "media_thumbnail"):
+        values = entry.get(field)
+        if isinstance(values, list):
+            for value in values:
+                if isinstance(value, dict):
+                    url = (value.get("url") or "").strip()
+                    if url.startswith(("http://", "https://")):
+                        return url
+
+    for field in ("enclosures", "links"):
+        values = entry.get(field)
+        if isinstance(values, list):
+            for value in values:
+                if not isinstance(value, dict):
+                    continue
+                media_type = (value.get("type") or "").lower()
+                rel = (value.get("rel") or "").lower()
+                url = (value.get("href") or value.get("url") or "").strip()
+                if url.startswith(("http://", "https://")) and (
+                    media_type.startswith("image/") or rel == "enclosure"
+                ):
+                    return url
+
+    image = entry.get("image")
+    if isinstance(image, dict):
+        url = (image.get("href") or image.get("url") or "").strip()
+        if url.startswith(("http://", "https://")):
+            return url
+
+    return ""
+
+
+def make_candidate(source, category, title, summary, url, published_at, image_url=""):
     title = clean_text(title)
     summary = clean_text(summary)
     normalized = canonical_url(url)
@@ -408,6 +486,7 @@ def make_candidate(source, category, title, summary, url, published_at):
         "canonical_url": normalized,
         "published_at": published_at.astimezone(timezone.utc).isoformat(),
         "scope_hint": source.get("trusted_city_scope", ""),
+        "image_url": image_url if str(image_url).startswith(("http://", "https://")) else "",
     }
 
 
@@ -429,6 +508,7 @@ def fetch_rss_candidates(source, category):
             entry_summary(entry),
             (entry.get("link", "") or "").strip(),
             entry_datetime_utc(entry),
+            entry_image_url(entry),
         )
         if candidate:
             result.append(candidate)
@@ -479,7 +559,24 @@ def parse_telegram_page(source, category, page_html):
 
         title = telegram_post_title(text)
         post_url = f"https://t.me/{channel}/{post_id_text}"
-        candidate = make_candidate(source, category, title, text, post_url, dt)
+
+        image_url = ""
+        photo_node = message.select_one("a.tgme_widget_message_photo_wrap")
+        if photo_node:
+            style = photo_node.get("style", "")
+            match = re.search(r"background-image\s*:\s*url\(['\"]?([^'\")]+)", style, flags=re.IGNORECASE)
+            if match:
+                image_url = html.unescape(match.group(1)).strip()
+
+        if not image_url:
+            thumb_node = message.select_one(".tgme_widget_message_video_thumb")
+            if thumb_node:
+                style = thumb_node.get("style", "")
+                match = re.search(r"background-image\s*:\s*url\(['\"]?([^'\")]+)", style, flags=re.IGNORECASE)
+                if match:
+                    image_url = html.unescape(match.group(1)).strip()
+
+        candidate = make_candidate(source, category, title, text, post_url, dt, image_url)
         if candidate:
             candidates.append(candidate)
 
@@ -592,7 +689,20 @@ def article_metadata(article_url, fallback_title=""):
             if published_at:
                 break
 
-    return title, summary, published_at
+    image_url = ""
+    for selector, attr in [
+        ('meta[property="og:image"]', "content"),
+        ('meta[property="og:image:secure_url"]', "content"),
+        ('meta[name="twitter:image"]', "content"),
+    ]:
+        node = soup.select_one(selector)
+        if node and node.get(attr):
+            candidate_image = html.unescape(str(node.get(attr))).strip()
+            if candidate_image.startswith(("http://", "https://")):
+                image_url = candidate_image
+                break
+
+    return title, summary, published_at, image_url
 
 
 def fetch_html_candidates(source, category):
@@ -635,13 +745,13 @@ def fetch_html_candidates(source, category):
     result = []
     for link, fallback_title in discovered:
         try:
-            title, summary, published_at = article_metadata(link, fallback_title)
+            title, summary, published_at, image_url = article_metadata(link, fallback_title)
         except Exception as exc:
             print(f"Не удалось прочитать статью {link}: {exc}")
             continue
         if published_at is None and source.get("assume_current_if_no_date"):
             published_at = datetime.now(timezone.utc)
-        candidate = make_candidate(source, category, title, summary, link, published_at)
+        candidate = make_candidate(source, category, title, summary, link, published_at, image_url)
         if candidate:
             result.append(candidate)
         time.sleep(0.08)
@@ -870,27 +980,78 @@ def select_category_news(category, candidates, sent_news, digest_name, window_st
     raise RuntimeError(f"Gemini не сформировал раздел {category}: {last_error}")
 
 
-def build_category_message(category, items):
-    """Компактный сворачиваемый раздел: до 10 кликабельных заголовков."""
+def build_category_header(category, count):
     label = CATEGORY_LABELS[category]
-    count = len(items)
+    return f"<b>{html.escape(label)} — {count} главных новостей</b>"
 
-    lines = []
-    for index, item in enumerate(items, start=1):
-        title = html.escape(clean_text(item.get("title_ru", ""))[:180])
-        source = html.escape(clean_text(item.get("source", ""))[:80])
-        url = html.escape(item.get("url", ""), quote=True)
-        if not title or not url:
-            continue
-        suffix = f" — <i>{source}</i>" if source else ""
-        lines.append(f'{index}. <a href="{url}">{title}</a>{suffix}')
 
-    body = "\n".join(lines) if lines else "Подходящих новостей не найдено."
-    return (
-        f"<b>{html.escape(label)} — {count}</b>\n"
-        f"<blockquote expandable>{body}</blockquote>"
+def build_source_keyboard(item):
+    url = (item.get("url") or "").strip()
+    if not url:
+        return None
+    return {
+        "inline_keyboard": [
+            [{"text": "🔗 Открыть источник", "url": url}]
+        ]
+    }
+
+
+def build_news_caption(item, index, total):
+    """Полноценный русскоязычный пост; помещается в caption sendPhoto."""
+    # Обрезаем ДО HTML-экранирования, чтобы никогда не разрезать HTML entity.
+    title_raw = clean_text(item.get("title_ru", ""))[:220]
+    summary_raw = clean_text(item.get("summary_ru", ""))[:520]
+    source_raw = clean_text(item.get("source", ""))[:80]
+
+    title = html.escape(title_raw)
+    summary = html.escape(summary_raw)
+    source = html.escape(source_raw)
+
+    parts = [f"<b>{index}/{total}. {title}</b>"]
+    if summary:
+        parts.append(summary)
+    if source:
+        parts.append(f"Источник: {source}")
+
+    return "\n\n".join(parts)
+
+
+def build_news_text(item, index, total):
+    title = html.escape(clean_text(item.get("title_ru", ""))[:350])
+    summary = html.escape(clean_text(item.get("summary_ru", ""))[:1200])
+    source = html.escape(clean_text(item.get("source", ""))[:90])
+
+    parts = [f"<b>{index}/{total}. {title}</b>"]
+    if summary:
+        parts.append(summary)
+    if source:
+        parts.append(f"Источник: {source}")
+    return "\n\n".join(parts)
+
+
+def publish_news_item(item, index, total):
+    keyboard = build_source_keyboard(item)
+    image_url = (item.get("image_url") or "").strip()
+
+    if image_url.startswith(("http://", "https://")):
+        try:
+            return telegram_send_photo(
+                CHANNEL_ID,
+                image_url,
+                build_news_caption(item, index, total),
+                parse_mode="HTML",
+                reply_markup=keyboard,
+            )
+        except Exception as exc:
+            print(f"Фото не отправлено, публикую текстом: {exc}")
+
+    return telegram_send(
+        CHANNEL_ID,
+        build_news_text(item, index, total),
+        enable_preview=False,
+        parse_mode="HTML",
+        reply_markup=keyboard,
     )
-
 
 def build_digest_header(digest_name, window_start, window_end):
     return (
@@ -974,21 +1135,30 @@ def main():
         items = selected_by_category[category]
         if not items:
             continue
+
         try:
             telegram_send(
                 CHANNEL_ID,
-                build_category_message(category, items),
+                build_category_header(category, len(items)),
                 enable_preview=False,
                 parse_mode="HTML",
             )
-            published_by_category[category] = len(items)
-            for item in items:
-                record_published(sent_news, item, digest_type)
             time.sleep(TELEGRAM_MESSAGE_DELAY_SECONDS)
         except Exception as exc:
-            error = f"{CATEGORY_LABELS[category]}: {exc}"
+            error = f"{CATEGORY_LABELS[category]} / заголовок раздела: {exc}"
             telegram_errors.append(error)
             print(f"Ошибка Telegram: {error}")
+
+        for index, item in enumerate(items, start=1):
+            try:
+                publish_news_item(item, index, len(items))
+                published_by_category[category] += 1
+                record_published(sent_news, item, digest_type)
+                time.sleep(TELEGRAM_MESSAGE_DELAY_SECONDS)
+            except Exception as exc:
+                error = f"{CATEGORY_LABELS[category]} / {item.get('title_ru', '')[:80]}: {exc}"
+                telegram_errors.append(error)
+                print(f"Ошибка Telegram: {error}")
 
     missing = [
         f"{CATEGORY_LABELS[category]} {published_by_category[category]}/{ITEMS_PER_CATEGORY}"
