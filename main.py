@@ -42,6 +42,7 @@ TELEGRAM_MESSAGE_DELAY_SECONDS = 1.25
 CATEGORY_LOOKBACK_HOURS = {
     "world": 24,
     "ukraine": 24,
+    "russia": 24,
     "spain": 24,
     "valencia": 36,
     "lugansk": 48,
@@ -52,8 +53,9 @@ MADRID_TZ = ZoneInfo("Europe/Madrid")
 
 CATEGORY_ORDER = [
     "world",
-    "ukraine",
     "spain",
+    "ukraine",
+    "russia",
     "valencia",
     "lugansk",
     "alchevsk",
@@ -62,6 +64,7 @@ CATEGORY_ORDER = [
 CATEGORY_LABELS = {
     "world": "🌍 Мир",
     "ukraine": "🇺🇦 Украина",
+    "russia": "🇷🇺 Россия",
     "spain": "🇪🇸 Испания",
     "valencia": "🇪🇸 Валенсия",
     "lugansk": "📍 Луганск",
@@ -78,6 +81,12 @@ CATEGORY_SCOPE = {
         "Выбирай 10 важнейших событий, непосредственно относящихся к Украине: государственная политика, "
         "экономика, война и безопасность, дипломатия, инфраструктура, энергетика, законы, общественно "
         "значимые происшествия, здравоохранение, образование, наука и технологии."
+    ),
+    "russia": (
+        "Выбирай 10 важнейших событий, непосредственно относящихся к России: федеральная политика, "
+        "экономика, безопасность, война и внешняя политика, законы, крупные происшествия, инфраструктура, "
+        "энергетика, здравоохранение, образование, наука и технологии. Не заполняй раздел мелкими "
+        "региональными событиями, если они не имеют заметного общефедерального значения."
     ),
     "spain": (
         "Выбирай 10 важнейших событий Испании национального или крупного межрегионального значения: "
@@ -223,7 +232,7 @@ def save_sent_news(items):
         json.dump(cleaned, file, ensure_ascii=False, indent=2)
 
 
-def telegram_send(chat_id, text, enable_preview=True):
+def telegram_send(chat_id, text, enable_preview=True, parse_mode=None):
     api_url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     last_error = None
     for attempt in range(1, TELEGRAM_ATTEMPTS + 1):
@@ -234,6 +243,7 @@ def telegram_send(chat_id, text, enable_preview=True):
                     "chat_id": chat_id,
                     "text": text,
                     "disable_web_page_preview": not enable_preview,
+                    **({"parse_mode": parse_mode} if parse_mode else {}),
                 },
                 timeout=TELEGRAM_TIMEOUT_SECONDS,
             )
@@ -860,14 +870,25 @@ def select_category_news(category, candidates, sent_news, digest_name, window_st
     raise RuntimeError(f"Gemini не сформировал раздел {category}: {last_error}")
 
 
-def build_news_message(item):
-    label = CATEGORY_LABELS[item["category"]]
+def build_category_message(category, items):
+    """Компактный сворачиваемый раздел: до 10 кликабельных заголовков."""
+    label = CATEGORY_LABELS[category]
+    count = len(items)
+
+    lines = []
+    for index, item in enumerate(items, start=1):
+        title = html.escape(clean_text(item.get("title_ru", ""))[:180])
+        source = html.escape(clean_text(item.get("source", ""))[:80])
+        url = html.escape(item.get("url", ""), quote=True)
+        if not title or not url:
+            continue
+        suffix = f" — <i>{source}</i>" if source else ""
+        lines.append(f'{index}. <a href="{url}">{title}</a>{suffix}')
+
+    body = "\n".join(lines) if lines else "Подходящих новостей не найдено."
     return (
-        f"{label}\n\n"
-        f"{item['title_ru']}\n\n"
-        f"{item['summary_ru']}\n\n"
-        f"Источник: {item['source']}\n\n"
-        f"{item['url']}"
+        f"<b>{html.escape(label)} — {count}</b>\n"
+        f"<blockquote expandable>{body}</blockquote>"
     )
 
 
@@ -876,7 +897,7 @@ def build_digest_header(digest_name, window_start, window_end):
         f"📰 {CHANNEL_NAME}\n"
         f"{digest_name}\n"
         f"{window_start.strftime('%d.%m %H:%M')} — {window_end.strftime('%d.%m %H:%M')} · Europe/Madrid\n\n"
-        f"По 10 главных новостей: Мир · Украина · Испания · Валенсия · Луганск · Алчевск"
+        f"По 10 главных новостей: Мир · Испания · Украина · Россия · Валенсия · Луганск · Алчевск"
     )
 
 
@@ -950,16 +971,24 @@ def main():
     telegram_errors = []
 
     for category in CATEGORY_ORDER:
-        for item in selected_by_category[category]:
-            try:
-                telegram_send(CHANNEL_ID, build_news_message(item), enable_preview=True)
-                published_by_category[category] += 1
+        items = selected_by_category[category]
+        if not items:
+            continue
+        try:
+            telegram_send(
+                CHANNEL_ID,
+                build_category_message(category, items),
+                enable_preview=False,
+                parse_mode="HTML",
+            )
+            published_by_category[category] = len(items)
+            for item in items:
                 record_published(sent_news, item, digest_type)
-                time.sleep(TELEGRAM_MESSAGE_DELAY_SECONDS)
-            except Exception as exc:
-                error = f"{CATEGORY_LABELS[category]} / {item.get('title_ru', '')[:80]}: {exc}"
-                telegram_errors.append(error)
-                print(f"Ошибка Telegram: {error}")
+            time.sleep(TELEGRAM_MESSAGE_DELAY_SECONDS)
+        except Exception as exc:
+            error = f"{CATEGORY_LABELS[category]}: {exc}"
+            telegram_errors.append(error)
+            print(f"Ошибка Telegram: {error}")
 
     missing = [
         f"{CATEGORY_LABELS[category]} {published_by_category[category]}/{ITEMS_PER_CATEGORY}"
