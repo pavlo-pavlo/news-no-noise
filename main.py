@@ -15,7 +15,7 @@ import yaml
 from google import genai
 
 
-CHANNEL_NAME = "Новости Шумян"
+CHANNEL_NAME = "Новости шумят"
 
 GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
 BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
