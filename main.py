@@ -15,6 +15,8 @@ import yaml
 from google import genai
 
 
+CHANNEL_NAME = "Новости Шумян"
+
 GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
 BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 CHANNEL_ID = os.environ["TELEGRAM_CHANNEL_ID"]
@@ -22,22 +24,66 @@ ADMIN_CHAT_ID = os.environ.get("TELEGRAM_ADMIN_CHAT_ID", "").strip()
 
 SENT_NEWS_FILE = Path("data/sent_news.json")
 MAX_NEWS_AGE_DAYS = 30
-MAX_ENTRIES_PER_SOURCE = 100
-MAX_CANDIDATES_FOR_GEMINI = 300
-MAX_HISTORY_FOR_GEMINI = 100
-MAX_DIGEST_ITEMS = 3
+MAX_ENTRIES_PER_SOURCE = 150
+MAX_CANDIDATES_PER_CATEGORY = 70
+MAX_HISTORY_FOR_GEMINI = 80
+ITEMS_PER_CATEGORY = 5
 RSS_TIMEOUT_SECONDS = 25
 TELEGRAM_TIMEOUT_SECONDS = 30
 GEMINI_ATTEMPTS = 3
+TELEGRAM_MESSAGE_DELAY_SECONDS = 1.15
 
 MADRID_TZ = ZoneInfo("Europe/Madrid")
 
+CATEGORY_ORDER = [
+    "world",
+    "ukraine",
+    "spain",
+    "valencia",
+    "lugansk",
+    "alchevsk",
+]
+
 CATEGORY_LABELS = {
+    "world": "🌍 Мир",
     "ukraine": "🇺🇦 Украина",
-    "russia": "🇷🇺 Россия",
     "spain": "🇪🇸 Испания",
     "valencia": "🇪🇸 Валенсия",
-    "world": "🌍 Мир",
+    "lugansk": "📍 Луганск",
+    "alchevsk": "📍 Алчевск",
+}
+
+CATEGORY_SCOPE = {
+    "world": (
+        "Выбирай международные события мирового значения: международная политика, "
+        "экономика, войны и безопасность, крупные ЧС, наука, технологии, здоровье, "
+        "энергетика и климат. Не выбирай чисто локальные события одной страны, если "
+        "они не имеют заметного международного значения."
+    ),
+    "ukraine": (
+        "Выбирай события, непосредственно относящиеся к Украине: государственная политика, "
+        "экономика, безопасность и война, дипломатия, инфраструктура, энергетика, законы, "
+        "общественно значимые происшествия, наука, технологии и здоровье."
+    ),
+    "spain": (
+        "Выбирай события, непосредственно относящиеся к Испании и имеющие национальное "
+        "или крупное межрегиональное значение. Чисто локальную новость выбирай только если "
+        "она заметно важна для страны в целом."
+    ),
+    "valencia": (
+        "Выбирай события города Валенсия и провинции Валенсия, а также решения Comunitat "
+        "Valenciana, если они непосредственно и существенно затрагивают Валенсию."
+    ),
+    "lugansk": (
+        "Выбирай только события, непосредственно относящиеся к городу Луганску. Не подменяй "
+        "город Луганск всей Луганской областью/ЛНР. Региональное событие допускается только "
+        "если в материале прямо указано существенное влияние на Луганск."
+    ),
+    "alchevsk": (
+        "Выбирай только события, непосредственно относящиеся к городу Алчевску. Не подменяй "
+        "Алчевск всей Луганской областью/ЛНР. Региональное событие допускается только если "
+        "в материале прямо указано существенное влияние на Алчевск."
+    ),
 }
 
 TRACKING_QUERY_PREFIXES = ("utm_",)
@@ -48,11 +94,82 @@ TRACKING_QUERY_KEYS = {
     "mc_eid",
 }
 
+# Предварительный фильтр. Финальная тематическая фильтрация всё равно выполняется Gemini.
+EXCLUDED_TITLE_PATTERNS = [
+    # Русский / украинский
+    r"\bспорт\w*",
+    r"\bфутбол\w*",
+    r"\bтеннис\w*",
+    r"\bтеніс\w*",
+    r"\bбаскетбол\w*",
+    r"\bхокке\w*",
+    r"\bхоке\w*",
+    r"\bчемпионат\w*",
+    r"\bчемпіонат\w*",
+    r"\bтурнир\w*",
+    r"\bтурнір\w*",
+    r"\bкультур\w*",
+    r"\bконцерт\w*",
+    r"\bкино\b",
+    r"\bкіно\b",
+    r"\bтеатр\w*",
+    r"\bопера\b",
+    r"\bмузе\w*",
+    r"\bвыстав\w*",
+    r"\bвистав\w*",
+    r"\bфестивал\w*",
+    r"\bпев(ец|ица|цы|ицы)\b",
+    r"\bспіва(к|чка|ки|чки)\b",
+    r"\bактер\w*",
+    r"\bактёр\w*",
+    r"\bактрис\w*",
+    # Испанский
+    r"\bdeportes?\b",
+    r"\bfútbol\b",
+    r"\bfutbol\b",
+    r"\btenis\b",
+    r"\bbaloncesto\b",
+    r"\bhockey\b",
+    r"\bcampeonato\w*",
+    r"\btorneo\w*",
+    r"\bcultura\w*",
+    r"\bconcierto\w*",
+    r"\bcine\b",
+    r"\bteatro\b",
+    r"\bópera\b",
+    r"\bmuseo\w*",
+    r"\bexposici[oó]n\w*",
+    r"\bfestival\w*",
+    r"\bcantante\w*",
+    r"\bactor\w*",
+    r"\bactriz\w*",
+    # Английский
+    r"\bsports?\b",
+    r"\bfootball\b",
+    r"\bsoccer\b",
+    r"\btennis\b",
+    r"\bbasketball\b",
+    r"\bhockey\b",
+    r"\bchampionship\w*",
+    r"\btournament\w*",
+    r"\bculture\b",
+    r"\bconcert\w*",
+    r"\bcinema\b",
+    r"\btheat(re|er)\b",
+    r"\bmuseum\w*",
+    r"\bexhibition\w*",
+    r"\bfestival\w*",
+    r"\bcelebrity\w*",
+    r"\bsinger\w*",
+    r"\bactor\w*",
+    r"\bactress\w*",
+]
+
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 
 def clean_text(value):
-    """Remove HTML and collapse whitespace without changing factual content."""
+    """Удалить HTML и лишние пробелы без изменения смысла текста."""
     if value is None:
         return ""
 
@@ -63,7 +180,7 @@ def clean_text(value):
 
 
 def canonical_url(url):
-    """Normalize a URL for duplicate detection while preserving the original URL for publishing."""
+    """Нормализовать URL только для дедупликации; оригинальный URL не меняется."""
     url = (url or "").strip()
     if not url:
         return ""
@@ -192,14 +309,20 @@ def load_sources():
     if not isinstance(config, dict) or not isinstance(config.get("sources"), dict):
         raise ValueError("sources.yaml должен содержать объект 'sources'.")
 
-    return config["sources"]
+    sources = config["sources"]
+
+    for category in CATEGORY_ORDER:
+        if category not in sources or not isinstance(sources[category], list):
+            raise ValueError(f"В sources.yaml отсутствует корректный раздел '{category}'.")
+
+    return sources
 
 
 def get_digest_window(now_local):
-    """Return the editorial window in Europe/Madrid local time."""
+    """Вернуть редакционное окно по локальному времени Europe/Madrid."""
     today = now_local.date()
 
-    morning_end = datetime(
+    morning_boundary = datetime(
         today.year,
         today.month,
         today.day,
@@ -207,7 +330,7 @@ def get_digest_window(now_local):
         0,
         tzinfo=MADRID_TZ,
     )
-    evening_end = datetime(
+    evening_boundary = datetime(
         today.year,
         today.month,
         today.day,
@@ -226,14 +349,14 @@ def get_digest_window(now_local):
             0,
             tzinfo=MADRID_TZ,
         )
-        end = morning_end
+        end = morning_boundary
         digest_type = "morning"
-        digest_name = "утренняя"
+        digest_name = "Утренняя сводка"
     else:
-        start = morning_end
-        end = evening_end
+        start = morning_boundary
+        end = evening_boundary
         digest_type = "evening"
-        digest_name = "вечерняя"
+        digest_name = "Вечерняя сводка"
 
     return digest_type, digest_name, start, end
 
@@ -279,11 +402,12 @@ def fetch_feed(source):
         source_url,
         headers={
             "User-Agent": (
-                "Mozilla/5.0 (compatible; NewsNoNoiseBot/1.0; "
-                "+https://github.com/)"
+                "Mozilla/5.0 (compatible; NewsShumyanBot/2.0; "
+                "+https://github.com/pavlo-pavlo/news-no-noise)"
             )
         },
         timeout=RSS_TIMEOUT_SECONDS,
+        allow_redirects=True,
     )
     response.raise_for_status()
 
@@ -294,29 +418,77 @@ def fetch_feed(source):
     return feed
 
 
-def collect_candidates(sources, window_start, window_end, sent_urls):
-    candidates = []
-    seen_urls = set()
-    working_sources = 0
-    failed_sources = []
+def source_matches(source, title, summary):
+    haystack = f" {title} {summary} "
+
+    match_regex = source.get("match_regex")
+    if match_regex:
+        return any(
+            re.search(str(pattern), haystack, flags=re.IGNORECASE)
+            for pattern in match_regex
+        )
+
+    match_any = source.get("match_any")
+    if match_any:
+        haystack_lower = haystack.lower()
+        return any(str(term).lower() in haystack_lower for term in match_any)
+
+    return True
+
+
+def is_excluded_topic(title):
+    title_lower = title.lower()
+    return any(re.search(pattern, title_lower, flags=re.IGNORECASE) for pattern in EXCLUDED_TITLE_PATTERNS)
+
+
+def sent_key(category, normalized_url):
+    return f"{category}|{normalized_url}"
+
+
+def build_sent_keys(sent_news):
+    keys = set()
+
+    for item in sent_news:
+        category = (item.get("category") or "").strip()
+        normalized = item.get("canonical_url") or canonical_url(item.get("url", ""))
+        if category and normalized:
+            keys.add(sent_key(category, normalized))
+
+    return keys
+
+
+def collect_candidates_by_category(sources, window_start, window_end, sent_keys):
+    candidates_by_category = {category: [] for category in CATEGORY_ORDER}
+    seen_by_category = {category: set() for category in CATEGORY_ORDER}
 
     start_utc = window_start.astimezone(timezone.utc)
     end_utc = window_end.astimezone(timezone.utc)
 
-    for category, source_list in sources.items():
-        if not isinstance(source_list, list):
-            continue
+    feed_cache = {}
+    feed_errors = {}
+    successful_feed_urls = set()
 
-        for source in source_list:
+    for category in CATEGORY_ORDER:
+        for source in sources.get(category, []):
             source_name = source.get("name", "Неизвестный источник")
+            source_url = source.get("url", "")
 
-            try:
-                feed = fetch_feed(source)
-                working_sources += 1
-            except Exception as exc:
-                failed_sources.append(f"{source_name}: {exc}")
-                print(f"Ошибка RSS {source_name}: {exc}")
+            if not source_url:
                 continue
+
+            if source_url in feed_errors:
+                continue
+
+            if source_url not in feed_cache:
+                try:
+                    feed_cache[source_url] = fetch_feed(source)
+                    successful_feed_urls.add(source_url)
+                except Exception as exc:
+                    feed_errors[source_url] = f"{source_name}: {exc}"
+                    print(f"Ошибка RSS {source_name}: {exc}")
+                    continue
+
+            feed = feed_cache[source_url]
 
             for entry in feed.entries[:MAX_ENTRIES_PER_SOURCE]:
                 title = clean_text(entry.get("title", ""))
@@ -334,39 +506,56 @@ def collect_candidates(sources, window_start, window_end, sent_urls):
                 if not (start_utc <= published_at < end_utc):
                     continue
 
-                if normalized_link in sent_urls or normalized_link in seen_urls:
+                if is_excluded_topic(title):
                     continue
 
-                seen_urls.add(normalized_link)
+                if not source_matches(source, title, summary):
+                    continue
 
-                candidates.append(
+                key = sent_key(category, normalized_link)
+                if key in sent_keys:
+                    continue
+
+                if normalized_link in seen_by_category[category]:
+                    continue
+
+                seen_by_category[category].add(normalized_link)
+
+                candidates_by_category[category].append(
                     {
                         "category": category,
                         "source": source_name,
                         "language": source.get("language", ""),
                         "title": title,
-                        "summary": summary[:1000],
+                        "summary": summary[:800],
                         "url": link,
                         "canonical_url": normalized_link,
                         "published_at": published_at.isoformat(),
                     }
                 )
 
-    candidates.sort(key=lambda item: item["published_at"], reverse=True)
-    candidates = candidates[:MAX_CANDIDATES_FOR_GEMINI]
+    for category in CATEGORY_ORDER:
+        candidates_by_category[category].sort(
+            key=lambda item: item["published_at"],
+            reverse=True,
+        )
+        candidates_by_category[category] = candidates_by_category[category][
+            :MAX_CANDIDATES_PER_CATEGORY
+        ]
 
-    return candidates, working_sources, failed_sources
+    return candidates_by_category, successful_feed_urls, list(feed_errors.values())
 
 
-def recent_history_for_gemini(sent_news):
-    recent = sorted(
-        sent_news,
-        key=lambda item: item.get("created_at", ""),
-        reverse=True,
-    )[:MAX_HISTORY_FOR_GEMINI]
+def recent_history_for_gemini(sent_news, category):
+    same_category = [
+        item
+        for item in sent_news
+        if isinstance(item, dict) and item.get("category") == category
+    ]
+    same_category.sort(key=lambda item: item.get("created_at", ""), reverse=True)
 
     history = []
-    for item in recent:
+    for item in same_category[:MAX_HISTORY_FOR_GEMINI]:
         history.append(
             {
                 "title": item.get("title", ""),
@@ -380,49 +569,58 @@ def recent_history_for_gemini(sent_news):
     return history
 
 
-def build_prompt(candidates, sent_news, digest_name, window_start, window_end):
-    history = recent_history_for_gemini(sent_news)
+def build_prompt(category, candidates, sent_news, digest_name, window_start, window_end):
+    history = recent_history_for_gemini(sent_news, category)
 
     candidate_payload = []
-    for item in candidates:
+    for index, item in enumerate(candidates, start=1):
         candidate_payload.append(
             {
-                "category": item["category"],
+                "candidate_id": f"{category}-{index:03d}",
                 "source": item["source"],
                 "language": item["language"],
                 "title": item["title"],
                 "summary": item["summary"],
-                "url": item["url"],
                 "published_at": item["published_at"],
             }
         )
 
-    return f"""
-Ты редактор Telegram-канала «Новости без шума».
+    category_label = CATEGORY_LABELS[category]
+    scope_rule = CATEGORY_SCOPE[category]
 
-Нужно подготовить {digest_name} сводку и выбрать до {MAX_DIGEST_ITEMS} самых важных общественно значимых НОВЫХ событий из предоставленного списка.
+    prompt = f"""
+Ты редактор Telegram-канала «{CHANNEL_NAME}».
+
+Нужно подготовить раздел «{category_label}» для выпуска «{digest_name}».
+Выбери РОВНО {ITEMS_PER_CATEGORY} самых важных общественно значимых НОВЫХ событий,
+если среди кандидатов есть минимум {ITEMS_PER_CATEGORY} действительно подходящих материалов.
+Если подходящих материалов меньше {ITEMS_PER_CATEGORY}, верни все подходящие, но ничего не выдумывай.
 
 Период сводки по времени Europe/Madrid:
 {window_start.isoformat()} — {window_end.isoformat()}.
 
-Строгие правила:
-1. Используй только факты из поля title и summary предоставленных материалов.
+Географическое правило раздела:
+{scope_rule}
+
+Строгие редакционные правила:
+1. Используй только факты из полей title и summary предоставленных кандидатов.
 2. Ничего не придумывай и не добавляй факты из памяти.
 3. Не делай собственных выводов, оценок, прогнозов и предположений.
-4. Не скрывай существенные факты, которые есть в предоставленном материале.
+4. Не скрывай существенные факты, которые прямо есть в исходном материале.
 5. Заголовок на русском должен точно передавать смысл исходного заголовка, без кликбейта.
 6. Краткое описание — максимум 2 коротких предложения на русском языке.
-7. URL в ответе должен быть ТОЧНО скопирован из одного из предоставленных кандидатов. Не создавай и не изменяй URL.
-8. Не выбирай один и тот же материал дважды.
-9. Если несколько материалов описывают одно и то же событие, выбери только один наиболее информативный материал.
-10. Учитывай список ранее опубликованных материалов. Не выбирай повтор того же события, если в новом материале нет существенного нового факта.
-11. Если событие уже публиковалось, но произошло существенное новое развитие, его можно выбрать повторно.
-12. Если данных материала недостаточно для точного краткого описания, не выбирай его.
-13. Верни не более {MAX_DIGEST_ITEMS} материалов. Если действительно важных подходящих событий меньше — верни меньше.
+7. Не выбирай один и тот же материал дважды.
+8. Если несколько кандидатов описывают одно событие, выбери только один наиболее информативный материал.
+9. Учитывай историю ранее опубликованных материалов этого раздела. Не повторяй то же событие без существенного нового развития.
+10. Если данных недостаточно для точного краткого описания — не выбирай материал.
+11. В ответе используй только candidate_id из списка. Не создавай новые идентификаторы.
+12. Источник и URL программа подставит сама. Ты не должен придумывать или изменять их.
+13. Для заявлений сторон вооружённого конфликта, военных ведомств, властей или иных заинтересованных сторон сохраняй атрибуцию. Не превращай неподтверждённое заявление одной стороны в безусловно установленный факт.
+14. Отделяй факт события от заявлений о причинах, виновниках, потерях и результатах, если эти детали в исходнике представлены как чьи-то утверждения.
 
 Полностью исключи:
 - спорт и спортивные соревнования;
-- футбол, теннис, баскетбол, хоккей, FIFA, UEFA, World Cup;
+- футбол, теннис, баскетбол, хоккей, чемпионаты и турниры;
 - шоу-бизнес и знаменитостей;
 - музыку и концерты;
 - фестивали;
@@ -450,27 +648,45 @@ def build_prompt(candidates, sent_news, digest_name, window_start, window_end):
 - образование;
 - экология.
 
-Верни только JSON следующего вида, без Markdown и без дополнительного текста:
+Критерии важности в порядке приоритета:
+1. Масштаб последствий для людей, безопасности, экономики или государственного управления.
+2. Новизна и существенность произошедшего изменения.
+3. Число людей или территорий, которых событие затрагивает.
+4. Решения властей, законов, судов, крупных компаний и международных институтов с реальными последствиями.
+5. Для локальных разделов — практическое значение для жителей соответствующего города/региона.
+
+Верни только JSON без Markdown и без дополнительного текста:
 {{
   "items": [
     {{
-      "url": "точный URL кандидата",
+      "candidate_id": "точный candidate_id из списка",
       "title_ru": "точный заголовок на русском",
       "summary_ru": "до двух коротких предложений на русском"
     }}
   ]
 }}
 
-Ранее опубликованные материалы:
+Ранее опубликованные материалы этого раздела:
 {json.dumps(history, ensure_ascii=False)}
 
 Кандидаты текущего периода:
 {json.dumps(candidate_payload, ensure_ascii=False)}
 """.strip()
 
+    candidate_map = {
+        f"{category}-{index:03d}": item
+        for index, item in enumerate(candidates, start=1)
+    }
 
-def select_news_with_gemini(candidates, sent_news, digest_name, window_start, window_end):
-    prompt = build_prompt(
+    return prompt, candidate_map
+
+
+def select_news_with_gemini(category, candidates, sent_news, digest_name, window_start, window_end):
+    if not candidates:
+        return [], {}
+
+    prompt, candidate_map = build_prompt(
+        category=category,
         candidates=candidates,
         sent_news=sent_news,
         digest_name=digest_name,
@@ -497,38 +713,42 @@ def select_news_with_gemini(candidates, sent_news, digest_name, window_start, wi
             if not isinstance(items, list):
                 raise ValueError("Поле 'items' в ответе Gemini не является массивом.")
 
-            return items[:MAX_DIGEST_ITEMS]
+            return items[:ITEMS_PER_CATEGORY], candidate_map
 
         except Exception as exc:
             last_error = exc
-            print(f"Ошибка Gemini, попытка {attempt}/{GEMINI_ATTEMPTS}: {exc}")
+            print(
+                f"Ошибка Gemini для {category}, попытка "
+                f"{attempt}/{GEMINI_ATTEMPTS}: {exc}"
+            )
 
             if attempt < GEMINI_ATTEMPTS:
                 time.sleep(2 ** (attempt - 1))
 
-    raise RuntimeError(f"Gemini не смог сформировать сводку: {last_error}")
+    raise RuntimeError(f"Gemini не смог сформировать раздел {category}: {last_error}")
 
 
-def validate_selected_items(selected_items, candidates, sent_urls):
-    candidate_by_url = {item["url"]: item for item in candidates}
+def validate_selected_items(category, selected_items, candidate_map, sent_keys):
     validated = []
-    selected_canonical_urls = set()
+    selected_urls = set()
 
     for selected in selected_items:
         if not isinstance(selected, dict):
             continue
 
-        selected_url = (selected.get("url", "") or "").strip()
+        candidate_id = (selected.get("candidate_id", "") or "").strip()
         title_ru = clean_text(selected.get("title_ru", ""))
         summary_ru = clean_text(selected.get("summary_ru", ""))
 
-        candidate = candidate_by_url.get(selected_url)
+        candidate = candidate_map.get(candidate_id)
         if candidate is None:
-            print(f"Gemini вернул URL, которого нет среди кандидатов: {selected_url}")
+            print(f"Gemini вернул неизвестный candidate_id: {candidate_id}")
             continue
 
         normalized_url = candidate["canonical_url"]
-        if normalized_url in sent_urls or normalized_url in selected_canonical_urls:
+        key = sent_key(category, normalized_url)
+
+        if key in sent_keys or normalized_url in selected_urls:
             continue
 
         if not title_ru or not summary_ru:
@@ -541,22 +761,22 @@ def validate_selected_items(selected_items, candidates, sent_urls):
                 "source": candidate["source"],
                 "url": candidate["url"],
                 "canonical_url": normalized_url,
-                "category": candidate["category"],
+                "category": category,
                 "original_title": candidate["title"],
                 "published_at": candidate["published_at"],
             }
         )
-        selected_canonical_urls.add(normalized_url)
+        selected_urls.add(normalized_url)
 
-        if len(validated) >= MAX_DIGEST_ITEMS:
+        if len(validated) >= ITEMS_PER_CATEGORY:
             break
 
     return validated
 
 
 def build_news_message(item):
-    """Single canonical Telegram post format. The URL is always the final line."""
-    category_name = CATEGORY_LABELS.get(item["category"], item["category"])
+    """Единый формат Telegram-поста. URL всегда является последней строкой."""
+    category_name = CATEGORY_LABELS[item["category"]]
     title = clean_text(item["title_ru"])
     summary = clean_text(item["summary_ru"])
     source = clean_text(item["source"])
@@ -571,7 +791,7 @@ def build_news_message(item):
     )
 
     if len(message) > 4096:
-        max_summary_length = max(300, 4096 - len(message) + len(summary) - 50)
+        max_summary_length = max(250, 4096 - len(message) + len(summary) - 80)
         summary = summary[:max_summary_length].rstrip()
         if summary and not summary.endswith((".", "!", "?", "…")):
             summary += "…"
@@ -588,6 +808,35 @@ def build_news_message(item):
         raise ValueError("Новостной пост превышает лимит Telegram 4096 символов.")
 
     return message
+
+
+def russian_date(dt):
+    months = {
+        1: "января",
+        2: "февраля",
+        3: "марта",
+        4: "апреля",
+        5: "мая",
+        6: "июня",
+        7: "июля",
+        8: "августа",
+        9: "сентября",
+        10: "октября",
+        11: "ноября",
+        12: "декабря",
+    }
+    return f"{dt.day} {months[dt.month]} {dt.year}"
+
+
+def build_digest_header(digest_name, window_start, window_end):
+    period_start = window_start.strftime("%d.%m %H:%M")
+    period_end = window_end.strftime("%d.%m %H:%M")
+
+    return (
+        f"📰 {CHANNEL_NAME}\n\n"
+        f"{digest_name} — {russian_date(window_end)}\n"
+        f"Период: {period_start} — {period_end} (Валенсия)"
+    )
 
 
 def make_sent_record(item, digest_type):
@@ -611,93 +860,147 @@ def main():
 
     print(
         f"Запуск: {now_local.isoformat()} | "
-        f"сводка: {digest_name} | "
+        f"выпуск: {digest_name} | "
         f"окно: {window_start.isoformat()} — {window_end.isoformat()}"
     )
 
     sources = load_sources()
     sent_news = load_sent_news()
+    sent_keys = build_sent_keys(sent_news)
 
-    sent_urls = set()
-    for item in sent_news:
-        normalized = item.get("canonical_url") or canonical_url(item.get("url", ""))
-        if normalized:
-            sent_urls.add(normalized)
-
-    candidates, working_sources, failed_sources = collect_candidates(
+    candidates_by_category, successful_feed_urls, failed_sources = collect_candidates_by_category(
         sources=sources,
         window_start=window_start,
         window_end=window_end,
-        sent_urls=sent_urls,
+        sent_keys=sent_keys,
     )
 
-    print(f"Рабочих RSS-источников: {working_sources}")
-    print(f"Ошибок RSS-источников: {len(failed_sources)}")
-    print(f"Новых кандидатов для Gemini: {len(candidates)}")
+    print(f"Рабочих уникальных RSS-лент: {len(successful_feed_urls)}")
+    print(f"Ошибок RSS-лент: {len(failed_sources)}")
 
-    if working_sources == 0:
+    if not successful_feed_urls:
         raise RuntimeError("Не удалось получить данные ни из одного RSS-источника.")
 
-    if failed_sources:
-        print("Проблемные источники:")
-        for error in failed_sources:
-            print(f"- {error}")
+    for category in CATEGORY_ORDER:
+        print(
+            f"Кандидаты {CATEGORY_LABELS[category]}: "
+            f"{len(candidates_by_category[category])}"
+        )
 
-    if not candidates:
-        print("В указанном временном окне нет новых подходящих материалов.")
-        save_sent_news(sent_news)
-        return
+    selected_by_category = {}
+    selection_errors = []
 
-    selected_items = select_news_with_gemini(
-        candidates=candidates,
-        sent_news=sent_news,
-        digest_name=digest_name,
-        window_start=window_start,
-        window_end=window_end,
-    )
+    for category in CATEGORY_ORDER:
+        candidates = candidates_by_category[category]
 
-    selected_items = validate_selected_items(
-        selected_items=selected_items,
-        candidates=candidates,
-        sent_urls=sent_urls,
-    )
-
-    if not selected_items:
-        print("После проверки ответа Gemini не осталось материалов для публикации.")
-        save_sent_news(sent_news)
-        return
-
-    published_count = 0
-    failed_publications = []
-
-    for item in selected_items:
-        message = build_news_message(item)
-
-        try:
-            # Each news item is sent as a separate Telegram message.
-            # The source URL is the final line, and link previews are explicitly enabled.
-            telegram_send(CHANNEL_ID, message, enable_preview=True)
-        except Exception as exc:
-            failed_publications.append(f"{item['url']}: {exc}")
-            print(f"Ошибка публикации {item['url']}: {exc}")
+        if not candidates:
+            selected_by_category[category] = []
             continue
 
-        sent_news.append(make_sent_record(item, digest_type))
-        sent_urls.add(item["canonical_url"])
-        save_sent_news(sent_news)
-        published_count += 1
+        try:
+            selected_raw, candidate_map = select_news_with_gemini(
+                category=category,
+                candidates=candidates,
+                sent_news=sent_news,
+                digest_name=digest_name,
+                window_start=window_start,
+                window_end=window_end,
+            )
 
-    print(f"Опубликовано новостей: {published_count}")
+            selected = validate_selected_items(
+                category=category,
+                selected_items=selected_raw,
+                candidate_map=candidate_map,
+                sent_keys=sent_keys,
+            )
+            selected_by_category[category] = selected
+
+        except Exception as exc:
+            selection_errors.append(f"{CATEGORY_LABELS[category]}: {exc}")
+            selected_by_category[category] = []
+            print(f"Ошибка подготовки раздела {category}: {exc}")
+
+    total_selected = sum(len(items) for items in selected_by_category.values())
+
+    if total_selected == 0:
+        print("Для публикации не выбрано ни одной новости.")
+        save_sent_news(sent_news)
+
+        alert_parts = [f"⚠️ {CHANNEL_NAME}: в {digest_name.lower()} нет публикаций."]
+        if selection_errors:
+            alert_parts.append(f"Ошибок Gemini: {len(selection_errors)}")
+        if failed_sources:
+            alert_parts.append(f"Ошибок RSS: {len(failed_sources)}")
+        send_admin_alert("\n".join(alert_parts))
+        return
+
+    # Заголовок выпуска отправляется отдельно и не содержит URL.
+    telegram_send(
+        CHANNEL_ID,
+        build_digest_header(digest_name, window_start, window_end),
+        enable_preview=False,
+    )
+    time.sleep(TELEGRAM_MESSAGE_DELAY_SECONDS)
+
+    published_by_category = {category: 0 for category in CATEGORY_ORDER}
+    failed_publications = []
+
+    for category in CATEGORY_ORDER:
+        for item in selected_by_category[category]:
+            message = build_news_message(item)
+
+            try:
+                # Каждая новость — отдельное сообщение.
+                # URL — последняя строка, preview явно включён.
+                telegram_send(CHANNEL_ID, message, enable_preview=True)
+            except Exception as exc:
+                failed_publications.append(f"{item['url']}: {exc}")
+                print(f"Ошибка публикации {item['url']}: {exc}")
+                time.sleep(TELEGRAM_MESSAGE_DELAY_SECONDS)
+                continue
+
+            sent_news.append(make_sent_record(item, digest_type))
+            sent_keys.add(sent_key(category, item["canonical_url"]))
+            save_sent_news(sent_news)
+            published_by_category[category] += 1
+
+            time.sleep(TELEGRAM_MESSAGE_DELAY_SECONDS)
+
+    total_published = sum(published_by_category.values())
+    print(f"Всего опубликовано новостей: {total_published}")
+
+    for category in CATEGORY_ORDER:
+        print(
+            f"{CATEGORY_LABELS[category]}: "
+            f"{published_by_category[category]}/{ITEMS_PER_CATEGORY}"
+        )
+
+    warnings = []
+
+    shortages = [
+        f"{CATEGORY_LABELS[category]} {published_by_category[category]}/{ITEMS_PER_CATEGORY}"
+        for category in CATEGORY_ORDER
+        if published_by_category[category] < ITEMS_PER_CATEGORY
+    ]
+    if shortages:
+        warnings.append("Меньше 5 новостей: " + ", ".join(shortages))
+
+    if failed_sources:
+        warnings.append(f"Неработающих RSS: {len(failed_sources)}")
+
+    if selection_errors:
+        warnings.append(f"Ошибок Gemini: {len(selection_errors)}")
 
     if failed_publications:
-        alert = (
-            f"⚠️ Новости без шума: часть {digest_name} сводки не опубликована.\n"
-            f"Успешно: {published_count}\n"
-            f"Ошибок: {len(failed_publications)}"
-        )
-        send_admin_alert(alert)
+        warnings.append(f"Ошибок Telegram: {len(failed_publications)}")
 
-    if published_count == 0:
+    if warnings:
+        send_admin_alert(
+            f"⚠️ {CHANNEL_NAME}: {digest_name.lower()} завершена с предупреждениями.\n"
+            + "\n".join(warnings)
+        )
+
+    if total_published == 0:
         raise RuntimeError("Telegram не принял ни одну выбранную новость.")
 
 
@@ -705,7 +1008,10 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as exc:
-        error_text = f"❌ Новости без шума: ошибка запуска.\n{type(exc).__name__}: {exc}"
+        error_text = (
+            f"❌ {CHANNEL_NAME}: ошибка запуска.\n"
+            f"{type(exc).__name__}: {exc}"
+        )
         print(error_text)
         send_admin_alert(error_text)
         raise
