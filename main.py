@@ -5,6 +5,7 @@ import os
 import re
 import time
 from datetime import datetime, timezone, timedelta
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from zoneinfo import ZoneInfo
@@ -319,46 +320,36 @@ def load_sources():
 
 
 def get_digest_window(now_local):
-    """Вернуть редакционное окно по локальному времени Europe/Madrid."""
+    """
+    Вернуть последнее полностью завершённое редакционное окно по Europe/Madrid.
+
+    09:00–17:59 -> утренняя сводка: вчера 18:00 — сегодня 09:00.
+    18:00–23:59 -> вечерняя сводка: сегодня 09:00 — сегодня 18:00.
+    00:00–08:59 -> предыдущая вечерняя сводка: вчера 09:00 — вчера 18:00.
+
+    Такая логика позволяет безопасно запускать workflow вручную в любое время:
+    он не указывает в заголовке ещё не наступившую границу периода.
+    """
     today = now_local.date()
 
-    morning_boundary = datetime(
-        today.year,
-        today.month,
-        today.day,
-        9,
-        0,
-        tzinfo=MADRID_TZ,
-    )
-    evening_boundary = datetime(
-        today.year,
-        today.month,
-        today.day,
-        18,
-        0,
-        tzinfo=MADRID_TZ,
-    )
+    today_09 = datetime(today.year, today.month, today.day, 9, 0, tzinfo=MADRID_TZ)
+    today_18 = datetime(today.year, today.month, today.day, 18, 0, tzinfo=MADRID_TZ)
 
-    if now_local.hour < 13:
+    if now_local < today_09:
         previous_day = today - timedelta(days=1)
-        start = datetime(
-            previous_day.year,
-            previous_day.month,
-            previous_day.day,
-            18,
-            0,
-            tzinfo=MADRID_TZ,
-        )
-        end = morning_boundary
-        digest_type = "morning"
-        digest_name = "Утренняя сводка"
-    else:
-        start = morning_boundary
-        end = evening_boundary
-        digest_type = "evening"
-        digest_name = "Вечерняя сводка"
+        start = datetime(previous_day.year, previous_day.month, previous_day.day, 9, 0, tzinfo=MADRID_TZ)
+        end = datetime(previous_day.year, previous_day.month, previous_day.day, 18, 0, tzinfo=MADRID_TZ)
+        return "evening", "Вечерняя сводка", start, end
 
-    return digest_type, digest_name, start, end
+    if now_local < today_18:
+        previous_day = today - timedelta(days=1)
+        start = datetime(previous_day.year, previous_day.month, previous_day.day, 18, 0, tzinfo=MADRID_TZ)
+        end = today_09
+        return "morning", "Утренняя сводка", start, end
+
+    start = today_09
+    end = today_18
+    return "evening", "Вечерняя сводка", start, end
 
 
 def entry_datetime_utc(entry):
@@ -370,6 +361,18 @@ def entry_datetime_utc(entry):
                 return datetime.fromtimestamp(timestamp, tz=timezone.utc)
             except (TypeError, ValueError, OverflowError):
                 pass
+
+    for field in ("published", "updated", "created"):
+        raw = entry.get(field)
+        if not raw:
+            continue
+        try:
+            dt = parsedate_to_datetime(str(raw))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.astimezone(timezone.utc)
+        except (TypeError, ValueError, OverflowError):
+            continue
 
     return None
 
@@ -497,7 +500,7 @@ def collect_candidates_by_category(sources, window_start, window_end, sent_keys)
                 published_at = entry_datetime_utc(entry)
                 normalized_link = canonical_url(link)
 
-                if not title or not link or not summary or published_at is None:
+                if not title or not link or published_at is None:
                     continue
 
                 if not normalized_link:
@@ -612,7 +615,7 @@ def build_prompt(category, candidates, sent_news, digest_name, window_start, win
 7. Не выбирай один и тот же материал дважды.
 8. Если несколько кандидатов описывают одно событие, выбери только один наиболее информативный материал.
 9. Учитывай историю ранее опубликованных материалов этого раздела. Не повторяй то же событие без существенного нового развития.
-10. Если данных недостаточно для точного краткого описания — не выбирай материал.
+10. Если summary пустой, используй только факты из title и не добавляй подробностей. Если даже этого недостаточно для точного описания — не выбирай материал.
 11. В ответе используй только candidate_id из списка. Не создавай новые идентификаторы.
 12. Источник и URL программа подставит сама. Ты не должен придумывать или изменять их.
 13. Для заявлений сторон вооружённого конфликта, военных ведомств, властей или иных заинтересованных сторон сохраняй атрибуцию. Не превращай неподтверждённое заявление одной стороны в безусловно установленный факт.
@@ -921,6 +924,7 @@ def main():
             print(f"Ошибка подготовки раздела {category}: {exc}")
 
     total_selected = sum(len(items) for items in selected_by_category.values())
+
 
     if total_selected == 0:
         print("Для публикации не выбрано ни одной новости.")
